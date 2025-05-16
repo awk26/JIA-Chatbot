@@ -1,13 +1,6 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-    return "Hello from Flask running on IIS!"
-
-
-if __name__ == '__main__':
-   
-    
-    app.run()
+t="SOPP_Operation"
+print(t[:4])
+if  t[:4]=="SOPP":
+    print("hii")
+else:
+    print("byee")    

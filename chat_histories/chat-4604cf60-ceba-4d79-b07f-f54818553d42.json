@@ -1,0 +1,35 @@
+[
+  {
+    "message": "can you give me summary of  leave policy",
+    "response": "To request leave, employees should use the HRMS system.  If they lack HRMS access, they must submit Leave Application Form No. 8, approved by the appropriate authority, to their HR department or designated person.  Management can change leave rules at any time without notice.",
+    "sources": [
+      {
+        "category": "HR Policy",
+        "document": "Leave & Attendance Policy.pdf",
+        "page": 10
+      },
+      {
+        "category": "HR Policy",
+        "document": "Employee Referral Policy.pdf",
+        "page": 2
+      },
+      {
+        "category": "HR Policy",
+        "document": "JMB Policy Document_common policy document.pdf",
+        "page": 24
+      },
+      {
+        "category": "HR Policy",
+        "document": "JMB Policy Document_common policy document.pdf",
+        "page": 6
+      },
+      {
+        "category": "HR Policy",
+        "document": "Employee Referral Policy.pdf",
+        "page": 1
+      }
+    ],
+    "timestamp": "15 May, 04:19 PM",
+    "category": "IT Policy"
+  }
+]
