@@ -41,9 +41,7 @@ def home():
     # Check if the session has a current category selected
     current_category = session.get('current_category', None)
     
-    return render_template('index.html', 
-                          categories=categories,
-                          current_category=current_category)
+    return render_template('index.html', categories=categories,current_category=current_category)
 
 @app.route('/set-category', methods=['POST'])
 def set_category():

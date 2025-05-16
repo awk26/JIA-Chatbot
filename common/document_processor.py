@@ -1,7 +1,7 @@
 import os
 import glob
 from typing import List
-from langchain_community.document_loaders import PDFPlumberLoader, Docx2txtLoader
+from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain.embeddings.base import Embeddings
@@ -189,7 +189,7 @@ class DocumentProcessor:
             try:
                 # Choose the appropriate loader based on file extension
                 if file_ext == '.pdf':
-                    loader = PDFPlumberLoader(file_path)
+                    loader = PyPDFLoader(file_path)
                 elif file_ext == '.docx':
                     loader = Docx2txtLoader(file_path)
                 else:

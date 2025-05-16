@@ -1,0 +1,35 @@
+[
+  {
+    "message": "what is the password change policy",
+    "response": "Based on the provided document, passwords for all system administrators and privilege users must be 12 characters with complexity assigned, including alphabets, numerals, and special characters.  The password complexity requirements specify the number of times each password component should appear and the case of alphabets. Passwords must be changed every 90 days, and the password history rule keeps track of the last 5 passwords.  Users are allowed to select and change their own passwords, with verification (double input) required for password changes.",
+    "sources": [
+      {
+        "category": "IT Policy",
+        "document": "JMBGRP-ISMS-POL-PW_Password Policy.pdf",
+        "page": 7
+      },
+      {
+        "category": "IT Policy",
+        "document": "JMBGRP-ISMS-POL-PW_Password Policy.pdf",
+        "page": 9
+      },
+      {
+        "category": "IT Policy",
+        "document": "JMBGRP-ISMS-POL-PW_Password Policy.pdf",
+        "page": 4
+      },
+      {
+        "category": "IT Policy",
+        "document": "JMBGRP-ISMS-POL-PW_Password Policy.pdf",
+        "page": 3
+      },
+      {
+        "category": "IT Policy",
+        "document": "JMBGRP-ISMS-POL-PW_Password Policy.pdf",
+        "page": 5
+      }
+    ],
+    "timestamp": "16 May, 03:01 PM",
+    "category": "IT Policy"
+  }
+]
