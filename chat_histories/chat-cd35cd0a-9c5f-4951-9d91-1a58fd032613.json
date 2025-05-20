@@ -1,0 +1,26 @@
+[
+  {
+    "message": "can you give me summary of bulk operation",
+    "response": "For fertilizers, cargo arrives in bulk form.  Value-added services like bagging are performed before dispatch by rail or truck. The Manager \u2013 Operations, in consultation with the Location Head, determines resources for stacking or bulking to optimize storage.  For bagged commodities, stacking is done; for loose commodities, heaping is done. Goods may be processed from bags to bulk or vice versa.  The Manager \u2013 Operations oversees unloading of bulk cargo, value-added services (bagging, printing, packing), and loading onto vehicles for transport by rail or truck.  Responsibility ends when cargo is loaded onto the rail or truck.",
+    "sources": [
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_DICT.pdf"
+    ],
+    "timestamp": "20 May, 01:13 AM",
+    "category": "SOPP_Operation"
+  },
+  {
+    "message": "what is the transfer policy for employee",
+    "response": "The company may transfer employees to any department/division of the company/associated companies or anywhere in India/overseas at management's discretion.  This applies to all full-time employees transferred due to hiring, internal job posting, or a new role.  Employees are subject to the practices, working hours, and holidays of the new location/unit.  Intercompany transfers require the relieving company to complete the exit process and the receiving company to complete onboarding.  The relieving entity transfers statutory benefits (PF, Leaves & Gratuity).  Intracompany transfers receive a transfer letter; intercompany transfers receive a new appointment letter.  The company uses a group service certificate to capture the employee's entire tenure if they leave after a transfer; units do not provide experience certificates for intracompany transfers.  The receiving company covers relocation costs for 7 days from the employee's departure from the previous entity.  The company endeavors to ensure employees do not lose gross emoluments in a transfer, but management may disallow reimbursements deemed unreasonable.  Management may amend/alter the transfer policy at any time.  Employee-initiated transfers require notification to the supervisor and entity HR; fulfillment depends on vacancy in the requested location; the new location head may interview the employee; and the employee must adhere to the new location's practices, working hours, and holidays.  The Head of HR & Admin issues the transfer order.",
+    "sources": [
+      "Section 14 - Transfer.pdf",
+      "JMB Policy Document_common policy document.pdf",
+      "JMB Policy Document_common policy document.pdf",
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "20 May, 01:16 AM",
+    "category": "HR Policy"
+  }
+]
