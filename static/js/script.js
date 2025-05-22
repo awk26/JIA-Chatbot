@@ -355,7 +355,7 @@ function renderMessages() {
                     
                     const suggestionsTitle = document.createElement('div');
                     suggestionsTitle.className = 'suggestion-title';
-                    suggestionsTitle.textContent = 'Suggested queries:';
+                    suggestionsTitle.textContent = 'References:';
                     suggestionsContainer.appendChild(suggestionsTitle);
                     
                     message.sources.forEach(suggestion => {

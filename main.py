@@ -32,7 +32,10 @@ def get_folder_structure():
         "IT Policy": "IT Policy",
         "HR Policy": "HR Policy",
         "SOPP_Operation": "SOPP_Operation",
-        "SOPP_Procurement":""
+        "SOPP_Procurement":"SOPP_Procurement",
+        "SOPP_Revenue":"SOPP_Revenue",
+        "SOPP_Sales":"SOPP_Sales"
+
     }
 
 def load_vectorstore(policy_type):
@@ -40,7 +43,10 @@ def load_vectorstore(policy_type):
     folder_map = {
         "IT Policy": "IT_Policy",
         "HR Policy": "HR_Policy",
-        "SOPP_Operation": "SOP/Operation"
+        "SOPP_Operation": "SOP/Operation",
+        "SOPP_Procurement":"SOP/Procurement",
+        "SOPP_Revenue":"SOP/Revenue",
+        "SOPP_Sales":"SOP/Sales"
     }
 
     folder_name = folder_map.get(policy_type)
@@ -116,7 +122,8 @@ def set_category():
 def get_response():
     global POLICY_TYPE
     if not POLICY_TYPE:
-        return jsonify({"error": "Policy type not set. Use /set-category first."}), 400
+        
+        return jsonify({"response": "Policy type not set. Use /set-category first."})
 
     conversation_id = session.get('conversation_id', f"chat-{uuid.uuid4()}")
     session['conversation_id'] = conversation_id
@@ -125,7 +132,7 @@ def get_response():
     query = request.form.get('message', '').strip()
     if not query:
         return jsonify({"error": "Missing 'question' in request."}), 400
-
+  
     qa_chain = build_qa_chain(POLICY_TYPE)
     result = qa_chain({"query": query})
 
@@ -136,7 +143,7 @@ def get_response():
         os.path.basename(doc.metadata.get("source", "Unknown"))
         for doc in sources
     ]
-
+    source_files=list(set(source_files))
     timestamp = chat_history_manager.add_to_history(
         conversation_id,
         query,

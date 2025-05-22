@@ -1,0 +1,26 @@
+[
+  {
+    "message": "what is the transfer policy for employee",
+    "response": "The company may transfer employees to any department/division of the company/associated companies or anywhere in India/overseas at the management's discretion.  This applies to all full-time employees transferred due to hiring, internal job posting, or a new role.  Employees are subject to the practices, working hours, and holidays of the new location/unit.  Intercompany transfers require the relieving company to complete the exit process and the receiving company to complete onboarding.  The relieving entity transfers statutory benefits (PF, Leaves & Gratuity).  Intracompany transfers receive a transfer letter; intercompany transfers receive a new appointment letter.  The company uses a group service certificate to capture the employee's entire tenure if they leave after a transfer; units do not provide experience certificates for intracompany transfers.  The receiving company covers relocation costs for 7 days from the employee's departure from the previous entity.  The company endeavors to ensure employees do not lose gross emoluments in a transfer, but management may disallow reimbursements deemed unreasonable.  Management may amend/alter the transfer policy at any time.  Employee-initiated transfers require the employee to inform their supervisor and entity HR.  The transfer is fulfilled if a relevant position is vacant in the requested location.  The new location's head may interview the employee.",
+    "sources": [
+      "Section 14 - Transfer.pdf",
+      "JMB Policy Document_common policy document.pdf",
+      "JMB Policy Document_common policy document.pdf",
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "21 May, 10:43 AM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "how to keep email safe",
+    "response": "To avoid virus infection or data theft, avoid opening attachments and clicking links unless the content is adequately explained. Be suspicious of clickbait titles. Check email addresses and sender names for legitimacy. Look for inconsistencies like grammar mistakes, excessive capitalization, or exclamation marks. If unsure about an email's safety, refer to the IT cell.  All emails are scanned for security threats (spam, phishing, spear phishing, business email compromise, etc.).",
+    "sources": [
+      "JMBGRP-ISMS-POL-CS_Group Cyber Security_v1.1.pdf",
+      "JMBGRP-ISMS-POL-CS_Group Cyber Security_v1.1.pdf",
+      "JMBGRP-ISMS-POL-ES_Email security Policy _ Procedure_v1.2.pdf",
+      "JMBGRP-ISMS-POL-CS_Group Cyber Security_v1.1.pdf"
+    ],
+    "timestamp": "21 May, 10:47 AM",
+    "category": "IT Policy"
+  }
+]

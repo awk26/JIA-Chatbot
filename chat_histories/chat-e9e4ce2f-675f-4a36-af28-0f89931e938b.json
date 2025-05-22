@@ -1,0 +1,50 @@
+[
+  {
+    "message": "what is the Abbreviations and Definitions of bulk operation",
+    "response": "I don't know",
+    "sources": [
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_Cold Chain.pdf"
+    ],
+    "timestamp": "22 May, 11:31 AM",
+    "category": "SOPP_Operation"
+  },
+  {
+    "message": "what is Cargo Handling process flow",
+    "response": "I don't know.  The provided text mentions a \"Process Flow\" for Cargo Handling on page 10, but the content of that page is not included.",
+    "sources": [
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_DICT.pdf",
+      "SOPP_Operations_Bulk.pdf"
+    ],
+    "timestamp": "22 May, 11:33 AM",
+    "category": "SOPP_Operation"
+  },
+  {
+    "message": "Who will use this SOPP?",
+    "response": "This SOPP will be used by stakeholders across the entire organization.  Most notably, activity owners (operating units), business units, Risk and Governance units, and Auditors.",
+    "sources": [
+      "SOPP_Operations_DICT.pdf",
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_Cold Chain.pdf",
+      "SOPP_Operations_DICT.pdf"
+    ],
+    "timestamp": "22 May, 11:34 AM",
+    "category": "SOPP_Operation"
+  },
+  {
+    "message": "Who will use this SOPP for KICT?",
+    "response": "I don't know.",
+    "sources": [
+      "SOPP_Operations_Bulk.pdf",
+      "SOPP_Operations_Cold Chain.pdf",
+      "SOPP_Operations_DICT.pdf",
+      "SOPP_Operations_DICT.pdf"
+    ],
+    "timestamp": "22 May, 11:35 AM",
+    "category": "SOPP_Operation"
+  }
+]
