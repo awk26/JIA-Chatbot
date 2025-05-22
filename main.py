@@ -130,6 +130,16 @@ def get_response():
     current_category = session.get('current_category', None)
 
     query = request.form.get('message', '').strip()
+    if query:
+        with open('queries.txt', 'a') as f:
+            # Count existing lines to determine the next number
+            try:
+                with open('queries.txt', 'r') as fr:
+                    count = sum(1 for _ in fr)
+            except FileNotFoundError:
+                count = 0
+
+            f.write(f"{count + 1}. {query}\n")
     if not query:
         return jsonify({"error": "Missing 'question' in request."}), 400
   

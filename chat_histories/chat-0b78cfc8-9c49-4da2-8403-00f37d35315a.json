@@ -1,0 +1,22 @@
+[
+  {
+    "message": "what is confidential data",
+    "response": "Confidential data is secret and valuable.  Common examples are: unpublished financial information; data of customers/partners/vendors; patents, formulas or new technologies; customer lists (existing and prospective); and privacy information of individuals including client and all types of employees.",
+    "sources": [
+      "JMBGRP-ISMS-POL-CS_Group Cyber Security_v1.1.pdf",
+      "JMBGRP-ISMS-POL-DRSDM_Data Retention, Storage _ Disposal of Media, Records Policy_v1.2.pdf"
+    ],
+    "timestamp": "22 May, 04:48 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "summary of Access Control Policy & Procedure",
+    "response": "The Access Control Policy & Procedure (v1.2, Doc. no. JMBGRP/ISMS/Pol-AC) aims to protect organizational resources from unauthorized access while enabling legitimate use.  It applies to all employees, business owners, custodians, system administrators, software developers, users, outsourcing partners, consultants, and trainees.  The policy states that systems may need stricter or looser controls based on risk assessment, with reasons for deviations documented.  Each application/module needs a System Owner to conduct risk assessments, specify access requirements, and monitor implementation.  Physical security controls must meet business needs, deter breaches, and avoid disrupting business processes.  The policy addresses perimeter security (personnel and technical controls), surveillance (site selection, rationale, operational and maintenance procedures), and access control mechanisms.",
+    "sources": [
+      "JMBGRP-ISMS-POL-PH_Physical Security Policy.pdf",
+      "JMBGRP-ISMS-POL-AC_Access Control Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "22 May, 04:49 PM",
+    "category": "IT Policy"
+  }
+]
