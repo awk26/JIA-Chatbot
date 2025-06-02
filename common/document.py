@@ -54,7 +54,7 @@ def load_vectorstore(policy_type):
         if os.path.exists(vectordb_path):
             vectorstore = Chroma(persist_directory=vectordb_path, embedding_function=embedding)
         else:
-            print("vector===========================")
+           
             loader = DirectoryLoader(path=base_folder, glob="*.pdf", loader_cls=PyPDFLoader)
             docs = loader.load()
             splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)

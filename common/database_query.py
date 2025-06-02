@@ -104,9 +104,9 @@ def database_query(response,chart,chart_type,user_message):
                     
                 else:
                     response_data = {'response': response,'suggestions':""}
-                print("444444444444444444444444",response_data)
+               
                 resp = make_response(jsonify(response_data))
-                print("aaaaaaaaaaaaaa",resp)
+            
                 resp.set_cookie('columns', columns_str, max_age=60*60*24, domain="127.0.0.1")
                 return resp
 

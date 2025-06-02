@@ -109,7 +109,7 @@ def get_response():
     
     if not query:
         return jsonify({"error": "Missing 'question' in request."}), 400
-    print(POLICY_TYPE)
+   
     # Get response from QA chain
     if POLICY_TYPE == "MIS":
         chart, chart_type = charts(query)
