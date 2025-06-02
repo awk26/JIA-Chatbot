@@ -175,3 +175,23 @@
 175. how many records is there
 176. how many records is there
 177. how many records is there
+178. what is confidential data
+179. what is the MTD ACTUALS for Delhi Inland Container Terminal for last month
+180. what is the MTD ACTUALS for Delhi Inland Container Terminal for last month
+181. give me month wise volume do not use date only month wise
+182. no i want like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..
+183. give me month wise volume like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..
+184. give me month wise volume MTD Actuals is month volumne like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..
+185. Monthly volume for VCT for year 2025
+186. Monthly TEU for VCT for year 2025
+187. Monthly volume for VCT for ytd 2025
+188. Monthly volume for VCT for year 2025
+189. last month volume for HITC
+190. can you give me volume trends  for HITC for last 6 months
+191. can you give me volume trends  for HICT for last 6 months
+192. can you give me volume trends  for HICT for last 6 months
+193. can you give me volume trends  for HICT for last 6 months
+194. can you give me volume trends  for HICT for last 6 months
+195. can you give me volume trends  for HICT for last 6 months
+196. can you give me volume trends  for HICT for last 6 months
+197. give me import volume of  HICT for last 4 months

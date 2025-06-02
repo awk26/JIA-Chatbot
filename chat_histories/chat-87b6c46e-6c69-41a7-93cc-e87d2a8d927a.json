@@ -1,0 +1,4653 @@
+[
+  {
+    "message": "give me month wise volume do not use date only month wise",
+    "response": [
+      {
+        "MONTHS": "2024-01-07T00:00:00",
+        "MonthlyVolume": 199286.35
+      },
+      {
+        "MONTHS": "2024-12-04T00:00:00",
+        "MonthlyVolume": 205707.5
+      },
+      {
+        "MONTHS": "2024-01-30T00:00:00",
+        "MonthlyVolume": 927217.7019999999
+      },
+      {
+        "MONTHS": "2024-12-27T00:00:00",
+        "MonthlyVolume": 1301336.02
+      },
+      {
+        "MONTHS": "2024-05-03T00:00:00",
+        "MonthlyVolume": 90691.08600000001
+      },
+      {
+        "MONTHS": "2025-01-19T00:00:00",
+        "MonthlyVolume": 604323.644
+      },
+      {
+        "MONTHS": "2025-03-31T00:00:00",
+        "MonthlyVolume": 985309.182
+      },
+      {
+        "MONTHS": "2024-04-10T00:00:00",
+        "MonthlyVolume": 253017.396
+      },
+      {
+        "MONTHS": "2025-03-08T00:00:00",
+        "MonthlyVolume": 152390.78
+      },
+      {
+        "MONTHS": "2024-06-18T00:00:00",
+        "MonthlyVolume": 710575.52
+      },
+      {
+        "MONTHS": "2024-09-03T00:00:00",
+        "MonthlyVolume": 74730.824
+      },
+      {
+        "MONTHS": "2025-05-22T00:00:00",
+        "MonthlyVolume": 485455.28800000006
+      },
+      {
+        "MONTHS": "2024-05-26T00:00:00",
+        "MonthlyVolume": 946307.2980000001
+      },
+      {
+        "MONTHS": "2024-09-26T00:00:00",
+        "MonthlyVolume": 830312.774
+      },
+      {
+        "MONTHS": "2025-04-29T00:00:00",
+        "MonthlyVolume": 747359.814
+      },
+      {
+        "MONTHS": "2024-08-03T00:00:00",
+        "MonthlyVolume": 119826.42800000001
+      },
+      {
+        "MONTHS": "2024-10-19T00:00:00",
+        "MonthlyVolume": 535401.6240000001
+      },
+      {
+        "MONTHS": "2025-04-06T00:00:00",
+        "MonthlyVolume": 153486.294
+      },
+      {
+        "MONTHS": "2024-07-11T00:00:00",
+        "MonthlyVolume": 206705.55600000004
+      },
+      {
+        "MONTHS": "2024-11-11T00:00:00",
+        "MonthlyVolume": 403649.64999999997
+      },
+      {
+        "MONTHS": "2025-03-14T00:00:00",
+        "MonthlyVolume": 415913.042
+      },
+      {
+        "MONTHS": "2024-03-24T00:00:00",
+        "MonthlyVolume": 939945.202
+      },
+      {
+        "MONTHS": "2024-11-28T00:00:00",
+        "MonthlyVolume": 1168238.3339999998
+      },
+      {
+        "MONTHS": "2025-02-19T00:00:00",
+        "MonthlyVolume": 367366.91599999997
+      },
+      {
+        "MONTHS": "2024-01-24T00:00:00",
+        "MonthlyVolume": 666292.068
+      },
+      {
+        "MONTHS": "2024-08-26T00:00:00",
+        "MonthlyVolume": 1056068.5840000003
+      },
+      {
+        "MONTHS": "2022-12-31T00:00:00",
+        "MonthlyVolume": 552257.0
+      },
+      {
+        "MONTHS": "2024-02-07T00:00:00",
+        "MonthlyVolume": 205952.7
+      },
+      {
+        "MONTHS": "2024-10-13T00:00:00",
+        "MonthlyVolume": 230793.25199999998
+      },
+      {
+        "MONTHS": "2025-01-04T00:00:00",
+        "MonthlyVolume": 159970.0
+      },
+      {
+        "MONTHS": "2024-08-11T00:00:00",
+        "MonthlyVolume": 438891.89599999995
+      },
+      {
+        "MONTHS": "2024-11-17T00:00:00",
+        "MonthlyVolume": 693242.2139999999
+      },
+      {
+        "MONTHS": "2024-06-24T00:00:00",
+        "MonthlyVolume": 873494.86
+      },
+      {
+        "MONTHS": "2025-02-28T00:00:00",
+        "MonthlyVolume": 717117118.2942344
+      },
+      {
+        "MONTHS": "2024-10-02T00:00:00",
+        "MonthlyVolume": 16599.972
+      },
+      {
+        "MONTHS": "2025-04-23T00:00:00",
+        "MonthlyVolume": 480453.946
+      },
+      {
+        "MONTHS": "2022-09-30T00:00:00",
+        "MonthlyVolume": 402315.04
+      },
+      {
+        "MONTHS": "2024-05-09T00:00:00",
+        "MonthlyVolume": 338030.85400000005
+      },
+      {
+        "MONTHS": "2025-01-13T00:00:00",
+        "MonthlyVolume": 522250.64400000003
+      },
+      {
+        "MONTHS": "2024-08-17T00:00:00",
+        "MonthlyVolume": 621831.436
+      },
+      {
+        "MONTHS": "2025-06-08T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-09-12T00:00:00",
+        "MonthlyVolume": 298817.37399999995
+      },
+      {
+        "MONTHS": "2024-12-15T00:00:00",
+        "MonthlyVolume": 680394.8759999999
+      },
+      {
+        "MONTHS": "2025-02-02T00:00:00",
+        "MonthlyVolume": 69389.02799999999
+      },
+      {
+        "MONTHS": "2023-08-31T00:00:00",
+        "MonthlyVolume": 992443114.3322116
+      },
+      {
+        "MONTHS": "2025-06-25T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2025-04-12T00:00:00",
+        "MonthlyVolume": 296763.706
+      },
+      {
+        "MONTHS": "2024-03-04T00:00:00",
+        "MonthlyVolume": 119166.598
+      },
+      {
+        "MONTHS": "2024-04-22T00:00:00",
+        "MonthlyVolume": 745445.95
+      },
+      {
+        "MONTHS": "2024-07-05T00:00:00",
+        "MonthlyVolume": 57979.55
+      },
+      {
+        "MONTHS": "2025-06-02T00:00:00",
+        "MonthlyVolume": 4682.0
+      },
+      {
+        "MONTHS": "2024-04-02T00:00:00",
+        "MonthlyVolume": 50894.0
+      },
+      {
+        "MONTHS": "2024-06-12T00:00:00",
+        "MonthlyVolume": 476577.52
+      },
+      {
+        "MONTHS": "2025-02-22T00:00:00",
+        "MonthlyVolume": 396474.91599999997
+      },
+      {
+        "MONTHS": "2025-03-17T00:00:00",
+        "MonthlyVolume": 446990.042
+      },
+      {
+        "MONTHS": "2024-02-13T00:00:00",
+        "MonthlyVolume": 273684.7
+      },
+      {
+        "MONTHS": "2025-06-19T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-01-21T00:00:00",
+        "MonthlyVolume": 541610.148
+      },
+      {
+        "MONTHS": "2024-03-10T00:00:00",
+        "MonthlyVolume": 282782.176
+      },
+      {
+        "MONTHS": "2024-01-01T00:00:00",
+        "MonthlyVolume": 3658.0
+      },
+      {
+        "MONTHS": "2024-09-06T00:00:00",
+        "MonthlyVolume": 135086.824
+      },
+      {
+        "MONTHS": "2025-05-13T00:00:00",
+        "MonthlyVolume": 179666.01
+      },
+      {
+        "MONTHS": "2022-03-31T00:00:00",
+        "MonthlyVolume": 656022.0
+      },
+      {
+        "MONTHS": "2024-12-21T00:00:00",
+        "MonthlyVolume": 1021734.406
+      },
+      {
+        "MONTHS": "2025-01-27T00:00:00",
+        "MonthlyVolume": 786187.664
+      },
+      {
+        "MONTHS": "2025-02-08T00:00:00",
+        "MonthlyVolume": 142580.028
+      },
+      {
+        "MONTHS": "2024-07-31T00:00:00",
+        "MonthlyVolume": 631187183.2700092
+      },
+      {
+        "MONTHS": "2024-02-19T00:00:00",
+        "MonthlyVolume": 391714.7
+      },
+      {
+        "MONTHS": "2024-10-25T00:00:00",
+        "MonthlyVolume": 822143.5719999999
+      },
+      {
+        "MONTHS": "2023-01-31T00:00:00",
+        "MonthlyVolume": 913061755.3297089
+      },
+      {
+        "MONTHS": "2024-07-25T00:00:00",
+        "MonthlyVolume": 660674.1259999999
+      },
+      {
+        "MONTHS": "2025-07-01T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-02-27T00:00:00",
+        "MonthlyVolume": 695431.794
+      },
+      {
+        "MONTHS": "2024-04-16T00:00:00",
+        "MonthlyVolume": 442195.984
+      },
+      {
+        "MONTHS": "2024-06-04T00:00:00",
+        "MonthlyVolume": 130476.194
+      },
+      {
+        "MONTHS": "2024-06-21T00:00:00",
+        "MonthlyVolume": 785751.52
+      },
+      {
+        "MONTHS": "2025-05-19T00:00:00",
+        "MonthlyVolume": 395173.4
+      },
+      {
+        "MONTHS": "2024-07-14T00:00:00",
+        "MonthlyVolume": 332638.944
+      },
+      {
+        "MONTHS": "2025-06-11T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-05-06T00:00:00",
+        "MonthlyVolume": 207322.598
+      },
+      {
+        "MONTHS": "2025-04-03T00:00:00",
+        "MonthlyVolume": 68490.294
+      },
+      {
+        "MONTHS": "2024-05-29T00:00:00",
+        "MonthlyVolume": 1017777.2980000001
+      },
+      {
+        "MONTHS": "2025-04-26T00:00:00",
+        "MonthlyVolume": 642528.118
+      },
+      {
+        "MONTHS": "2024-12-01T00:00:00",
+        "MonthlyVolume": 44178.0
+      },
+      {
+        "MONTHS": "2024-12-07T00:00:00",
+        "MonthlyVolume": 413421.168
+      },
+      {
+        "MONTHS": "2025-02-16T00:00:00",
+        "MonthlyVolume": 283251.486
+      },
+      {
+        "MONTHS": "2024-11-08T00:00:00",
+        "MonthlyVolume": 264168.708
+      },
+      {
+        "MONTHS": "2024-11-14T00:00:00",
+        "MonthlyVolume": 572396.868
+      },
+      {
+        "MONTHS": "2025-03-11T00:00:00",
+        "MonthlyVolume": 237875.32
+      },
+      {
+        "MONTHS": "2024-04-30T00:00:00",
+        "MonthlyVolume": 753273943.7613161
+      },
+      {
+        "MONTHS": "2024-10-16T00:00:00",
+        "MonthlyVolume": 358019.536
+      },
+      {
+        "MONTHS": "2024-05-23T00:00:00",
+        "MonthlyVolume": 756442.982
+      },
+      {
+        "MONTHS": "2024-09-23T00:00:00",
+        "MonthlyVolume": 648882.542
+      },
+      {
+        "MONTHS": "2024-07-08T00:00:00",
+        "MonthlyVolume": 79391.54999999999
+      },
+      {
+        "MONTHS": "2024-08-14T00:00:00",
+        "MonthlyVolume": 573858.9759999999
+      },
+      {
+        "MONTHS": "2025-06-05T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2025-01-16T00:00:00",
+        "MonthlyVolume": 575047.6440000001
+      },
+      {
+        "MONTHS": "2024-01-27T00:00:00",
+        "MonthlyVolume": 797145.442
+      },
+      {
+        "MONTHS": "2024-08-23T00:00:00",
+        "MonthlyVolume": 945919.2120000002
+      },
+      {
+        "MONTHS": "2024-09-29T00:00:00",
+        "MonthlyVolume": 902689.1279999999
+      },
+      {
+        "MONTHS": "2024-03-21T00:00:00",
+        "MonthlyVolume": 726869.898
+      },
+      {
+        "MONTHS": "2024-03-27T00:00:00",
+        "MonthlyVolume": 1080857.408
+      },
+      {
+        "MONTHS": "2024-11-25T00:00:00",
+        "MonthlyVolume": 1033810.2799999998
+      },
+      {
+        "MONTHS": "2024-05-12T00:00:00",
+        "MonthlyVolume": 382004.85400000005
+      },
+      {
+        "MONTHS": "2025-01-10T00:00:00",
+        "MonthlyVolume": 452429.9639999999
+      },
+      {
+        "MONTHS": "2024-10-05T00:00:00",
+        "MonthlyVolume": 52739.972
+      },
+      {
+        "MONTHS": "2025-04-20T00:00:00",
+        "MonthlyVolume": 462501.946
+      },
+      {
+        "MONTHS": "2024-03-30T00:00:00",
+        "MonthlyVolume": 1249386.56
+      },
+      {
+        "MONTHS": "2025-02-25T00:00:00",
+        "MonthlyVolume": 442754.81999999995
+      },
+      {
+        "MONTHS": "2024-01-18T00:00:00",
+        "MonthlyVolume": 475688.14800000004
+      },
+      {
+        "MONTHS": "2024-03-07T00:00:00",
+        "MonthlyVolume": 229912.17599999998
+      },
+      {
+        "MONTHS": "2024-07-02T00:00:00",
+        "MonthlyVolume": 15108.0
+      },
+      {
+        "MONTHS": "2024-08-20T00:00:00",
+        "MonthlyVolume": 736135.436
+      },
+      {
+        "MONTHS": "2025-05-30T00:00:00",
+        "MonthlyVolume": 617571.088
+      },
+      {
+        "MONTHS": "2024-02-10T00:00:00",
+        "MonthlyVolume": 249618.7
+      },
+      {
+        "MONTHS": "2024-07-28T00:00:00",
+        "MonthlyVolume": 786793.1979999999
+      },
+      {
+        "MONTHS": "2025-01-07T00:00:00",
+        "MonthlyVolume": 300080.676
+      },
+      {
+        "MONTHS": "2025-01-30T00:00:00",
+        "MonthlyVolume": 816643.664
+      },
+      {
+        "MONTHS": "2025-03-20T00:00:00",
+        "MonthlyVolume": 525681.12
+      },
+      {
+        "MONTHS": "2023-04-30T00:00:00",
+        "MonthlyVolume": 987553884.3955281
+      },
+      {
+        "MONTHS": "2024-05-20T00:00:00",
+        "MonthlyVolume": 683557.554
+      },
+      {
+        "MONTHS": "2024-02-16T00:00:00",
+        "MonthlyVolume": 329038.7
+      },
+      {
+        "MONTHS": "2025-06-22T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2025-04-09T00:00:00",
+        "MonthlyVolume": 258424.706
+      },
+      {
+        "MONTHS": "2025-05-02T00:00:00",
+        "MonthlyVolume": 16928.0
+      },
+      {
+        "MONTHS": "2024-06-15T00:00:00",
+        "MonthlyVolume": 536766.9500000001
+      },
+      {
+        "MONTHS": "2024-03-01T00:00:00",
+        "MonthlyVolume": 32246.300000000003
+      },
+      {
+        "MONTHS": "2024-10-22T00:00:00",
+        "MonthlyVolume": 690322.376
+      },
+      {
+        "MONTHS": "2025-06-28T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-11-05T00:00:00",
+        "MonthlyVolume": 188127.546
+      },
+      {
+        "MONTHS": "2024-12-24T00:00:00",
+        "MonthlyVolume": 1131614.01
+      },
+      {
+        "MONTHS": "2024-01-04T00:00:00",
+        "MonthlyVolume": 124983.644
+      },
+      {
+        "MONTHS": "2024-01-10T00:00:00",
+        "MonthlyVolume": 388309.26100000006
+      },
+      {
+        "MONTHS": "2024-09-09T00:00:00",
+        "MonthlyVolume": 197100.82400000002
+      },
+      {
+        "MONTHS": "2024-09-15T00:00:00",
+        "MonthlyVolume": 352629.978
+      },
+      {
+        "MONTHS": "2025-05-16T00:00:00",
+        "MonthlyVolume": 318039.9
+      },
+      {
+        "MONTHS": "2025-05-10T00:00:00",
+        "MonthlyVolume": 146996.01
+      },
+      {
+        "MONTHS": "2024-04-13T00:00:00",
+        "MonthlyVolume": 348100.686
+      },
+      {
+        "MONTHS": "2024-04-19T00:00:00",
+        "MonthlyVolume": 566892.22
+      },
+      {
+        "MONTHS": "2024-06-01T00:00:00",
+        "MonthlyVolume": 9463.6
+      },
+      {
+        "MONTHS": "2024-07-22T00:00:00",
+        "MonthlyVolume": 635176.126
+      },
+      {
+        "MONTHS": "2025-03-28T00:00:00",
+        "MonthlyVolume": 878323.292
+      },
+      {
+        "MONTHS": "2025-07-04T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-12-18T00:00:00",
+        "MonthlyVolume": 861510.4639999999
+      },
+      {
+        "MONTHS": "2025-02-05T00:00:00",
+        "MonthlyVolume": 101795.02799999999
+      },
+      {
+        "MONTHS": "2022-11-30T00:00:00",
+        "MonthlyVolume": 524814.5549999999
+      },
+      {
+        "MONTHS": "2024-09-24T00:00:00",
+        "MonthlyVolume": 713301.332
+      },
+      {
+        "MONTHS": "2024-09-01T00:00:00",
+        "MonthlyVolume": 8786.0
+      },
+      {
+        "MONTHS": "2024-02-22T00:00:00",
+        "MonthlyVolume": 507271.67
+      },
+      {
+        "MONTHS": "2024-08-09T00:00:00",
+        "MonthlyVolume": 398767.89599999995
+      },
+      {
+        "MONTHS": "2025-04-27T00:00:00",
+        "MonthlyVolume": 651672.118
+      },
+      {
+        "MONTHS": "2024-03-16T00:00:00",
+        "MonthlyVolume": 591564.112
+      },
+      {
+        "MONTHS": "2024-07-17T00:00:00",
+        "MonthlyVolume": 428133.43200000003
+      },
+      {
+        "MONTHS": "2025-02-11T00:00:00",
+        "MonthlyVolume": 177931.028
+      },
+      {
+        "MONTHS": "2025-06-14T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-04-08T00:00:00",
+        "MonthlyVolume": 244157.396
+      },
+      {
+        "MONTHS": "2025-03-12T00:00:00",
+        "MonthlyVolume": 246767.32
+      },
+      {
+        "MONTHS": "2024-05-01T00:00:00",
+        "MonthlyVolume": 61535.08600000001
+      },
+      {
+        "MONTHS": "2024-12-02T00:00:00",
+        "MonthlyVolume": 179161.5
+      },
+      {
+        "MONTHS": "2025-04-04T00:00:00",
+        "MonthlyVolume": 89465.294
+      },
+      {
+        "MONTHS": "2024-05-24T00:00:00",
+        "MonthlyVolume": 909385.3
+      },
+      {
+        "MONTHS": "2024-11-09T00:00:00",
+        "MonthlyVolume": 385790.708
+      },
+      {
+        "MONTHS": "2025-01-25T00:00:00",
+        "MonthlyVolume": 765793.664
+      },
+      {
+        "MONTHS": "2024-06-16T00:00:00",
+        "MonthlyVolume": 637860.43
+      },
+      {
+        "MONTHS": "2024-10-17T00:00:00",
+        "MonthlyVolume": 363471.536
+      },
+      {
+        "MONTHS": "2025-02-17T00:00:00",
+        "MonthlyVolume": 291137.486
+      },
+      {
+        "MONTHS": "2024-09-30T00:00:00",
+        "MonthlyVolume": 525510028.30510515
+      },
+      {
+        "MONTHS": "2024-07-09T00:00:00",
+        "MonthlyVolume": 132641.55
+      },
+      {
+        "MONTHS": "2025-06-06T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-02-05T00:00:00",
+        "MonthlyVolume": 80766.0
+      },
+      {
+        "MONTHS": "2025-01-02T00:00:00",
+        "MonthlyVolume": 138319.0
+      },
+      {
+        "MONTHS": "2024-10-11T00:00:00",
+        "MonthlyVolume": 197891.29200000002
+      },
+      {
+        "MONTHS": "2024-06-30T00:00:00",
+        "MonthlyVolume": 744217688.2569695
+      },
+      {
+        "MONTHS": "2025-03-06T00:00:00",
+        "MonthlyVolume": 133495.78
+      },
+      {
+        "MONTHS": "2024-05-07T00:00:00",
+        "MonthlyVolume": 272443.506
+      },
+      {
+        "MONTHS": "2024-11-26T00:00:00",
+        "MonthlyVolume": 1116588.3339999998
+      },
+      {
+        "MONTHS": "2024-08-15T00:00:00",
+        "MonthlyVolume": 607289.436
+      },
+      {
+        "MONTHS": "2025-04-21T00:00:00",
+        "MonthlyVolume": 469407.946
+      },
+      {
+        "MONTHS": "2024-03-22T00:00:00",
+        "MonthlyVolume": 750059.898
+      },
+      {
+        "MONTHS": "2025-01-11T00:00:00",
+        "MonthlyVolume": 463314.964
+      },
+      {
+        "MONTHS": "2024-01-19T00:00:00",
+        "MonthlyVolume": 528364.148
+      },
+      {
+        "MONTHS": "2024-07-03T00:00:00",
+        "MonthlyVolume": 27722.0
+      },
+      {
+        "MONTHS": "2025-05-31T00:00:00",
+        "MonthlyVolume": 630389.088
+      },
+      {
+        "MONTHS": "2024-02-11T00:00:00",
+        "MonthlyVolume": 252946.7
+      },
+      {
+        "MONTHS": "2025-01-08T00:00:00",
+        "MonthlyVolume": 303524.676
+      },
+      {
+        "MONTHS": "2025-06-23T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-05-15T00:00:00",
+        "MonthlyVolume": 474773.174
+      },
+      {
+        "MONTHS": "2024-08-21T00:00:00",
+        "MonthlyVolume": 826234.2119999999
+      },
+      {
+        "MONTHS": "2025-01-31T00:00:00",
+        "MonthlyVolume": 896094820.0595613
+      },
+      {
+        "MONTHS": "2024-06-10T00:00:00",
+        "MonthlyVolume": 391353.52
+      },
+      {
+        "MONTHS": "2024-07-29T00:00:00",
+        "MonthlyVolume": 847260.6579999998
+      },
+      {
+        "MONTHS": "2022-02-28T00:00:00",
+        "MonthlyVolume": 558694.0
+      },
+      {
+        "MONTHS": "2025-05-05T00:00:00",
+        "MonthlyVolume": 37786.0
+      },
+      {
+        "MONTHS": "2024-05-21T00:00:00",
+        "MonthlyVolume": 730369.554
+      },
+      {
+        "MONTHS": "2024-04-28T00:00:00",
+        "MonthlyVolume": 957926.828
+      },
+      {
+        "MONTHS": "2024-01-13T00:00:00",
+        "MonthlyVolume": 422532.14800000004
+      },
+      {
+        "MONTHS": "2024-09-18T00:00:00",
+        "MonthlyVolume": 510659.61399999994
+      },
+      {
+        "MONTHS": "2025-03-15T00:00:00",
+        "MonthlyVolume": 428814.042
+      },
+      {
+        "MONTHS": "2025-05-25T00:00:00",
+        "MonthlyVolume": 558886.948
+      },
+      {
+        "MONTHS": "2022-05-31T00:00:00",
+        "MonthlyVolume": 443998.04
+      },
+      {
+        "MONTHS": "2025-06-29T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-03-02T00:00:00",
+        "MonthlyVolume": 82352.29999999999
+      },
+      {
+        "MONTHS": "2024-11-06T00:00:00",
+        "MonthlyVolume": 205458.70799999998
+      },
+      {
+        "MONTHS": "2024-09-04T00:00:00",
+        "MonthlyVolume": 117112.824
+      },
+      {
+        "MONTHS": "2024-04-14T00:00:00",
+        "MonthlyVolume": 350136.686
+      },
+      {
+        "MONTHS": "2024-12-13T00:00:00",
+        "MonthlyVolume": 659050.8759999999
+      },
+      {
+        "MONTHS": "2024-12-19T00:00:00",
+        "MonthlyVolume": 869132.4639999999
+      },
+      {
+        "MONTHS": "2024-01-05T00:00:00",
+        "MonthlyVolume": 144344.698
+      },
+      {
+        "MONTHS": "2025-03-23T00:00:00",
+        "MonthlyVolume": 657177.112
+      },
+      {
+        "MONTHS": "2025-03-29T00:00:00",
+        "MonthlyVolume": 894615.292
+      },
+      {
+        "MONTHS": "2025-05-17T00:00:00",
+        "MonthlyVolume": 376177.4
+      },
+      {
+        "MONTHS": "2025-05-11T00:00:00",
+        "MonthlyVolume": 154608.01
+      },
+      {
+        "MONTHS": "2024-02-25T00:00:00",
+        "MonthlyVolume": 675079.794
+      },
+      {
+        "MONTHS": "2024-10-31T00:00:00",
+        "MonthlyVolume": 687156197.7979782
+      },
+      {
+        "MONTHS": "2024-07-23T00:00:00",
+        "MonthlyVolume": 643130.1259999999
+      },
+      {
+        "MONTHS": "2024-09-10T00:00:00",
+        "MonthlyVolume": 237565.244
+      },
+      {
+        "MONTHS": "2024-04-11T00:00:00",
+        "MonthlyVolume": 293729.396
+      },
+      {
+        "MONTHS": "2025-03-09T00:00:00",
+        "MonthlyVolume": 214050.32
+      },
+      {
+        "MONTHS": "2024-03-19T00:00:00",
+        "MonthlyVolume": 664583.898
+      },
+      {
+        "MONTHS": "2025-02-14T00:00:00",
+        "MonthlyVolume": 231082.886
+      },
+      {
+        "MONTHS": "2023-06-30T00:00:00",
+        "MonthlyVolume": 881426309.9888827
+      },
+      {
+        "MONTHS": "2024-05-27T00:00:00",
+        "MonthlyVolume": 999621.2980000001
+      },
+      {
+        "MONTHS": "2025-04-24T00:00:00",
+        "MonthlyVolume": 479348.946
+      },
+      {
+        "MONTHS": "2024-05-04T00:00:00",
+        "MonthlyVolume": 152456.83000000002
+      },
+      {
+        "MONTHS": "2025-04-01T00:00:00",
+        "MonthlyVolume": 7094.0
+      },
+      {
+        "MONTHS": "2024-09-21T00:00:00",
+        "MonthlyVolume": 629192.542
+      },
+      {
+        "MONTHS": "2024-09-27T00:00:00",
+        "MonthlyVolume": 837528.774
+      },
+      {
+        "MONTHS": "2024-06-19T00:00:00",
+        "MonthlyVolume": 759175.52
+      },
+      {
+        "MONTHS": "2024-10-14T00:00:00",
+        "MonthlyVolume": 280879.252
+      },
+      {
+        "MONTHS": "2024-10-20T00:00:00",
+        "MonthlyVolume": 561763.65
+      },
+      {
+        "MONTHS": "2024-08-06T00:00:00",
+        "MonthlyVolume": 288590.268
+      },
+      {
+        "MONTHS": "2024-11-12T00:00:00",
+        "MonthlyVolume": 505938.25
+      },
+      {
+        "MONTHS": "2025-01-22T00:00:00",
+        "MonthlyVolume": 633100.644
+      },
+      {
+        "MONTHS": "2024-08-29T00:00:00",
+        "MonthlyVolume": 1083838.5840000003
+      },
+      {
+        "MONTHS": "2024-12-30T00:00:00",
+        "MonthlyVolume": 1396263.396
+      },
+      {
+        "MONTHS": "2025-04-07T00:00:00",
+        "MonthlyVolume": 182210.706
+      },
+      {
+        "MONTHS": "2023-07-31T00:00:00",
+        "MonthlyVolume": 879031097.2809179
+      },
+      {
+        "MONTHS": "2024-01-25T00:00:00",
+        "MonthlyVolume": 678400.068
+      },
+      {
+        "MONTHS": "2024-06-27T00:00:00",
+        "MonthlyVolume": 1035594.0199999999
+      },
+      {
+        "MONTHS": "2025-03-03T00:00:00",
+        "MonthlyVolume": 82459.78
+      },
+      {
+        "MONTHS": "2024-03-13T00:00:00",
+        "MonthlyVolume": 527658.112
+      },
+      {
+        "MONTHS": "2024-03-25T00:00:00",
+        "MonthlyVolume": 992883.202
+      },
+      {
+        "MONTHS": "2025-02-20T00:00:00",
+        "MonthlyVolume": 377470.91599999997
+      },
+      {
+        "MONTHS": "2025-06-17T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-08-12T00:00:00",
+        "MonthlyVolume": 484409.89599999995
+      },
+      {
+        "MONTHS": "2024-02-08T00:00:00",
+        "MonthlyVolume": 217930.7
+      },
+      {
+        "MONTHS": "2024-11-29T00:00:00",
+        "MonthlyVolume": 1255162.0939999998
+      },
+      {
+        "MONTHS": "2025-01-05T00:00:00",
+        "MonthlyVolume": 161626.0
+      },
+      {
+        "MONTHS": "2023-10-31T00:00:00",
+        "MonthlyVolume": 685326136.786378
+      },
+      {
+        "MONTHS": "2025-06-03T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-10-08T00:00:00",
+        "MonthlyVolume": 170167.29200000002
+      },
+      {
+        "MONTHS": "2024-11-20T00:00:00",
+        "MonthlyVolume": 783739.004
+      },
+      {
+        "MONTHS": "2024-08-18T00:00:00",
+        "MonthlyVolume": 667881.436
+      },
+      {
+        "MONTHS": "2025-04-18T00:00:00",
+        "MonthlyVolume": 436283.946
+      },
+      {
+        "MONTHS": "2024-02-02T00:00:00",
+        "MonthlyVolume": 19412.0
+      },
+      {
+        "MONTHS": "2024-11-23T00:00:00",
+        "MonthlyVolume": 926631.004
+      },
+      {
+        "MONTHS": "2024-12-16T00:00:00",
+        "MonthlyVolume": 735444.8759999999
+      },
+      {
+        "MONTHS": "2024-07-26T00:00:00",
+        "MonthlyVolume": 665130.1259999999
+      },
+      {
+        "MONTHS": "2024-03-05T00:00:00",
+        "MonthlyVolume": 158402.598
+      },
+      {
+        "MONTHS": "2024-05-18T00:00:00",
+        "MonthlyVolume": 607923.1340000001
+      },
+      {
+        "MONTHS": "2025-04-15T00:00:00",
+        "MonthlyVolume": 387324.86600000004
+      },
+      {
+        "MONTHS": "2024-03-28T00:00:00",
+        "MonthlyVolume": 1091153.408
+      },
+      {
+        "MONTHS": "2025-02-23T00:00:00",
+        "MonthlyVolume": 422752.81999999995
+      },
+      {
+        "MONTHS": "2025-05-08T00:00:00",
+        "MonthlyVolume": 66592.0
+      },
+      {
+        "MONTHS": "2025-06-26T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-01-16T00:00:00",
+        "MonthlyVolume": 460908.14800000004
+      },
+      {
+        "MONTHS": "2024-01-22T00:00:00",
+        "MonthlyVolume": 645790.6279999999
+      },
+      {
+        "MONTHS": "2024-07-06T00:00:00",
+        "MonthlyVolume": 65439.55
+      },
+      {
+        "MONTHS": "2025-05-28T00:00:00",
+        "MonthlyVolume": 590250.948
+      },
+      {
+        "MONTHS": "2024-04-25T00:00:00",
+        "MonthlyVolume": 834603.99
+      },
+      {
+        "MONTHS": "2024-06-13T00:00:00",
+        "MonthlyVolume": 494908.43000000005
+      },
+      {
+        "MONTHS": "2024-02-14T00:00:00",
+        "MonthlyVolume": 312560.7
+      },
+      {
+        "MONTHS": "2025-06-20T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-04-05T00:00:00",
+        "MonthlyVolume": 131123.196
+      },
+      {
+        "MONTHS": "2024-04-17T00:00:00",
+        "MonthlyVolume": 543390.22
+      },
+      {
+        "MONTHS": "2024-12-10T00:00:00",
+        "MonthlyVolume": 536137.8759999999
+      },
+      {
+        "MONTHS": "2024-12-22T00:00:00",
+        "MonthlyVolume": 1025918.406
+      },
+      {
+        "MONTHS": "2024-07-20T00:00:00",
+        "MonthlyVolume": 572067.5979999999
+      },
+      {
+        "MONTHS": "2024-09-07T00:00:00",
+        "MonthlyVolume": 145180.824
+      },
+      {
+        "MONTHS": "2024-11-03T00:00:00",
+        "MonthlyVolume": 59826.0
+      },
+      {
+        "MONTHS": "2025-01-28T00:00:00",
+        "MonthlyVolume": 792786.664
+      },
+      {
+        "MONTHS": "2024-01-02T00:00:00",
+        "MonthlyVolume": 108416.644
+      },
+      {
+        "MONTHS": "2024-06-07T00:00:00",
+        "MonthlyVolume": 266030.99199999997
+      },
+      {
+        "MONTHS": "2024-02-28T00:00:00",
+        "MonthlyVolume": 796183.786
+      },
+      {
+        "MONTHS": "2024-10-28T00:00:00",
+        "MonthlyVolume": 843583.5719999999
+      },
+      {
+        "MONTHS": "2025-02-03T00:00:00",
+        "MonthlyVolume": 72841.02799999999
+      },
+      {
+        "MONTHS": "2025-03-26T00:00:00",
+        "MonthlyVolume": 805286.864
+      },
+      {
+        "MONTHS": "2025-05-14T00:00:00",
+        "MonthlyVolume": 232051.652
+      },
+      {
+        "MONTHS": "2024-07-15T00:00:00",
+        "MonthlyVolume": 355496.26399999997
+      },
+      {
+        "MONTHS": "2025-06-12T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-04-12T00:00:00",
+        "MonthlyVolume": 300427.396
+      },
+      {
+        "MONTHS": "2024-08-07T00:00:00",
+        "MonthlyVolume": 302642.268
+      },
+      {
+        "MONTHS": "2025-03-10T00:00:00",
+        "MonthlyVolume": 232841.32
+      },
+      {
+        "MONTHS": "2024-05-30T00:00:00",
+        "MonthlyVolume": 1029517.2980000001
+      },
+      {
+        "MONTHS": "2024-06-22T00:00:00",
+        "MonthlyVolume": 791675.52
+      },
+      {
+        "MONTHS": "2025-05-20T00:00:00",
+        "MonthlyVolume": 467337.28800000006
+      },
+      {
+        "MONTHS": "2024-10-15T00:00:00",
+        "MonthlyVolume": 343239.256
+      },
+      {
+        "MONTHS": "2024-12-25T00:00:00",
+        "MonthlyVolume": 1137804.01
+      },
+      {
+        "MONTHS": "2024-12-31T00:00:00",
+        "MonthlyVolume": 1008435121.3611989
+      },
+      {
+        "MONTHS": "2024-11-07T00:00:00",
+        "MonthlyVolume": 212676.70799999998
+      },
+      {
+        "MONTHS": "2024-12-08T00:00:00",
+        "MonthlyVolume": 418085.168
+      },
+      {
+        "MONTHS": "2024-08-30T00:00:00",
+        "MonthlyVolume": 1095218.5840000003
+      },
+      {
+        "MONTHS": "2025-02-15T00:00:00",
+        "MonthlyVolume": 241140.886
+      },
+      {
+        "MONTHS": "2023-03-31T00:00:00",
+        "MonthlyVolume": 582897468.7662576
+      },
+      {
+        "MONTHS": "2024-09-22T00:00:00",
+        "MonthlyVolume": 639112.542
+      },
+      {
+        "MONTHS": "2025-01-23T00:00:00",
+        "MonthlyVolume": 647738.644
+      },
+      {
+        "MONTHS": "2024-04-29T00:00:00",
+        "MonthlyVolume": 966204.828
+      },
+      {
+        "MONTHS": "2025-06-18T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-08-13T00:00:00",
+        "MonthlyVolume": 561170.9759999999
+      },
+      {
+        "MONTHS": "2025-03-04T00:00:00",
+        "MonthlyVolume": 110757.78
+      },
+      {
+        "MONTHS": "2024-03-14T00:00:00",
+        "MonthlyVolume": 538290.112
+      },
+      {
+        "MONTHS": "2024-08-24T00:00:00",
+        "MonthlyVolume": 1015664.5840000001
+      },
+      {
+        "MONTHS": "2024-11-15T00:00:00",
+        "MonthlyVolume": 630412.144
+      },
+      {
+        "MONTHS": "2022-01-31T00:00:00",
+        "MonthlyVolume": 506345.0
+      },
+      {
+        "MONTHS": "2025-01-17T00:00:00",
+        "MonthlyVolume": 581809.6440000001
+      },
+      {
+        "MONTHS": "2024-01-28T00:00:00",
+        "MonthlyVolume": 802349.442
+      },
+      {
+        "MONTHS": "2024-02-03T00:00:00",
+        "MonthlyVolume": 29324.0
+      },
+      {
+        "MONTHS": "2024-10-09T00:00:00",
+        "MonthlyVolume": 181635.29200000002
+      },
+      {
+        "MONTHS": "2025-01-06T00:00:00",
+        "MonthlyVolume": 294233.676
+      },
+      {
+        "MONTHS": "2024-05-13T00:00:00",
+        "MonthlyVolume": 392552.85400000005
+      },
+      {
+        "MONTHS": "2024-03-20T00:00:00",
+        "MonthlyVolume": 713253.898
+      },
+      {
+        "MONTHS": "2024-11-21T00:00:00",
+        "MonthlyVolume": 912469.004
+      },
+      {
+        "MONTHS": "2024-11-24T00:00:00",
+        "MonthlyVolume": 937697.004
+      },
+      {
+        "MONTHS": "2024-06-28T00:00:00",
+        "MonthlyVolume": 1036958.0199999999
+      },
+      {
+        "MONTHS": "2025-04-19T00:00:00",
+        "MonthlyVolume": 447905.946
+      },
+      {
+        "MONTHS": "2025-03-21T00:00:00",
+        "MonthlyVolume": 533921.12
+      },
+      {
+        "MONTHS": "2024-03-31T00:00:00",
+        "MonthlyVolume": 1019892195.7027788
+      },
+      {
+        "MONTHS": "2025-02-26T00:00:00",
+        "MonthlyVolume": 458599.81999999995
+      },
+      {
+        "MONTHS": "2024-06-08T00:00:00",
+        "MonthlyVolume": 268312.99199999997
+      },
+      {
+        "MONTHS": "2025-05-09T00:00:00",
+        "MonthlyVolume": 68824.0
+      },
+      {
+        "MONTHS": "2024-02-09T00:00:00",
+        "MonthlyVolume": 222850.7
+      },
+      {
+        "MONTHS": "2024-04-26T00:00:00",
+        "MonthlyVolume": 888725.99
+      },
+      {
+        "MONTHS": "2025-06-21T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-01-17T00:00:00",
+        "MonthlyVolume": 466668.14800000004
+      },
+      {
+        "MONTHS": "2024-05-19T00:00:00",
+        "MonthlyVolume": 660583.934
+      },
+      {
+        "MONTHS": "2025-04-10T00:00:00",
+        "MonthlyVolume": 270458.706
+      },
+      {
+        "MONTHS": "2025-05-29T00:00:00",
+        "MonthlyVolume": 604308.948
+      },
+      {
+        "MONTHS": "2024-03-08T00:00:00",
+        "MonthlyVolume": 275586.176
+      },
+      {
+        "MONTHS": "2024-06-14T00:00:00",
+        "MonthlyVolume": 505696.43000000005
+      },
+      {
+        "MONTHS": "2025-05-03T00:00:00",
+        "MonthlyVolume": 22644.0
+      },
+      {
+        "MONTHS": "2024-07-21T00:00:00",
+        "MonthlyVolume": 616043.5979999999
+      },
+      {
+        "MONTHS": "2025-03-27T00:00:00",
+        "MonthlyVolume": 871969.292
+      },
+      {
+        "MONTHS": "2024-02-29T00:00:00",
+        "MonthlyVolume": 643225005.6962141
+      },
+      {
+        "MONTHS": "2024-02-17T00:00:00",
+        "MonthlyVolume": 374682.7
+      },
+      {
+        "MONTHS": "2024-04-06T00:00:00",
+        "MonthlyVolume": 231105.396
+      },
+      {
+        "MONTHS": "2024-09-16T00:00:00",
+        "MonthlyVolume": 418271.97
+      },
+      {
+        "MONTHS": "2024-10-23T00:00:00",
+        "MonthlyVolume": 761495.572
+      },
+      {
+        "MONTHS": "2024-11-04T00:00:00",
+        "MonthlyVolume": 130522.24
+      },
+      {
+        "MONTHS": "2024-12-11T00:00:00",
+        "MonthlyVolume": 546973.8759999999
+      },
+      {
+        "MONTHS": "2025-01-29T00:00:00",
+        "MonthlyVolume": 798530.664
+      },
+      {
+        "MONTHS": "2024-04-20T00:00:00",
+        "MonthlyVolume": 579226.22
+      },
+      {
+        "MONTHS": "2022-08-31T00:00:00",
+        "MonthlyVolume": 436636.75
+      },
+      {
+        "MONTHS": "2024-01-11T00:00:00",
+        "MonthlyVolume": 369112.14800000004
+      },
+      {
+        "MONTHS": "2024-06-02T00:00:00",
+        "MonthlyVolume": 75762.194
+      },
+      {
+        "MONTHS": "2025-02-06T00:00:00",
+        "MonthlyVolume": 119177.02799999999
+      },
+      {
+        "MONTHS": "2024-10-29T00:00:00",
+        "MonthlyVolume": 905402.7679999999
+      },
+      {
+        "MONTHS": "2024-12-17T00:00:00",
+        "MonthlyVolume": 855168.4639999999
+      },
+      {
+        "MONTHS": "2024-01-31T00:00:00",
+        "MonthlyVolume": 646626452.0904354
+      },
+      {
+        "MONTHS": "2024-12-28T00:00:00",
+        "MonthlyVolume": 1374949.396
+      },
+      {
+        "MONTHS": "2022-04-30T00:00:00",
+        "MonthlyVolume": 398782.0
+      },
+      {
+        "MONTHS": "2024-02-23T00:00:00",
+        "MonthlyVolume": 628957.794
+      },
+      {
+        "MONTHS": "2024-09-25T00:00:00",
+        "MonthlyVolume": 754469.332
+      },
+      {
+        "MONTHS": "2025-01-20T00:00:00",
+        "MonthlyVolume": 611485.644
+      },
+      {
+        "MONTHS": "2024-03-17T00:00:00",
+        "MonthlyVolume": 594656.112
+      },
+      {
+        "MONTHS": "2024-09-02T00:00:00",
+        "MonthlyVolume": 62314.82399999999
+      },
+      {
+        "MONTHS": "2025-02-12T00:00:00",
+        "MonthlyVolume": 187249.028
+      },
+      {
+        "MONTHS": "2024-04-09T00:00:00",
+        "MonthlyVolume": 250643.396
+      },
+      {
+        "MONTHS": "2024-08-10T00:00:00",
+        "MonthlyVolume": 430891.89599999995
+      },
+      {
+        "MONTHS": "2025-03-07T00:00:00",
+        "MonthlyVolume": 145622.78
+      },
+      {
+        "MONTHS": "2024-05-02T00:00:00",
+        "MonthlyVolume": 81509.08600000001
+      },
+      {
+        "MONTHS": "2024-07-12T00:00:00",
+        "MonthlyVolume": 219929.55600000004
+      },
+      {
+        "MONTHS": "2025-06-15T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2025-05-23T00:00:00",
+        "MonthlyVolume": 543914.948
+      },
+      {
+        "MONTHS": "2024-08-27T00:00:00",
+        "MonthlyVolume": 1066928.5840000003
+      },
+      {
+        "MONTHS": "2025-02-18T00:00:00",
+        "MonthlyVolume": 297535.486
+      },
+      {
+        "MONTHS": "2025-04-30T00:00:00",
+        "MonthlyVolume": 809165.794
+      },
+      {
+        "MONTHS": "2024-08-04T00:00:00",
+        "MonthlyVolume": 175323.888
+      },
+      {
+        "MONTHS": "2024-12-05T00:00:00",
+        "MonthlyVolume": 310442.5
+      },
+      {
+        "MONTHS": "2024-02-06T00:00:00",
+        "MonthlyVolume": 150678.7
+      },
+      {
+        "MONTHS": "2024-10-12T00:00:00",
+        "MonthlyVolume": 201255.29200000002
+      },
+      {
+        "MONTHS": "2025-01-03T00:00:00",
+        "MonthlyVolume": 145207.0
+      },
+      {
+        "MONTHS": "2025-01-14T00:00:00",
+        "MonthlyVolume": 532710.6440000001
+      },
+      {
+        "MONTHS": "2024-11-18T00:00:00",
+        "MonthlyVolume": 759844.858
+      },
+      {
+        "MONTHS": "2024-11-27T00:00:00",
+        "MonthlyVolume": 1161524.3339999998
+      },
+      {
+        "MONTHS": "2024-10-03T00:00:00",
+        "MonthlyVolume": 22571.972
+      },
+      {
+        "MONTHS": "2025-06-09T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-06-25T00:00:00",
+        "MonthlyVolume": 1019054.0199999999
+      },
+      {
+        "MONTHS": "2024-07-01T00:00:00",
+        "MonthlyVolume": 6832.0
+      },
+      {
+        "MONTHS": "2025-04-16T00:00:00",
+        "MonthlyVolume": 398174.86600000004
+      },
+      {
+        "MONTHS": "2025-04-22T00:00:00",
+        "MonthlyVolume": 475753.946
+      },
+      {
+        "MONTHS": "2024-03-23T00:00:00",
+        "MonthlyVolume": 888136.3020000001
+      },
+      {
+        "MONTHS": "2024-05-10T00:00:00",
+        "MonthlyVolume": 349652.85400000005
+      },
+      {
+        "MONTHS": "2024-08-16T00:00:00",
+        "MonthlyVolume": 612985.436
+      },
+      {
+        "MONTHS": "2025-03-01T00:00:00",
+        "MonthlyVolume": 7722.0
+      },
+      {
+        "MONTHS": "2024-04-23T00:00:00",
+        "MonthlyVolume": 818979.99
+      },
+      {
+        "MONTHS": "2024-10-06T00:00:00",
+        "MonthlyVolume": 61185.971999999994
+      },
+      {
+        "MONTHS": "2025-06-24T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-09-13T00:00:00",
+        "MonthlyVolume": 324982.838
+      },
+      {
+        "MONTHS": "2024-06-11T00:00:00",
+        "MonthlyVolume": 392649.52
+      },
+      {
+        "MONTHS": "2025-05-06T00:00:00",
+        "MonthlyVolume": 49770.0
+      },
+      {
+        "MONTHS": "2024-05-16T00:00:00",
+        "MonthlyVolume": 484431.174
+      },
+      {
+        "MONTHS": "2024-07-04T00:00:00",
+        "MonthlyVolume": 46295.55
+      },
+      {
+        "MONTHS": "2025-06-01T00:00:00",
+        "MonthlyVolume": 4662.0
+      },
+      {
+        "MONTHS": "2025-04-13T00:00:00",
+        "MonthlyVolume": 304699.706
+      },
+      {
+        "MONTHS": "2025-03-18T00:00:00",
+        "MonthlyVolume": 511341.12
+      },
+      {
+        "MONTHS": "2024-03-11T00:00:00",
+        "MonthlyVolume": 415840.752
+      },
+      {
+        "MONTHS": "2024-01-20T00:00:00",
+        "MonthlyVolume": 539728.148
+      },
+      {
+        "MONTHS": "2024-04-03T00:00:00",
+        "MonthlyVolume": 106573.29000000001
+      },
+      {
+        "MONTHS": "2024-05-22T00:00:00",
+        "MonthlyVolume": 741859.312
+      },
+      {
+        "MONTHS": "2025-05-26T00:00:00",
+        "MonthlyVolume": 570046.948
+      },
+      {
+        "MONTHS": "2024-08-01T00:00:00",
+        "MonthlyVolume": 101756.42800000001
+      },
+      {
+        "MONTHS": "2024-09-19T00:00:00",
+        "MonthlyVolume": 519937.61399999994
+      },
+      {
+        "MONTHS": "2025-01-26T00:00:00",
+        "MonthlyVolume": 774877.664
+      },
+      {
+        "MONTHS": "2023-12-31T00:00:00",
+        "MonthlyVolume": 795070610.7393622
+      },
+      {
+        "MONTHS": "2024-09-05T00:00:00",
+        "MonthlyVolume": 124996.824
+      },
+      {
+        "MONTHS": "2025-02-09T00:00:00",
+        "MonthlyVolume": 163845.028
+      },
+      {
+        "MONTHS": "2024-01-14T00:00:00",
+        "MonthlyVolume": 434628.14800000004
+      },
+      {
+        "MONTHS": "2024-02-20T00:00:00",
+        "MonthlyVolume": 474323.67
+      },
+      {
+        "MONTHS": "2024-07-18T00:00:00",
+        "MonthlyVolume": 555423.5979999999
+      },
+      {
+        "MONTHS": "2024-07-24T00:00:00",
+        "MonthlyVolume": 653558.1259999999
+      },
+      {
+        "MONTHS": "2025-03-24T00:00:00",
+        "MonthlyVolume": 729117.244
+      },
+      {
+        "MONTHS": "2025-03-30T00:00:00",
+        "MonthlyVolume": 950344.2220000001
+      },
+      {
+        "MONTHS": "2024-10-26T00:00:00",
+        "MonthlyVolume": 830321.5719999999
+      },
+      {
+        "MONTHS": "2024-11-01T00:00:00",
+        "MonthlyVolume": 9376.0
+      },
+      {
+        "MONTHS": "2024-12-14T00:00:00",
+        "MonthlyVolume": 670452.8759999999
+      },
+      {
+        "MONTHS": "2023-09-30T00:00:00",
+        "MonthlyVolume": 690500834.0215561
+      },
+      {
+        "MONTHS": "2024-06-05T00:00:00",
+        "MonthlyVolume": 189229.11199999996
+      },
+      {
+        "MONTHS": "2025-05-12T00:00:00",
+        "MonthlyVolume": 165896.01
+      },
+      {
+        "MONTHS": "2024-01-08T00:00:00",
+        "MonthlyVolume": 226832.35
+      },
+      {
+        "MONTHS": "2024-02-26T00:00:00",
+        "MonthlyVolume": 680851.794
+      },
+      {
+        "MONTHS": "2025-07-02T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-02-24T00:00:00",
+        "MonthlyVolume": 633889.794
+      },
+      {
+        "MONTHS": "2024-05-05T00:00:00",
+        "MonthlyVolume": 201230.83000000002
+      },
+      {
+        "MONTHS": "2025-01-21T00:00:00",
+        "MonthlyVolume": 629362.644
+      },
+      {
+        "MONTHS": "2025-04-02T00:00:00",
+        "MonthlyVolume": 17838.0
+      },
+      {
+        "MONTHS": "2024-03-18T00:00:00",
+        "MonthlyVolume": 603366.112
+      },
+      {
+        "MONTHS": "2025-02-13T00:00:00",
+        "MonthlyVolume": 221450.886
+      },
+      {
+        "MONTHS": "2024-06-20T00:00:00",
+        "MonthlyVolume": 770113.5199999998
+      },
+      {
+        "MONTHS": "2025-05-18T00:00:00",
+        "MonthlyVolume": 385297.4
+      },
+      {
+        "MONTHS": "2024-05-28T00:00:00",
+        "MonthlyVolume": 1014627.2980000001
+      },
+      {
+        "MONTHS": "2025-04-25T00:00:00",
+        "MonthlyVolume": 636508.118
+      },
+      {
+        "MONTHS": "2024-08-05T00:00:00",
+        "MonthlyVolume": 178543.888
+      },
+      {
+        "MONTHS": "2024-10-21T00:00:00",
+        "MonthlyVolume": 578671.3840000001
+      },
+      {
+        "MONTHS": "2024-07-13T00:00:00",
+        "MonthlyVolume": 228145.55600000004
+      },
+      {
+        "MONTHS": "2024-11-13T00:00:00",
+        "MonthlyVolume": 515864.25
+      },
+      {
+        "MONTHS": "2025-06-16T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-09-20T00:00:00",
+        "MonthlyVolume": 579872.542
+      },
+      {
+        "MONTHS": "2024-12-06T00:00:00",
+        "MonthlyVolume": 386674.22
+      },
+      {
+        "MONTHS": "2025-05-24T00:00:00",
+        "MonthlyVolume": 547998.948
+      },
+      {
+        "MONTHS": "2024-08-28T00:00:00",
+        "MonthlyVolume": 1073560.5840000003
+      },
+      {
+        "MONTHS": "2024-12-29T00:00:00",
+        "MonthlyVolume": 1377617.396
+      },
+      {
+        "MONTHS": "2025-05-01T00:00:00",
+        "MonthlyVolume": 6534.0
+      },
+      {
+        "MONTHS": "2024-05-11T00:00:00",
+        "MonthlyVolume": 356896.85400000005
+      },
+      {
+        "MONTHS": "2025-01-15T00:00:00",
+        "MonthlyVolume": 564458.6440000001
+      },
+      {
+        "MONTHS": "2025-04-08T00:00:00",
+        "MonthlyVolume": 226892.706
+      },
+      {
+        "MONTHS": "2024-03-12T00:00:00",
+        "MonthlyVolume": 492436.93200000003
+      },
+      {
+        "MONTHS": "2024-03-26T00:00:00",
+        "MonthlyVolume": 1000641.202
+      },
+      {
+        "MONTHS": "2024-11-30T00:00:00",
+        "MonthlyVolume": 732309115.7513783
+      },
+      {
+        "MONTHS": "2025-02-21T00:00:00",
+        "MonthlyVolume": 384718.91599999997
+      },
+      {
+        "MONTHS": "2023-02-28T00:00:00",
+        "MonthlyVolume": 586919979.3120452
+      },
+      {
+        "MONTHS": "2024-01-26T00:00:00",
+        "MonthlyVolume": 683580.068
+      },
+      {
+        "MONTHS": "2024-09-28T00:00:00",
+        "MonthlyVolume": 896037.1279999999
+      },
+      {
+        "MONTHS": "2025-04-17T00:00:00",
+        "MonthlyVolume": 431735.946
+      },
+      {
+        "MONTHS": "2024-11-19T00:00:00",
+        "MonthlyVolume": 772853.004
+      },
+      {
+        "MONTHS": "2025-06-04T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2025-06-10T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-06-26T00:00:00",
+        "MonthlyVolume": 1027034.0199999999
+      },
+      {
+        "MONTHS": "2025-03-02T00:00:00",
+        "MonthlyVolume": 15832.0
+      },
+      {
+        "MONTHS": "2023-05-31T00:00:00",
+        "MonthlyVolume": 890182772.9708169
+      },
+      {
+        "MONTHS": "2024-02-01T00:00:00",
+        "MonthlyVolume": 13242.0
+      },
+      {
+        "MONTHS": "2024-10-04T00:00:00",
+        "MonthlyVolume": 29745.972
+      },
+      {
+        "MONTHS": "2024-05-17T00:00:00",
+        "MonthlyVolume": 550225.174
+      },
+      {
+        "MONTHS": "2024-07-27T00:00:00",
+        "MonthlyVolume": 695499.9459999999
+      },
+      {
+        "MONTHS": "2025-04-14T00:00:00",
+        "MonthlyVolume": 314009.706
+      },
+      {
+        "MONTHS": "2024-03-06T00:00:00",
+        "MonthlyVolume": 166714.598
+      },
+      {
+        "MONTHS": "2024-04-24T00:00:00",
+        "MonthlyVolume": 826687.99
+      },
+      {
+        "MONTHS": "2024-08-19T00:00:00",
+        "MonthlyVolume": 668763.436
+      },
+      {
+        "MONTHS": "2024-10-07T00:00:00",
+        "MonthlyVolume": 120101.29200000002
+      },
+      {
+        "MONTHS": "2024-03-29T00:00:00",
+        "MonthlyVolume": 1234314.56
+      },
+      {
+        "MONTHS": "2024-09-14T00:00:00",
+        "MonthlyVolume": 346215.978
+      },
+      {
+        "MONTHS": "2025-02-24T00:00:00",
+        "MonthlyVolume": 437066.81999999995
+      },
+      {
+        "MONTHS": "2025-03-19T00:00:00",
+        "MonthlyVolume": 514945.12
+      },
+      {
+        "MONTHS": "2025-05-07T00:00:00",
+        "MonthlyVolume": 56184.0
+      },
+      {
+        "MONTHS": "2024-02-15T00:00:00",
+        "MonthlyVolume": 319094.7
+      },
+      {
+        "MONTHS": "2024-01-23T00:00:00",
+        "MonthlyVolume": 650466.6279999999
+      },
+      {
+        "MONTHS": "2024-07-07T00:00:00",
+        "MonthlyVolume": 68685.55
+      },
+      {
+        "MONTHS": "2024-04-04T00:00:00",
+        "MonthlyVolume": 126826.696
+      },
+      {
+        "MONTHS": "2025-05-27T00:00:00",
+        "MonthlyVolume": 578614.948
+      },
+      {
+        "MONTHS": "2024-08-02T00:00:00",
+        "MonthlyVolume": 117026.42800000001
+      },
+      {
+        "MONTHS": "2022-10-31T00:00:00",
+        "MonthlyVolume": 403120.863
+      },
+      {
+        "MONTHS": "2024-04-18T00:00:00",
+        "MonthlyVolume": 561496.22
+      },
+      {
+        "MONTHS": "2024-01-03T00:00:00",
+        "MonthlyVolume": 114749.644
+      },
+      {
+        "MONTHS": "2024-01-15T00:00:00",
+        "MonthlyVolume": 439972.14800000004
+      },
+      {
+        "MONTHS": "2024-12-09T00:00:00",
+        "MonthlyVolume": 523465.876
+      },
+      {
+        "MONTHS": "2024-12-23T00:00:00",
+        "MonthlyVolume": 1081886.406
+      },
+      {
+        "MONTHS": "2025-02-10T00:00:00",
+        "MonthlyVolume": 173927.028
+      },
+      {
+        "MONTHS": "2024-02-21T00:00:00",
+        "MonthlyVolume": 476081.67
+      },
+      {
+        "MONTHS": "2024-10-27T00:00:00",
+        "MonthlyVolume": 839435.5719999999
+      },
+      {
+        "MONTHS": "2024-11-02T00:00:00",
+        "MonthlyVolume": 15278.0
+      },
+      {
+        "MONTHS": "2025-06-27T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2025-07-03T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-05-31T00:00:00",
+        "MonthlyVolume": 723083931.3225883
+      },
+      {
+        "MONTHS": "2024-06-06T00:00:00",
+        "MonthlyVolume": 201871.11199999996
+      },
+      {
+        "MONTHS": "2024-07-19T00:00:00",
+        "MonthlyVolume": 563869.5979999999
+      },
+      {
+        "MONTHS": "2024-01-09T00:00:00",
+        "MonthlyVolume": 375417.26100000006
+      },
+      {
+        "MONTHS": "2024-09-08T00:00:00",
+        "MonthlyVolume": 188114.82400000002
+      },
+      {
+        "MONTHS": "2025-05-15T00:00:00",
+        "MonthlyVolume": 306419.9
+      },
+      {
+        "MONTHS": "2025-02-04T00:00:00",
+        "MonthlyVolume": 90639.02799999999
+      },
+      {
+        "MONTHS": "2025-03-25T00:00:00",
+        "MonthlyVolume": 732405.244
+      },
+      {
+        "MONTHS": "2024-08-08T00:00:00",
+        "MonthlyVolume": 340530.268
+      },
+      {
+        "MONTHS": "2024-10-18T00:00:00",
+        "MonthlyVolume": 406988.05000000005
+      },
+      {
+        "MONTHS": "2024-08-31T00:00:00",
+        "MonthlyVolume": 675544029.6023765
+      },
+      {
+        "MONTHS": "2024-06-23T00:00:00",
+        "MonthlyVolume": 801839.5199999999
+      },
+      {
+        "MONTHS": "2025-05-21T00:00:00",
+        "MonthlyVolume": 472863.28800000006
+      },
+      {
+        "MONTHS": "2024-07-16T00:00:00",
+        "MonthlyVolume": 412001.43200000003
+      },
+      {
+        "MONTHS": "2025-06-13T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2025-01-18T00:00:00",
+        "MonthlyVolume": 593235.6440000001
+      },
+      {
+        "MONTHS": "2025-01-24T00:00:00",
+        "MonthlyVolume": 661980.644
+      },
+      {
+        "MONTHS": "2025-04-05T00:00:00",
+        "MonthlyVolume": 149732.294
+      },
+      {
+        "MONTHS": "2022-07-31T00:00:00",
+        "MonthlyVolume": 437828.0
+      },
+      {
+        "MONTHS": "2024-05-25T00:00:00",
+        "MonthlyVolume": 945637.2980000001
+      },
+      {
+        "MONTHS": "2024-12-26T00:00:00",
+        "MonthlyVolume": 1165051.054
+      },
+      {
+        "MONTHS": "2025-01-01T00:00:00",
+        "MonthlyVolume": 6220.0
+      },
+      {
+        "MONTHS": "2025-04-28T00:00:00",
+        "MonthlyVolume": 665166.118
+      },
+      {
+        "MONTHS": "2024-06-17T00:00:00",
+        "MonthlyVolume": 689902.77
+      },
+      {
+        "MONTHS": "2024-12-03T00:00:00",
+        "MonthlyVolume": 184703.5
+      },
+      {
+        "MONTHS": "2024-07-10T00:00:00",
+        "MonthlyVolume": 151217.53
+      },
+      {
+        "MONTHS": "2024-11-10T00:00:00",
+        "MonthlyVolume": 395325.64999999997
+      },
+      {
+        "MONTHS": "2025-03-13T00:00:00",
+        "MonthlyVolume": 403291.042
+      },
+      {
+        "MONTHS": "2024-08-25T00:00:00",
+        "MonthlyVolume": 1021368.5840000001
+      },
+      {
+        "MONTHS": "2024-10-01T00:00:00",
+        "MonthlyVolume": 7216.0
+      },
+      {
+        "MONTHS": "2025-03-05T00:00:00",
+        "MonthlyVolume": 127873.78
+      },
+      {
+        "MONTHS": "2024-03-15T00:00:00",
+        "MonthlyVolume": 553158.112
+      },
+      {
+        "MONTHS": "2024-10-10T00:00:00",
+        "MonthlyVolume": 190811.29200000002
+      },
+      {
+        "MONTHS": "2024-11-16T00:00:00",
+        "MonthlyVolume": 683454.144
+      },
+      {
+        "MONTHS": "2024-05-08T00:00:00",
+        "MonthlyVolume": 280933.506
+      },
+      {
+        "MONTHS": "2024-05-14T00:00:00",
+        "MonthlyVolume": 423967.174
+      },
+      {
+        "MONTHS": "2025-01-12T00:00:00",
+        "MonthlyVolume": 464632.964
+      },
+      {
+        "MONTHS": "2024-01-29T00:00:00",
+        "MonthlyVolume": 924009.7019999999
+      },
+      {
+        "MONTHS": "2024-02-04T00:00:00",
+        "MonthlyVolume": 72184.0
+      },
+      {
+        "MONTHS": "2024-06-29T00:00:00",
+        "MonthlyVolume": 1047594.0199999999
+      },
+      {
+        "MONTHS": "2025-02-27T00:00:00",
+        "MonthlyVolume": 466725.81999999995
+      },
+      {
+        "MONTHS": "2024-11-22T00:00:00",
+        "MonthlyVolume": 917541.004
+      },
+      {
+        "MONTHS": "2025-06-07T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2024-02-12T00:00:00",
+        "MonthlyVolume": 264784.7
+      },
+      {
+        "MONTHS": "2024-10-30T00:00:00",
+        "MonthlyVolume": 956146.7680000002
+      },
+      {
+        "MONTHS": "2025-01-09T00:00:00",
+        "MonthlyVolume": 380126.006
+      },
+      {
+        "MONTHS": "2022-06-30T00:00:00",
+        "MonthlyVolume": 504139.0
+      },
+      {
+        "MONTHS": "2025-02-01T00:00:00",
+        "MonthlyVolume": 63103.02799999999
+      },
+      {
+        "MONTHS": "2025-03-22T00:00:00",
+        "MonthlyVolume": 547253.12
+      },
+      {
+        "MONTHS": "2024-04-21T00:00:00",
+        "MonthlyVolume": 678694.692
+      },
+      {
+        "MONTHS": "2024-06-09T00:00:00",
+        "MonthlyVolume": 339363.52
+      },
+      {
+        "MONTHS": "2024-08-22T00:00:00",
+        "MonthlyVolume": 876174.2119999999
+      },
+      {
+        "MONTHS": "2023-11-30T00:00:00",
+        "MonthlyVolume": 556428245.8748538
+      },
+      {
+        "MONTHS": "2024-07-30T00:00:00",
+        "MonthlyVolume": 850560.6579999998
+      },
+      {
+        "MONTHS": "2025-04-11T00:00:00",
+        "MonthlyVolume": 286863.706
+      },
+      {
+        "MONTHS": "2025-05-04T00:00:00",
+        "MonthlyVolume": 25534.0
+      },
+      {
+        "MONTHS": "2024-04-01T00:00:00",
+        "MonthlyVolume": 8150.0
+      },
+      {
+        "MONTHS": "2024-03-09T00:00:00",
+        "MonthlyVolume": 282182.176
+      },
+      {
+        "MONTHS": "2024-04-27T00:00:00",
+        "MonthlyVolume": 903551.99
+      },
+      {
+        "MONTHS": "2024-02-18T00:00:00",
+        "MonthlyVolume": 380454.7
+      },
+      {
+        "MONTHS": "2024-10-24T00:00:00",
+        "MonthlyVolume": 772113.572
+      },
+      {
+        "MONTHS": "2025-06-30T00:00:00",
+        "MonthlyVolume": 0.0
+      },
+      {
+        "MONTHS": "2025-02-07T00:00:00",
+        "MonthlyVolume": 126187.02799999999
+      },
+      {
+        "MONTHS": "2025-03-16T00:00:00",
+        "MonthlyVolume": 436670.042
+      },
+      {
+        "MONTHS": "2024-01-12T00:00:00",
+        "MonthlyVolume": 374270.14800000004
+      },
+      {
+        "MONTHS": "2024-04-07T00:00:00",
+        "MonthlyVolume": 231671.396
+      },
+      {
+        "MONTHS": "2024-09-17T00:00:00",
+        "MonthlyVolume": 501099.61399999994
+      },
+      {
+        "MONTHS": "2024-12-12T00:00:00",
+        "MonthlyVolume": 649050.8759999999
+      },
+      {
+        "MONTHS": "2024-03-03T00:00:00",
+        "MonthlyVolume": 116562.598
+      },
+      {
+        "MONTHS": "2024-12-20T00:00:00",
+        "MonthlyVolume": 995671.4319999999
+      },
+      {
+        "MONTHS": "2024-01-06T00:00:00",
+        "MonthlyVolume": 197834.35
+      },
+      {
+        "MONTHS": "2024-09-11T00:00:00",
+        "MonthlyVolume": 246987.244
+      },
+      {
+        "MONTHS": "2024-04-15T00:00:00",
+        "MonthlyVolume": 383523.984
+      },
+      {
+        "MONTHS": "2024-06-03T00:00:00",
+        "MonthlyVolume": 86080.194
+      }
+    ],
+    "sources": null,
+    "timestamp": "02 Jun, 04:02 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "no i want like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..",
+    "response": [],
+    "sources": null,
+    "timestamp": "02 Jun, 04:03 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "give me month wise volume like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..",
+    "response": [],
+    "sources": null,
+    "timestamp": "02 Jun, 04:04 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "give me month wise volume MTD Actuals is month volumne like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..",
+    "response": [
+      {
+        "MONTHS": "2024-01-07T00:00:00",
+        "MTD_Actuals_Volume": 199286.35
+      },
+      {
+        "MONTHS": "2024-12-04T00:00:00",
+        "MTD_Actuals_Volume": 205707.5
+      },
+      {
+        "MONTHS": "2024-01-30T00:00:00",
+        "MTD_Actuals_Volume": 927217.7019999999
+      },
+      {
+        "MONTHS": "2024-12-27T00:00:00",
+        "MTD_Actuals_Volume": 1301336.02
+      },
+      {
+        "MONTHS": "2024-05-03T00:00:00",
+        "MTD_Actuals_Volume": 90691.08600000001
+      },
+      {
+        "MONTHS": "2025-01-19T00:00:00",
+        "MTD_Actuals_Volume": 604323.644
+      },
+      {
+        "MONTHS": "2025-03-31T00:00:00",
+        "MTD_Actuals_Volume": 985309.182
+      },
+      {
+        "MONTHS": "2024-04-10T00:00:00",
+        "MTD_Actuals_Volume": 253017.396
+      },
+      {
+        "MONTHS": "2025-03-08T00:00:00",
+        "MTD_Actuals_Volume": 152390.78
+      },
+      {
+        "MONTHS": "2024-06-18T00:00:00",
+        "MTD_Actuals_Volume": 710575.52
+      },
+      {
+        "MONTHS": "2024-09-03T00:00:00",
+        "MTD_Actuals_Volume": 74730.824
+      },
+      {
+        "MONTHS": "2025-05-22T00:00:00",
+        "MTD_Actuals_Volume": 485455.28800000006
+      },
+      {
+        "MONTHS": "2024-05-26T00:00:00",
+        "MTD_Actuals_Volume": 946307.2980000001
+      },
+      {
+        "MONTHS": "2024-09-26T00:00:00",
+        "MTD_Actuals_Volume": 830312.774
+      },
+      {
+        "MONTHS": "2025-04-29T00:00:00",
+        "MTD_Actuals_Volume": 747359.814
+      },
+      {
+        "MONTHS": "2024-08-03T00:00:00",
+        "MTD_Actuals_Volume": 119826.42800000001
+      },
+      {
+        "MONTHS": "2024-10-19T00:00:00",
+        "MTD_Actuals_Volume": 535401.6240000001
+      },
+      {
+        "MONTHS": "2025-04-06T00:00:00",
+        "MTD_Actuals_Volume": 153486.294
+      },
+      {
+        "MONTHS": "2024-07-11T00:00:00",
+        "MTD_Actuals_Volume": 206705.55600000004
+      },
+      {
+        "MONTHS": "2024-11-11T00:00:00",
+        "MTD_Actuals_Volume": 403649.64999999997
+      },
+      {
+        "MONTHS": "2025-03-14T00:00:00",
+        "MTD_Actuals_Volume": 415913.042
+      },
+      {
+        "MONTHS": "2024-03-24T00:00:00",
+        "MTD_Actuals_Volume": 939945.202
+      },
+      {
+        "MONTHS": "2024-11-28T00:00:00",
+        "MTD_Actuals_Volume": 1168238.3339999998
+      },
+      {
+        "MONTHS": "2025-02-19T00:00:00",
+        "MTD_Actuals_Volume": 367366.91599999997
+      },
+      {
+        "MONTHS": "2024-01-24T00:00:00",
+        "MTD_Actuals_Volume": 666292.068
+      },
+      {
+        "MONTHS": "2024-08-26T00:00:00",
+        "MTD_Actuals_Volume": 1056068.5840000003
+      },
+      {
+        "MONTHS": "2022-12-31T00:00:00",
+        "MTD_Actuals_Volume": 552257.0
+      },
+      {
+        "MONTHS": "2024-02-07T00:00:00",
+        "MTD_Actuals_Volume": 205952.7
+      },
+      {
+        "MONTHS": "2024-10-13T00:00:00",
+        "MTD_Actuals_Volume": 230793.25199999998
+      },
+      {
+        "MONTHS": "2025-01-04T00:00:00",
+        "MTD_Actuals_Volume": 159970.0
+      },
+      {
+        "MONTHS": "2024-08-11T00:00:00",
+        "MTD_Actuals_Volume": 438891.89599999995
+      },
+      {
+        "MONTHS": "2024-11-17T00:00:00",
+        "MTD_Actuals_Volume": 693242.2139999999
+      },
+      {
+        "MONTHS": "2024-06-24T00:00:00",
+        "MTD_Actuals_Volume": 873494.86
+      },
+      {
+        "MONTHS": "2025-02-28T00:00:00",
+        "MTD_Actuals_Volume": 717117118.2942344
+      },
+      {
+        "MONTHS": "2024-10-02T00:00:00",
+        "MTD_Actuals_Volume": 16599.972
+      },
+      {
+        "MONTHS": "2025-04-23T00:00:00",
+        "MTD_Actuals_Volume": 480453.946
+      },
+      {
+        "MONTHS": "2022-09-30T00:00:00",
+        "MTD_Actuals_Volume": 402315.04
+      },
+      {
+        "MONTHS": "2024-05-09T00:00:00",
+        "MTD_Actuals_Volume": 338030.85400000005
+      },
+      {
+        "MONTHS": "2025-01-13T00:00:00",
+        "MTD_Actuals_Volume": 522250.64400000003
+      },
+      {
+        "MONTHS": "2024-08-17T00:00:00",
+        "MTD_Actuals_Volume": 621831.436
+      },
+      {
+        "MONTHS": "2025-06-08T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-09-12T00:00:00",
+        "MTD_Actuals_Volume": 298817.37399999995
+      },
+      {
+        "MONTHS": "2024-12-15T00:00:00",
+        "MTD_Actuals_Volume": 680394.8759999999
+      },
+      {
+        "MONTHS": "2025-02-02T00:00:00",
+        "MTD_Actuals_Volume": 69389.02799999999
+      },
+      {
+        "MONTHS": "2023-08-31T00:00:00",
+        "MTD_Actuals_Volume": 992443114.3322116
+      },
+      {
+        "MONTHS": "2025-06-25T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2025-04-12T00:00:00",
+        "MTD_Actuals_Volume": 296763.706
+      },
+      {
+        "MONTHS": "2024-03-04T00:00:00",
+        "MTD_Actuals_Volume": 119166.598
+      },
+      {
+        "MONTHS": "2024-04-22T00:00:00",
+        "MTD_Actuals_Volume": 745445.95
+      },
+      {
+        "MONTHS": "2024-07-05T00:00:00",
+        "MTD_Actuals_Volume": 57979.55
+      },
+      {
+        "MONTHS": "2025-06-02T00:00:00",
+        "MTD_Actuals_Volume": 4682.0
+      },
+      {
+        "MONTHS": "2024-04-02T00:00:00",
+        "MTD_Actuals_Volume": 50894.0
+      },
+      {
+        "MONTHS": "2024-06-12T00:00:00",
+        "MTD_Actuals_Volume": 476577.52
+      },
+      {
+        "MONTHS": "2025-02-22T00:00:00",
+        "MTD_Actuals_Volume": 396474.91599999997
+      },
+      {
+        "MONTHS": "2025-03-17T00:00:00",
+        "MTD_Actuals_Volume": 446990.042
+      },
+      {
+        "MONTHS": "2024-02-13T00:00:00",
+        "MTD_Actuals_Volume": 273684.7
+      },
+      {
+        "MONTHS": "2025-06-19T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-01-21T00:00:00",
+        "MTD_Actuals_Volume": 541610.148
+      },
+      {
+        "MONTHS": "2024-03-10T00:00:00",
+        "MTD_Actuals_Volume": 282782.176
+      },
+      {
+        "MONTHS": "2024-01-01T00:00:00",
+        "MTD_Actuals_Volume": 3658.0
+      },
+      {
+        "MONTHS": "2024-09-06T00:00:00",
+        "MTD_Actuals_Volume": 135086.824
+      },
+      {
+        "MONTHS": "2025-05-13T00:00:00",
+        "MTD_Actuals_Volume": 179666.01
+      },
+      {
+        "MONTHS": "2022-03-31T00:00:00",
+        "MTD_Actuals_Volume": 656022.0
+      },
+      {
+        "MONTHS": "2024-12-21T00:00:00",
+        "MTD_Actuals_Volume": 1021734.406
+      },
+      {
+        "MONTHS": "2025-01-27T00:00:00",
+        "MTD_Actuals_Volume": 786187.664
+      },
+      {
+        "MONTHS": "2025-02-08T00:00:00",
+        "MTD_Actuals_Volume": 142580.028
+      },
+      {
+        "MONTHS": "2024-07-31T00:00:00",
+        "MTD_Actuals_Volume": 631187183.2700092
+      },
+      {
+        "MONTHS": "2024-02-19T00:00:00",
+        "MTD_Actuals_Volume": 391714.7
+      },
+      {
+        "MONTHS": "2024-10-25T00:00:00",
+        "MTD_Actuals_Volume": 822143.5719999999
+      },
+      {
+        "MONTHS": "2023-01-31T00:00:00",
+        "MTD_Actuals_Volume": 913061755.3297089
+      },
+      {
+        "MONTHS": "2024-07-25T00:00:00",
+        "MTD_Actuals_Volume": 660674.1259999999
+      },
+      {
+        "MONTHS": "2025-07-01T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-02-27T00:00:00",
+        "MTD_Actuals_Volume": 695431.794
+      },
+      {
+        "MONTHS": "2024-04-16T00:00:00",
+        "MTD_Actuals_Volume": 442195.984
+      },
+      {
+        "MONTHS": "2024-06-04T00:00:00",
+        "MTD_Actuals_Volume": 130476.194
+      },
+      {
+        "MONTHS": "2024-06-21T00:00:00",
+        "MTD_Actuals_Volume": 785751.52
+      },
+      {
+        "MONTHS": "2025-05-19T00:00:00",
+        "MTD_Actuals_Volume": 395173.4
+      },
+      {
+        "MONTHS": "2024-07-14T00:00:00",
+        "MTD_Actuals_Volume": 332638.944
+      },
+      {
+        "MONTHS": "2025-06-11T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-05-06T00:00:00",
+        "MTD_Actuals_Volume": 207322.598
+      },
+      {
+        "MONTHS": "2025-04-03T00:00:00",
+        "MTD_Actuals_Volume": 68490.294
+      },
+      {
+        "MONTHS": "2024-05-29T00:00:00",
+        "MTD_Actuals_Volume": 1017777.2980000001
+      },
+      {
+        "MONTHS": "2025-04-26T00:00:00",
+        "MTD_Actuals_Volume": 642528.118
+      },
+      {
+        "MONTHS": "2024-12-01T00:00:00",
+        "MTD_Actuals_Volume": 44178.0
+      },
+      {
+        "MONTHS": "2024-12-07T00:00:00",
+        "MTD_Actuals_Volume": 413421.168
+      },
+      {
+        "MONTHS": "2025-02-16T00:00:00",
+        "MTD_Actuals_Volume": 283251.486
+      },
+      {
+        "MONTHS": "2024-11-08T00:00:00",
+        "MTD_Actuals_Volume": 264168.708
+      },
+      {
+        "MONTHS": "2024-11-14T00:00:00",
+        "MTD_Actuals_Volume": 572396.868
+      },
+      {
+        "MONTHS": "2025-03-11T00:00:00",
+        "MTD_Actuals_Volume": 237875.32
+      },
+      {
+        "MONTHS": "2024-04-30T00:00:00",
+        "MTD_Actuals_Volume": 753273943.7613161
+      },
+      {
+        "MONTHS": "2024-10-16T00:00:00",
+        "MTD_Actuals_Volume": 358019.536
+      },
+      {
+        "MONTHS": "2024-05-23T00:00:00",
+        "MTD_Actuals_Volume": 756442.982
+      },
+      {
+        "MONTHS": "2024-09-23T00:00:00",
+        "MTD_Actuals_Volume": 648882.542
+      },
+      {
+        "MONTHS": "2024-07-08T00:00:00",
+        "MTD_Actuals_Volume": 79391.54999999999
+      },
+      {
+        "MONTHS": "2024-08-14T00:00:00",
+        "MTD_Actuals_Volume": 573858.9759999999
+      },
+      {
+        "MONTHS": "2025-06-05T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2025-01-16T00:00:00",
+        "MTD_Actuals_Volume": 575047.6440000001
+      },
+      {
+        "MONTHS": "2024-01-27T00:00:00",
+        "MTD_Actuals_Volume": 797145.442
+      },
+      {
+        "MONTHS": "2024-08-23T00:00:00",
+        "MTD_Actuals_Volume": 945919.2120000002
+      },
+      {
+        "MONTHS": "2024-09-29T00:00:00",
+        "MTD_Actuals_Volume": 902689.1279999999
+      },
+      {
+        "MONTHS": "2024-03-21T00:00:00",
+        "MTD_Actuals_Volume": 726869.898
+      },
+      {
+        "MONTHS": "2024-03-27T00:00:00",
+        "MTD_Actuals_Volume": 1080857.408
+      },
+      {
+        "MONTHS": "2024-11-25T00:00:00",
+        "MTD_Actuals_Volume": 1033810.2799999998
+      },
+      {
+        "MONTHS": "2024-05-12T00:00:00",
+        "MTD_Actuals_Volume": 382004.85400000005
+      },
+      {
+        "MONTHS": "2025-01-10T00:00:00",
+        "MTD_Actuals_Volume": 452429.9639999999
+      },
+      {
+        "MONTHS": "2024-10-05T00:00:00",
+        "MTD_Actuals_Volume": 52739.972
+      },
+      {
+        "MONTHS": "2025-04-20T00:00:00",
+        "MTD_Actuals_Volume": 462501.946
+      },
+      {
+        "MONTHS": "2024-03-30T00:00:00",
+        "MTD_Actuals_Volume": 1249386.56
+      },
+      {
+        "MONTHS": "2025-02-25T00:00:00",
+        "MTD_Actuals_Volume": 442754.81999999995
+      },
+      {
+        "MONTHS": "2024-01-18T00:00:00",
+        "MTD_Actuals_Volume": 475688.14800000004
+      },
+      {
+        "MONTHS": "2024-03-07T00:00:00",
+        "MTD_Actuals_Volume": 229912.17599999998
+      },
+      {
+        "MONTHS": "2024-07-02T00:00:00",
+        "MTD_Actuals_Volume": 15108.0
+      },
+      {
+        "MONTHS": "2024-08-20T00:00:00",
+        "MTD_Actuals_Volume": 736135.436
+      },
+      {
+        "MONTHS": "2025-05-30T00:00:00",
+        "MTD_Actuals_Volume": 617571.088
+      },
+      {
+        "MONTHS": "2024-02-10T00:00:00",
+        "MTD_Actuals_Volume": 249618.7
+      },
+      {
+        "MONTHS": "2024-07-28T00:00:00",
+        "MTD_Actuals_Volume": 786793.1979999999
+      },
+      {
+        "MONTHS": "2025-01-07T00:00:00",
+        "MTD_Actuals_Volume": 300080.676
+      },
+      {
+        "MONTHS": "2025-01-30T00:00:00",
+        "MTD_Actuals_Volume": 816643.664
+      },
+      {
+        "MONTHS": "2025-03-20T00:00:00",
+        "MTD_Actuals_Volume": 525681.12
+      },
+      {
+        "MONTHS": "2023-04-30T00:00:00",
+        "MTD_Actuals_Volume": 987553884.3955281
+      },
+      {
+        "MONTHS": "2024-05-20T00:00:00",
+        "MTD_Actuals_Volume": 683557.554
+      },
+      {
+        "MONTHS": "2024-02-16T00:00:00",
+        "MTD_Actuals_Volume": 329038.7
+      },
+      {
+        "MONTHS": "2025-06-22T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2025-04-09T00:00:00",
+        "MTD_Actuals_Volume": 258424.706
+      },
+      {
+        "MONTHS": "2025-05-02T00:00:00",
+        "MTD_Actuals_Volume": 16928.0
+      },
+      {
+        "MONTHS": "2024-06-15T00:00:00",
+        "MTD_Actuals_Volume": 536766.9500000001
+      },
+      {
+        "MONTHS": "2024-03-01T00:00:00",
+        "MTD_Actuals_Volume": 32246.300000000003
+      },
+      {
+        "MONTHS": "2024-10-22T00:00:00",
+        "MTD_Actuals_Volume": 690322.376
+      },
+      {
+        "MONTHS": "2025-06-28T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-11-05T00:00:00",
+        "MTD_Actuals_Volume": 188127.546
+      },
+      {
+        "MONTHS": "2024-12-24T00:00:00",
+        "MTD_Actuals_Volume": 1131614.01
+      },
+      {
+        "MONTHS": "2024-01-04T00:00:00",
+        "MTD_Actuals_Volume": 124983.644
+      },
+      {
+        "MONTHS": "2024-01-10T00:00:00",
+        "MTD_Actuals_Volume": 388309.26100000006
+      },
+      {
+        "MONTHS": "2024-09-09T00:00:00",
+        "MTD_Actuals_Volume": 197100.82400000002
+      },
+      {
+        "MONTHS": "2024-09-15T00:00:00",
+        "MTD_Actuals_Volume": 352629.978
+      },
+      {
+        "MONTHS": "2025-05-16T00:00:00",
+        "MTD_Actuals_Volume": 318039.9
+      },
+      {
+        "MONTHS": "2025-05-10T00:00:00",
+        "MTD_Actuals_Volume": 146996.01
+      },
+      {
+        "MONTHS": "2024-04-13T00:00:00",
+        "MTD_Actuals_Volume": 348100.686
+      },
+      {
+        "MONTHS": "2024-04-19T00:00:00",
+        "MTD_Actuals_Volume": 566892.22
+      },
+      {
+        "MONTHS": "2024-06-01T00:00:00",
+        "MTD_Actuals_Volume": 9463.6
+      },
+      {
+        "MONTHS": "2024-07-22T00:00:00",
+        "MTD_Actuals_Volume": 635176.126
+      },
+      {
+        "MONTHS": "2025-03-28T00:00:00",
+        "MTD_Actuals_Volume": 878323.292
+      },
+      {
+        "MONTHS": "2025-07-04T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-12-18T00:00:00",
+        "MTD_Actuals_Volume": 861510.4639999999
+      },
+      {
+        "MONTHS": "2025-02-05T00:00:00",
+        "MTD_Actuals_Volume": 101795.02799999999
+      },
+      {
+        "MONTHS": "2022-11-30T00:00:00",
+        "MTD_Actuals_Volume": 524814.5549999999
+      },
+      {
+        "MONTHS": "2024-09-24T00:00:00",
+        "MTD_Actuals_Volume": 713301.332
+      },
+      {
+        "MONTHS": "2024-09-01T00:00:00",
+        "MTD_Actuals_Volume": 8786.0
+      },
+      {
+        "MONTHS": "2024-02-22T00:00:00",
+        "MTD_Actuals_Volume": 507271.67
+      },
+      {
+        "MONTHS": "2024-08-09T00:00:00",
+        "MTD_Actuals_Volume": 398767.89599999995
+      },
+      {
+        "MONTHS": "2025-04-27T00:00:00",
+        "MTD_Actuals_Volume": 651672.118
+      },
+      {
+        "MONTHS": "2024-03-16T00:00:00",
+        "MTD_Actuals_Volume": 591564.112
+      },
+      {
+        "MONTHS": "2024-07-17T00:00:00",
+        "MTD_Actuals_Volume": 428133.43200000003
+      },
+      {
+        "MONTHS": "2025-02-11T00:00:00",
+        "MTD_Actuals_Volume": 177931.028
+      },
+      {
+        "MONTHS": "2025-06-14T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-04-08T00:00:00",
+        "MTD_Actuals_Volume": 244157.396
+      },
+      {
+        "MONTHS": "2025-03-12T00:00:00",
+        "MTD_Actuals_Volume": 246767.32
+      },
+      {
+        "MONTHS": "2024-05-01T00:00:00",
+        "MTD_Actuals_Volume": 61535.08600000001
+      },
+      {
+        "MONTHS": "2024-12-02T00:00:00",
+        "MTD_Actuals_Volume": 179161.5
+      },
+      {
+        "MONTHS": "2025-04-04T00:00:00",
+        "MTD_Actuals_Volume": 89465.294
+      },
+      {
+        "MONTHS": "2024-05-24T00:00:00",
+        "MTD_Actuals_Volume": 909385.3
+      },
+      {
+        "MONTHS": "2024-11-09T00:00:00",
+        "MTD_Actuals_Volume": 385790.708
+      },
+      {
+        "MONTHS": "2025-01-25T00:00:00",
+        "MTD_Actuals_Volume": 765793.664
+      },
+      {
+        "MONTHS": "2024-06-16T00:00:00",
+        "MTD_Actuals_Volume": 637860.43
+      },
+      {
+        "MONTHS": "2024-10-17T00:00:00",
+        "MTD_Actuals_Volume": 363471.536
+      },
+      {
+        "MONTHS": "2025-02-17T00:00:00",
+        "MTD_Actuals_Volume": 291137.486
+      },
+      {
+        "MONTHS": "2024-09-30T00:00:00",
+        "MTD_Actuals_Volume": 525510028.30510515
+      },
+      {
+        "MONTHS": "2024-07-09T00:00:00",
+        "MTD_Actuals_Volume": 132641.55
+      },
+      {
+        "MONTHS": "2025-06-06T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-02-05T00:00:00",
+        "MTD_Actuals_Volume": 80766.0
+      },
+      {
+        "MONTHS": "2025-01-02T00:00:00",
+        "MTD_Actuals_Volume": 138319.0
+      },
+      {
+        "MONTHS": "2024-10-11T00:00:00",
+        "MTD_Actuals_Volume": 197891.29200000002
+      },
+      {
+        "MONTHS": "2024-06-30T00:00:00",
+        "MTD_Actuals_Volume": 744217688.2569695
+      },
+      {
+        "MONTHS": "2025-03-06T00:00:00",
+        "MTD_Actuals_Volume": 133495.78
+      },
+      {
+        "MONTHS": "2024-05-07T00:00:00",
+        "MTD_Actuals_Volume": 272443.506
+      },
+      {
+        "MONTHS": "2024-11-26T00:00:00",
+        "MTD_Actuals_Volume": 1116588.3339999998
+      },
+      {
+        "MONTHS": "2024-08-15T00:00:00",
+        "MTD_Actuals_Volume": 607289.436
+      },
+      {
+        "MONTHS": "2025-04-21T00:00:00",
+        "MTD_Actuals_Volume": 469407.946
+      },
+      {
+        "MONTHS": "2024-03-22T00:00:00",
+        "MTD_Actuals_Volume": 750059.898
+      },
+      {
+        "MONTHS": "2025-01-11T00:00:00",
+        "MTD_Actuals_Volume": 463314.964
+      },
+      {
+        "MONTHS": "2024-01-19T00:00:00",
+        "MTD_Actuals_Volume": 528364.148
+      },
+      {
+        "MONTHS": "2024-07-03T00:00:00",
+        "MTD_Actuals_Volume": 27722.0
+      },
+      {
+        "MONTHS": "2025-05-31T00:00:00",
+        "MTD_Actuals_Volume": 630389.088
+      },
+      {
+        "MONTHS": "2024-02-11T00:00:00",
+        "MTD_Actuals_Volume": 252946.7
+      },
+      {
+        "MONTHS": "2025-01-08T00:00:00",
+        "MTD_Actuals_Volume": 303524.676
+      },
+      {
+        "MONTHS": "2025-06-23T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-05-15T00:00:00",
+        "MTD_Actuals_Volume": 474773.174
+      },
+      {
+        "MONTHS": "2024-08-21T00:00:00",
+        "MTD_Actuals_Volume": 826234.2119999999
+      },
+      {
+        "MONTHS": "2025-01-31T00:00:00",
+        "MTD_Actuals_Volume": 896094820.0595613
+      },
+      {
+        "MONTHS": "2024-06-10T00:00:00",
+        "MTD_Actuals_Volume": 391353.52
+      },
+      {
+        "MONTHS": "2024-07-29T00:00:00",
+        "MTD_Actuals_Volume": 847260.6579999998
+      },
+      {
+        "MONTHS": "2022-02-28T00:00:00",
+        "MTD_Actuals_Volume": 558694.0
+      },
+      {
+        "MONTHS": "2025-05-05T00:00:00",
+        "MTD_Actuals_Volume": 37786.0
+      },
+      {
+        "MONTHS": "2024-05-21T00:00:00",
+        "MTD_Actuals_Volume": 730369.554
+      },
+      {
+        "MONTHS": "2024-04-28T00:00:00",
+        "MTD_Actuals_Volume": 957926.828
+      },
+      {
+        "MONTHS": "2024-01-13T00:00:00",
+        "MTD_Actuals_Volume": 422532.14800000004
+      },
+      {
+        "MONTHS": "2024-09-18T00:00:00",
+        "MTD_Actuals_Volume": 510659.61399999994
+      },
+      {
+        "MONTHS": "2025-03-15T00:00:00",
+        "MTD_Actuals_Volume": 428814.042
+      },
+      {
+        "MONTHS": "2025-05-25T00:00:00",
+        "MTD_Actuals_Volume": 558886.948
+      },
+      {
+        "MONTHS": "2022-05-31T00:00:00",
+        "MTD_Actuals_Volume": 443998.04
+      },
+      {
+        "MONTHS": "2025-06-29T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-03-02T00:00:00",
+        "MTD_Actuals_Volume": 82352.29999999999
+      },
+      {
+        "MONTHS": "2024-11-06T00:00:00",
+        "MTD_Actuals_Volume": 205458.70799999998
+      },
+      {
+        "MONTHS": "2024-09-04T00:00:00",
+        "MTD_Actuals_Volume": 117112.824
+      },
+      {
+        "MONTHS": "2024-04-14T00:00:00",
+        "MTD_Actuals_Volume": 350136.686
+      },
+      {
+        "MONTHS": "2024-12-13T00:00:00",
+        "MTD_Actuals_Volume": 659050.8759999999
+      },
+      {
+        "MONTHS": "2024-12-19T00:00:00",
+        "MTD_Actuals_Volume": 869132.4639999999
+      },
+      {
+        "MONTHS": "2024-01-05T00:00:00",
+        "MTD_Actuals_Volume": 144344.698
+      },
+      {
+        "MONTHS": "2025-03-23T00:00:00",
+        "MTD_Actuals_Volume": 657177.112
+      },
+      {
+        "MONTHS": "2025-03-29T00:00:00",
+        "MTD_Actuals_Volume": 894615.292
+      },
+      {
+        "MONTHS": "2025-05-17T00:00:00",
+        "MTD_Actuals_Volume": 376177.4
+      },
+      {
+        "MONTHS": "2025-05-11T00:00:00",
+        "MTD_Actuals_Volume": 154608.01
+      },
+      {
+        "MONTHS": "2024-02-25T00:00:00",
+        "MTD_Actuals_Volume": 675079.794
+      },
+      {
+        "MONTHS": "2024-10-31T00:00:00",
+        "MTD_Actuals_Volume": 687156197.7979782
+      },
+      {
+        "MONTHS": "2024-07-23T00:00:00",
+        "MTD_Actuals_Volume": 643130.1259999999
+      },
+      {
+        "MONTHS": "2024-09-10T00:00:00",
+        "MTD_Actuals_Volume": 237565.244
+      },
+      {
+        "MONTHS": "2024-04-11T00:00:00",
+        "MTD_Actuals_Volume": 293729.396
+      },
+      {
+        "MONTHS": "2025-03-09T00:00:00",
+        "MTD_Actuals_Volume": 214050.32
+      },
+      {
+        "MONTHS": "2024-03-19T00:00:00",
+        "MTD_Actuals_Volume": 664583.898
+      },
+      {
+        "MONTHS": "2025-02-14T00:00:00",
+        "MTD_Actuals_Volume": 231082.886
+      },
+      {
+        "MONTHS": "2023-06-30T00:00:00",
+        "MTD_Actuals_Volume": 881426309.9888827
+      },
+      {
+        "MONTHS": "2024-05-27T00:00:00",
+        "MTD_Actuals_Volume": 999621.2980000001
+      },
+      {
+        "MONTHS": "2025-04-24T00:00:00",
+        "MTD_Actuals_Volume": 479348.946
+      },
+      {
+        "MONTHS": "2024-05-04T00:00:00",
+        "MTD_Actuals_Volume": 152456.83000000002
+      },
+      {
+        "MONTHS": "2025-04-01T00:00:00",
+        "MTD_Actuals_Volume": 7094.0
+      },
+      {
+        "MONTHS": "2024-09-21T00:00:00",
+        "MTD_Actuals_Volume": 629192.542
+      },
+      {
+        "MONTHS": "2024-09-27T00:00:00",
+        "MTD_Actuals_Volume": 837528.774
+      },
+      {
+        "MONTHS": "2024-06-19T00:00:00",
+        "MTD_Actuals_Volume": 759175.52
+      },
+      {
+        "MONTHS": "2024-10-14T00:00:00",
+        "MTD_Actuals_Volume": 280879.252
+      },
+      {
+        "MONTHS": "2024-10-20T00:00:00",
+        "MTD_Actuals_Volume": 561763.65
+      },
+      {
+        "MONTHS": "2024-08-06T00:00:00",
+        "MTD_Actuals_Volume": 288590.268
+      },
+      {
+        "MONTHS": "2024-11-12T00:00:00",
+        "MTD_Actuals_Volume": 505938.25
+      },
+      {
+        "MONTHS": "2025-01-22T00:00:00",
+        "MTD_Actuals_Volume": 633100.644
+      },
+      {
+        "MONTHS": "2024-08-29T00:00:00",
+        "MTD_Actuals_Volume": 1083838.5840000003
+      },
+      {
+        "MONTHS": "2024-12-30T00:00:00",
+        "MTD_Actuals_Volume": 1396263.396
+      },
+      {
+        "MONTHS": "2025-04-07T00:00:00",
+        "MTD_Actuals_Volume": 182210.706
+      },
+      {
+        "MONTHS": "2023-07-31T00:00:00",
+        "MTD_Actuals_Volume": 879031097.2809179
+      },
+      {
+        "MONTHS": "2024-01-25T00:00:00",
+        "MTD_Actuals_Volume": 678400.068
+      },
+      {
+        "MONTHS": "2024-06-27T00:00:00",
+        "MTD_Actuals_Volume": 1035594.0199999999
+      },
+      {
+        "MONTHS": "2025-03-03T00:00:00",
+        "MTD_Actuals_Volume": 82459.78
+      },
+      {
+        "MONTHS": "2024-03-13T00:00:00",
+        "MTD_Actuals_Volume": 527658.112
+      },
+      {
+        "MONTHS": "2024-03-25T00:00:00",
+        "MTD_Actuals_Volume": 992883.202
+      },
+      {
+        "MONTHS": "2025-02-20T00:00:00",
+        "MTD_Actuals_Volume": 377470.91599999997
+      },
+      {
+        "MONTHS": "2025-06-17T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-08-12T00:00:00",
+        "MTD_Actuals_Volume": 484409.89599999995
+      },
+      {
+        "MONTHS": "2024-02-08T00:00:00",
+        "MTD_Actuals_Volume": 217930.7
+      },
+      {
+        "MONTHS": "2024-11-29T00:00:00",
+        "MTD_Actuals_Volume": 1255162.0939999998
+      },
+      {
+        "MONTHS": "2025-01-05T00:00:00",
+        "MTD_Actuals_Volume": 161626.0
+      },
+      {
+        "MONTHS": "2023-10-31T00:00:00",
+        "MTD_Actuals_Volume": 685326136.786378
+      },
+      {
+        "MONTHS": "2025-06-03T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-10-08T00:00:00",
+        "MTD_Actuals_Volume": 170167.29200000002
+      },
+      {
+        "MONTHS": "2024-11-20T00:00:00",
+        "MTD_Actuals_Volume": 783739.004
+      },
+      {
+        "MONTHS": "2024-08-18T00:00:00",
+        "MTD_Actuals_Volume": 667881.436
+      },
+      {
+        "MONTHS": "2025-04-18T00:00:00",
+        "MTD_Actuals_Volume": 436283.946
+      },
+      {
+        "MONTHS": "2024-02-02T00:00:00",
+        "MTD_Actuals_Volume": 19412.0
+      },
+      {
+        "MONTHS": "2024-11-23T00:00:00",
+        "MTD_Actuals_Volume": 926631.004
+      },
+      {
+        "MONTHS": "2024-12-16T00:00:00",
+        "MTD_Actuals_Volume": 735444.8759999999
+      },
+      {
+        "MONTHS": "2024-07-26T00:00:00",
+        "MTD_Actuals_Volume": 665130.1259999999
+      },
+      {
+        "MONTHS": "2024-03-05T00:00:00",
+        "MTD_Actuals_Volume": 158402.598
+      },
+      {
+        "MONTHS": "2024-05-18T00:00:00",
+        "MTD_Actuals_Volume": 607923.1340000001
+      },
+      {
+        "MONTHS": "2025-04-15T00:00:00",
+        "MTD_Actuals_Volume": 387324.86600000004
+      },
+      {
+        "MONTHS": "2024-03-28T00:00:00",
+        "MTD_Actuals_Volume": 1091153.408
+      },
+      {
+        "MONTHS": "2025-02-23T00:00:00",
+        "MTD_Actuals_Volume": 422752.81999999995
+      },
+      {
+        "MONTHS": "2025-05-08T00:00:00",
+        "MTD_Actuals_Volume": 66592.0
+      },
+      {
+        "MONTHS": "2025-06-26T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-01-16T00:00:00",
+        "MTD_Actuals_Volume": 460908.14800000004
+      },
+      {
+        "MONTHS": "2024-01-22T00:00:00",
+        "MTD_Actuals_Volume": 645790.6279999999
+      },
+      {
+        "MONTHS": "2024-07-06T00:00:00",
+        "MTD_Actuals_Volume": 65439.55
+      },
+      {
+        "MONTHS": "2025-05-28T00:00:00",
+        "MTD_Actuals_Volume": 590250.948
+      },
+      {
+        "MONTHS": "2024-04-25T00:00:00",
+        "MTD_Actuals_Volume": 834603.99
+      },
+      {
+        "MONTHS": "2024-06-13T00:00:00",
+        "MTD_Actuals_Volume": 494908.43000000005
+      },
+      {
+        "MONTHS": "2024-02-14T00:00:00",
+        "MTD_Actuals_Volume": 312560.7
+      },
+      {
+        "MONTHS": "2025-06-20T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-04-05T00:00:00",
+        "MTD_Actuals_Volume": 131123.196
+      },
+      {
+        "MONTHS": "2024-04-17T00:00:00",
+        "MTD_Actuals_Volume": 543390.22
+      },
+      {
+        "MONTHS": "2024-12-10T00:00:00",
+        "MTD_Actuals_Volume": 536137.8759999999
+      },
+      {
+        "MONTHS": "2024-12-22T00:00:00",
+        "MTD_Actuals_Volume": 1025918.406
+      },
+      {
+        "MONTHS": "2024-07-20T00:00:00",
+        "MTD_Actuals_Volume": 572067.5979999999
+      },
+      {
+        "MONTHS": "2024-09-07T00:00:00",
+        "MTD_Actuals_Volume": 145180.824
+      },
+      {
+        "MONTHS": "2024-11-03T00:00:00",
+        "MTD_Actuals_Volume": 59826.0
+      },
+      {
+        "MONTHS": "2025-01-28T00:00:00",
+        "MTD_Actuals_Volume": 792786.664
+      },
+      {
+        "MONTHS": "2024-01-02T00:00:00",
+        "MTD_Actuals_Volume": 108416.644
+      },
+      {
+        "MONTHS": "2024-06-07T00:00:00",
+        "MTD_Actuals_Volume": 266030.99199999997
+      },
+      {
+        "MONTHS": "2024-02-28T00:00:00",
+        "MTD_Actuals_Volume": 796183.786
+      },
+      {
+        "MONTHS": "2024-10-28T00:00:00",
+        "MTD_Actuals_Volume": 843583.5719999999
+      },
+      {
+        "MONTHS": "2025-02-03T00:00:00",
+        "MTD_Actuals_Volume": 72841.02799999999
+      },
+      {
+        "MONTHS": "2025-03-26T00:00:00",
+        "MTD_Actuals_Volume": 805286.864
+      },
+      {
+        "MONTHS": "2025-05-14T00:00:00",
+        "MTD_Actuals_Volume": 232051.652
+      },
+      {
+        "MONTHS": "2024-07-15T00:00:00",
+        "MTD_Actuals_Volume": 355496.26399999997
+      },
+      {
+        "MONTHS": "2025-06-12T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-04-12T00:00:00",
+        "MTD_Actuals_Volume": 300427.396
+      },
+      {
+        "MONTHS": "2024-08-07T00:00:00",
+        "MTD_Actuals_Volume": 302642.268
+      },
+      {
+        "MONTHS": "2025-03-10T00:00:00",
+        "MTD_Actuals_Volume": 232841.32
+      },
+      {
+        "MONTHS": "2024-05-30T00:00:00",
+        "MTD_Actuals_Volume": 1029517.2980000001
+      },
+      {
+        "MONTHS": "2024-06-22T00:00:00",
+        "MTD_Actuals_Volume": 791675.52
+      },
+      {
+        "MONTHS": "2025-05-20T00:00:00",
+        "MTD_Actuals_Volume": 467337.28800000006
+      },
+      {
+        "MONTHS": "2024-10-15T00:00:00",
+        "MTD_Actuals_Volume": 343239.256
+      },
+      {
+        "MONTHS": "2024-12-25T00:00:00",
+        "MTD_Actuals_Volume": 1137804.01
+      },
+      {
+        "MONTHS": "2024-12-31T00:00:00",
+        "MTD_Actuals_Volume": 1008435121.3611989
+      },
+      {
+        "MONTHS": "2024-11-07T00:00:00",
+        "MTD_Actuals_Volume": 212676.70799999998
+      },
+      {
+        "MONTHS": "2024-12-08T00:00:00",
+        "MTD_Actuals_Volume": 418085.168
+      },
+      {
+        "MONTHS": "2024-08-30T00:00:00",
+        "MTD_Actuals_Volume": 1095218.5840000003
+      },
+      {
+        "MONTHS": "2025-02-15T00:00:00",
+        "MTD_Actuals_Volume": 241140.886
+      },
+      {
+        "MONTHS": "2023-03-31T00:00:00",
+        "MTD_Actuals_Volume": 582897468.7662576
+      },
+      {
+        "MONTHS": "2024-09-22T00:00:00",
+        "MTD_Actuals_Volume": 639112.542
+      },
+      {
+        "MONTHS": "2025-01-23T00:00:00",
+        "MTD_Actuals_Volume": 647738.644
+      },
+      {
+        "MONTHS": "2024-04-29T00:00:00",
+        "MTD_Actuals_Volume": 966204.828
+      },
+      {
+        "MONTHS": "2025-06-18T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-08-13T00:00:00",
+        "MTD_Actuals_Volume": 561170.9759999999
+      },
+      {
+        "MONTHS": "2025-03-04T00:00:00",
+        "MTD_Actuals_Volume": 110757.78
+      },
+      {
+        "MONTHS": "2024-03-14T00:00:00",
+        "MTD_Actuals_Volume": 538290.112
+      },
+      {
+        "MONTHS": "2024-08-24T00:00:00",
+        "MTD_Actuals_Volume": 1015664.5840000001
+      },
+      {
+        "MONTHS": "2024-11-15T00:00:00",
+        "MTD_Actuals_Volume": 630412.144
+      },
+      {
+        "MONTHS": "2022-01-31T00:00:00",
+        "MTD_Actuals_Volume": 506345.0
+      },
+      {
+        "MONTHS": "2025-01-17T00:00:00",
+        "MTD_Actuals_Volume": 581809.6440000001
+      },
+      {
+        "MONTHS": "2024-01-28T00:00:00",
+        "MTD_Actuals_Volume": 802349.442
+      },
+      {
+        "MONTHS": "2024-02-03T00:00:00",
+        "MTD_Actuals_Volume": 29324.0
+      },
+      {
+        "MONTHS": "2024-10-09T00:00:00",
+        "MTD_Actuals_Volume": 181635.29200000002
+      },
+      {
+        "MONTHS": "2025-01-06T00:00:00",
+        "MTD_Actuals_Volume": 294233.676
+      },
+      {
+        "MONTHS": "2024-05-13T00:00:00",
+        "MTD_Actuals_Volume": 392552.85400000005
+      },
+      {
+        "MONTHS": "2024-03-20T00:00:00",
+        "MTD_Actuals_Volume": 713253.898
+      },
+      {
+        "MONTHS": "2024-11-21T00:00:00",
+        "MTD_Actuals_Volume": 912469.004
+      },
+      {
+        "MONTHS": "2024-11-24T00:00:00",
+        "MTD_Actuals_Volume": 937697.004
+      },
+      {
+        "MONTHS": "2024-06-28T00:00:00",
+        "MTD_Actuals_Volume": 1036958.0199999999
+      },
+      {
+        "MONTHS": "2025-04-19T00:00:00",
+        "MTD_Actuals_Volume": 447905.946
+      },
+      {
+        "MONTHS": "2025-03-21T00:00:00",
+        "MTD_Actuals_Volume": 533921.12
+      },
+      {
+        "MONTHS": "2024-03-31T00:00:00",
+        "MTD_Actuals_Volume": 1019892195.7027788
+      },
+      {
+        "MONTHS": "2025-02-26T00:00:00",
+        "MTD_Actuals_Volume": 458599.81999999995
+      },
+      {
+        "MONTHS": "2024-06-08T00:00:00",
+        "MTD_Actuals_Volume": 268312.99199999997
+      },
+      {
+        "MONTHS": "2025-05-09T00:00:00",
+        "MTD_Actuals_Volume": 68824.0
+      },
+      {
+        "MONTHS": "2024-02-09T00:00:00",
+        "MTD_Actuals_Volume": 222850.7
+      },
+      {
+        "MONTHS": "2024-04-26T00:00:00",
+        "MTD_Actuals_Volume": 888725.99
+      },
+      {
+        "MONTHS": "2025-06-21T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-01-17T00:00:00",
+        "MTD_Actuals_Volume": 466668.14800000004
+      },
+      {
+        "MONTHS": "2024-05-19T00:00:00",
+        "MTD_Actuals_Volume": 660583.934
+      },
+      {
+        "MONTHS": "2025-04-10T00:00:00",
+        "MTD_Actuals_Volume": 270458.706
+      },
+      {
+        "MONTHS": "2025-05-29T00:00:00",
+        "MTD_Actuals_Volume": 604308.948
+      },
+      {
+        "MONTHS": "2024-03-08T00:00:00",
+        "MTD_Actuals_Volume": 275586.176
+      },
+      {
+        "MONTHS": "2024-06-14T00:00:00",
+        "MTD_Actuals_Volume": 505696.43000000005
+      },
+      {
+        "MONTHS": "2025-05-03T00:00:00",
+        "MTD_Actuals_Volume": 22644.0
+      },
+      {
+        "MONTHS": "2024-07-21T00:00:00",
+        "MTD_Actuals_Volume": 616043.5979999999
+      },
+      {
+        "MONTHS": "2025-03-27T00:00:00",
+        "MTD_Actuals_Volume": 871969.292
+      },
+      {
+        "MONTHS": "2024-02-29T00:00:00",
+        "MTD_Actuals_Volume": 643225005.6962141
+      },
+      {
+        "MONTHS": "2024-02-17T00:00:00",
+        "MTD_Actuals_Volume": 374682.7
+      },
+      {
+        "MONTHS": "2024-04-06T00:00:00",
+        "MTD_Actuals_Volume": 231105.396
+      },
+      {
+        "MONTHS": "2024-09-16T00:00:00",
+        "MTD_Actuals_Volume": 418271.97
+      },
+      {
+        "MONTHS": "2024-10-23T00:00:00",
+        "MTD_Actuals_Volume": 761495.572
+      },
+      {
+        "MONTHS": "2024-11-04T00:00:00",
+        "MTD_Actuals_Volume": 130522.24
+      },
+      {
+        "MONTHS": "2024-12-11T00:00:00",
+        "MTD_Actuals_Volume": 546973.8759999999
+      },
+      {
+        "MONTHS": "2025-01-29T00:00:00",
+        "MTD_Actuals_Volume": 798530.664
+      },
+      {
+        "MONTHS": "2024-04-20T00:00:00",
+        "MTD_Actuals_Volume": 579226.22
+      },
+      {
+        "MONTHS": "2022-08-31T00:00:00",
+        "MTD_Actuals_Volume": 436636.75
+      },
+      {
+        "MONTHS": "2024-01-11T00:00:00",
+        "MTD_Actuals_Volume": 369112.14800000004
+      },
+      {
+        "MONTHS": "2024-06-02T00:00:00",
+        "MTD_Actuals_Volume": 75762.194
+      },
+      {
+        "MONTHS": "2025-02-06T00:00:00",
+        "MTD_Actuals_Volume": 119177.02799999999
+      },
+      {
+        "MONTHS": "2024-10-29T00:00:00",
+        "MTD_Actuals_Volume": 905402.7679999999
+      },
+      {
+        "MONTHS": "2024-12-17T00:00:00",
+        "MTD_Actuals_Volume": 855168.4639999999
+      },
+      {
+        "MONTHS": "2024-01-31T00:00:00",
+        "MTD_Actuals_Volume": 646626452.0904354
+      },
+      {
+        "MONTHS": "2024-12-28T00:00:00",
+        "MTD_Actuals_Volume": 1374949.396
+      },
+      {
+        "MONTHS": "2022-04-30T00:00:00",
+        "MTD_Actuals_Volume": 398782.0
+      },
+      {
+        "MONTHS": "2024-02-23T00:00:00",
+        "MTD_Actuals_Volume": 628957.794
+      },
+      {
+        "MONTHS": "2024-09-25T00:00:00",
+        "MTD_Actuals_Volume": 754469.332
+      },
+      {
+        "MONTHS": "2025-01-20T00:00:00",
+        "MTD_Actuals_Volume": 611485.644
+      },
+      {
+        "MONTHS": "2024-03-17T00:00:00",
+        "MTD_Actuals_Volume": 594656.112
+      },
+      {
+        "MONTHS": "2024-09-02T00:00:00",
+        "MTD_Actuals_Volume": 62314.82399999999
+      },
+      {
+        "MONTHS": "2025-02-12T00:00:00",
+        "MTD_Actuals_Volume": 187249.028
+      },
+      {
+        "MONTHS": "2024-04-09T00:00:00",
+        "MTD_Actuals_Volume": 250643.396
+      },
+      {
+        "MONTHS": "2024-08-10T00:00:00",
+        "MTD_Actuals_Volume": 430891.89599999995
+      },
+      {
+        "MONTHS": "2025-03-07T00:00:00",
+        "MTD_Actuals_Volume": 145622.78
+      },
+      {
+        "MONTHS": "2024-05-02T00:00:00",
+        "MTD_Actuals_Volume": 81509.08600000001
+      },
+      {
+        "MONTHS": "2024-07-12T00:00:00",
+        "MTD_Actuals_Volume": 219929.55600000004
+      },
+      {
+        "MONTHS": "2025-06-15T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2025-05-23T00:00:00",
+        "MTD_Actuals_Volume": 543914.948
+      },
+      {
+        "MONTHS": "2024-08-27T00:00:00",
+        "MTD_Actuals_Volume": 1066928.5840000003
+      },
+      {
+        "MONTHS": "2025-02-18T00:00:00",
+        "MTD_Actuals_Volume": 297535.486
+      },
+      {
+        "MONTHS": "2025-04-30T00:00:00",
+        "MTD_Actuals_Volume": 809165.794
+      },
+      {
+        "MONTHS": "2024-08-04T00:00:00",
+        "MTD_Actuals_Volume": 175323.888
+      },
+      {
+        "MONTHS": "2024-12-05T00:00:00",
+        "MTD_Actuals_Volume": 310442.5
+      },
+      {
+        "MONTHS": "2024-02-06T00:00:00",
+        "MTD_Actuals_Volume": 150678.7
+      },
+      {
+        "MONTHS": "2024-10-12T00:00:00",
+        "MTD_Actuals_Volume": 201255.29200000002
+      },
+      {
+        "MONTHS": "2025-01-03T00:00:00",
+        "MTD_Actuals_Volume": 145207.0
+      },
+      {
+        "MONTHS": "2025-01-14T00:00:00",
+        "MTD_Actuals_Volume": 532710.6440000001
+      },
+      {
+        "MONTHS": "2024-11-18T00:00:00",
+        "MTD_Actuals_Volume": 759844.858
+      },
+      {
+        "MONTHS": "2024-11-27T00:00:00",
+        "MTD_Actuals_Volume": 1161524.3339999998
+      },
+      {
+        "MONTHS": "2024-10-03T00:00:00",
+        "MTD_Actuals_Volume": 22571.972
+      },
+      {
+        "MONTHS": "2025-06-09T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-06-25T00:00:00",
+        "MTD_Actuals_Volume": 1019054.0199999999
+      },
+      {
+        "MONTHS": "2024-07-01T00:00:00",
+        "MTD_Actuals_Volume": 6832.0
+      },
+      {
+        "MONTHS": "2025-04-16T00:00:00",
+        "MTD_Actuals_Volume": 398174.86600000004
+      },
+      {
+        "MONTHS": "2025-04-22T00:00:00",
+        "MTD_Actuals_Volume": 475753.946
+      },
+      {
+        "MONTHS": "2024-03-23T00:00:00",
+        "MTD_Actuals_Volume": 888136.3020000001
+      },
+      {
+        "MONTHS": "2024-05-10T00:00:00",
+        "MTD_Actuals_Volume": 349652.85400000005
+      },
+      {
+        "MONTHS": "2024-08-16T00:00:00",
+        "MTD_Actuals_Volume": 612985.436
+      },
+      {
+        "MONTHS": "2025-03-01T00:00:00",
+        "MTD_Actuals_Volume": 7722.0
+      },
+      {
+        "MONTHS": "2024-04-23T00:00:00",
+        "MTD_Actuals_Volume": 818979.99
+      },
+      {
+        "MONTHS": "2024-10-06T00:00:00",
+        "MTD_Actuals_Volume": 61185.971999999994
+      },
+      {
+        "MONTHS": "2025-06-24T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-09-13T00:00:00",
+        "MTD_Actuals_Volume": 324982.838
+      },
+      {
+        "MONTHS": "2024-06-11T00:00:00",
+        "MTD_Actuals_Volume": 392649.52
+      },
+      {
+        "MONTHS": "2025-05-06T00:00:00",
+        "MTD_Actuals_Volume": 49770.0
+      },
+      {
+        "MONTHS": "2024-05-16T00:00:00",
+        "MTD_Actuals_Volume": 484431.174
+      },
+      {
+        "MONTHS": "2024-07-04T00:00:00",
+        "MTD_Actuals_Volume": 46295.55
+      },
+      {
+        "MONTHS": "2025-06-01T00:00:00",
+        "MTD_Actuals_Volume": 4662.0
+      },
+      {
+        "MONTHS": "2025-04-13T00:00:00",
+        "MTD_Actuals_Volume": 304699.706
+      },
+      {
+        "MONTHS": "2025-03-18T00:00:00",
+        "MTD_Actuals_Volume": 511341.12
+      },
+      {
+        "MONTHS": "2024-03-11T00:00:00",
+        "MTD_Actuals_Volume": 415840.752
+      },
+      {
+        "MONTHS": "2024-01-20T00:00:00",
+        "MTD_Actuals_Volume": 539728.148
+      },
+      {
+        "MONTHS": "2024-04-03T00:00:00",
+        "MTD_Actuals_Volume": 106573.29000000001
+      },
+      {
+        "MONTHS": "2024-05-22T00:00:00",
+        "MTD_Actuals_Volume": 741859.312
+      },
+      {
+        "MONTHS": "2025-05-26T00:00:00",
+        "MTD_Actuals_Volume": 570046.948
+      },
+      {
+        "MONTHS": "2024-08-01T00:00:00",
+        "MTD_Actuals_Volume": 101756.42800000001
+      },
+      {
+        "MONTHS": "2024-09-19T00:00:00",
+        "MTD_Actuals_Volume": 519937.61399999994
+      },
+      {
+        "MONTHS": "2025-01-26T00:00:00",
+        "MTD_Actuals_Volume": 774877.664
+      },
+      {
+        "MONTHS": "2023-12-31T00:00:00",
+        "MTD_Actuals_Volume": 795070610.7393622
+      },
+      {
+        "MONTHS": "2024-09-05T00:00:00",
+        "MTD_Actuals_Volume": 124996.824
+      },
+      {
+        "MONTHS": "2025-02-09T00:00:00",
+        "MTD_Actuals_Volume": 163845.028
+      },
+      {
+        "MONTHS": "2024-01-14T00:00:00",
+        "MTD_Actuals_Volume": 434628.14800000004
+      },
+      {
+        "MONTHS": "2024-02-20T00:00:00",
+        "MTD_Actuals_Volume": 474323.67
+      },
+      {
+        "MONTHS": "2024-07-18T00:00:00",
+        "MTD_Actuals_Volume": 555423.5979999999
+      },
+      {
+        "MONTHS": "2024-07-24T00:00:00",
+        "MTD_Actuals_Volume": 653558.1259999999
+      },
+      {
+        "MONTHS": "2025-03-24T00:00:00",
+        "MTD_Actuals_Volume": 729117.244
+      },
+      {
+        "MONTHS": "2025-03-30T00:00:00",
+        "MTD_Actuals_Volume": 950344.2220000001
+      },
+      {
+        "MONTHS": "2024-10-26T00:00:00",
+        "MTD_Actuals_Volume": 830321.5719999999
+      },
+      {
+        "MONTHS": "2024-11-01T00:00:00",
+        "MTD_Actuals_Volume": 9376.0
+      },
+      {
+        "MONTHS": "2024-12-14T00:00:00",
+        "MTD_Actuals_Volume": 670452.8759999999
+      },
+      {
+        "MONTHS": "2023-09-30T00:00:00",
+        "MTD_Actuals_Volume": 690500834.0215561
+      },
+      {
+        "MONTHS": "2024-06-05T00:00:00",
+        "MTD_Actuals_Volume": 189229.11199999996
+      },
+      {
+        "MONTHS": "2025-05-12T00:00:00",
+        "MTD_Actuals_Volume": 165896.01
+      },
+      {
+        "MONTHS": "2024-01-08T00:00:00",
+        "MTD_Actuals_Volume": 226832.35
+      },
+      {
+        "MONTHS": "2024-02-26T00:00:00",
+        "MTD_Actuals_Volume": 680851.794
+      },
+      {
+        "MONTHS": "2025-07-02T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-02-24T00:00:00",
+        "MTD_Actuals_Volume": 633889.794
+      },
+      {
+        "MONTHS": "2024-05-05T00:00:00",
+        "MTD_Actuals_Volume": 201230.83000000002
+      },
+      {
+        "MONTHS": "2025-01-21T00:00:00",
+        "MTD_Actuals_Volume": 629362.644
+      },
+      {
+        "MONTHS": "2025-04-02T00:00:00",
+        "MTD_Actuals_Volume": 17838.0
+      },
+      {
+        "MONTHS": "2024-03-18T00:00:00",
+        "MTD_Actuals_Volume": 603366.112
+      },
+      {
+        "MONTHS": "2025-02-13T00:00:00",
+        "MTD_Actuals_Volume": 221450.886
+      },
+      {
+        "MONTHS": "2024-06-20T00:00:00",
+        "MTD_Actuals_Volume": 770113.5199999998
+      },
+      {
+        "MONTHS": "2025-05-18T00:00:00",
+        "MTD_Actuals_Volume": 385297.4
+      },
+      {
+        "MONTHS": "2024-05-28T00:00:00",
+        "MTD_Actuals_Volume": 1014627.2980000001
+      },
+      {
+        "MONTHS": "2025-04-25T00:00:00",
+        "MTD_Actuals_Volume": 636508.118
+      },
+      {
+        "MONTHS": "2024-08-05T00:00:00",
+        "MTD_Actuals_Volume": 178543.888
+      },
+      {
+        "MONTHS": "2024-10-21T00:00:00",
+        "MTD_Actuals_Volume": 578671.3840000001
+      },
+      {
+        "MONTHS": "2024-07-13T00:00:00",
+        "MTD_Actuals_Volume": 228145.55600000004
+      },
+      {
+        "MONTHS": "2024-11-13T00:00:00",
+        "MTD_Actuals_Volume": 515864.25
+      },
+      {
+        "MONTHS": "2025-06-16T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-09-20T00:00:00",
+        "MTD_Actuals_Volume": 579872.542
+      },
+      {
+        "MONTHS": "2024-12-06T00:00:00",
+        "MTD_Actuals_Volume": 386674.22
+      },
+      {
+        "MONTHS": "2025-05-24T00:00:00",
+        "MTD_Actuals_Volume": 547998.948
+      },
+      {
+        "MONTHS": "2024-08-28T00:00:00",
+        "MTD_Actuals_Volume": 1073560.5840000003
+      },
+      {
+        "MONTHS": "2024-12-29T00:00:00",
+        "MTD_Actuals_Volume": 1377617.396
+      },
+      {
+        "MONTHS": "2025-05-01T00:00:00",
+        "MTD_Actuals_Volume": 6534.0
+      },
+      {
+        "MONTHS": "2024-05-11T00:00:00",
+        "MTD_Actuals_Volume": 356896.85400000005
+      },
+      {
+        "MONTHS": "2025-01-15T00:00:00",
+        "MTD_Actuals_Volume": 564458.6440000001
+      },
+      {
+        "MONTHS": "2025-04-08T00:00:00",
+        "MTD_Actuals_Volume": 226892.706
+      },
+      {
+        "MONTHS": "2024-03-12T00:00:00",
+        "MTD_Actuals_Volume": 492436.93200000003
+      },
+      {
+        "MONTHS": "2024-03-26T00:00:00",
+        "MTD_Actuals_Volume": 1000641.202
+      },
+      {
+        "MONTHS": "2024-11-30T00:00:00",
+        "MTD_Actuals_Volume": 732309115.7513783
+      },
+      {
+        "MONTHS": "2025-02-21T00:00:00",
+        "MTD_Actuals_Volume": 384718.91599999997
+      },
+      {
+        "MONTHS": "2023-02-28T00:00:00",
+        "MTD_Actuals_Volume": 586919979.3120452
+      },
+      {
+        "MONTHS": "2024-01-26T00:00:00",
+        "MTD_Actuals_Volume": 683580.068
+      },
+      {
+        "MONTHS": "2024-09-28T00:00:00",
+        "MTD_Actuals_Volume": 896037.1279999999
+      },
+      {
+        "MONTHS": "2025-04-17T00:00:00",
+        "MTD_Actuals_Volume": 431735.946
+      },
+      {
+        "MONTHS": "2024-11-19T00:00:00",
+        "MTD_Actuals_Volume": 772853.004
+      },
+      {
+        "MONTHS": "2025-06-04T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2025-06-10T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-06-26T00:00:00",
+        "MTD_Actuals_Volume": 1027034.0199999999
+      },
+      {
+        "MONTHS": "2025-03-02T00:00:00",
+        "MTD_Actuals_Volume": 15832.0
+      },
+      {
+        "MONTHS": "2023-05-31T00:00:00",
+        "MTD_Actuals_Volume": 890182772.9708169
+      },
+      {
+        "MONTHS": "2024-02-01T00:00:00",
+        "MTD_Actuals_Volume": 13242.0
+      },
+      {
+        "MONTHS": "2024-10-04T00:00:00",
+        "MTD_Actuals_Volume": 29745.972
+      },
+      {
+        "MONTHS": "2024-05-17T00:00:00",
+        "MTD_Actuals_Volume": 550225.174
+      },
+      {
+        "MONTHS": "2024-07-27T00:00:00",
+        "MTD_Actuals_Volume": 695499.9459999999
+      },
+      {
+        "MONTHS": "2025-04-14T00:00:00",
+        "MTD_Actuals_Volume": 314009.706
+      },
+      {
+        "MONTHS": "2024-03-06T00:00:00",
+        "MTD_Actuals_Volume": 166714.598
+      },
+      {
+        "MONTHS": "2024-04-24T00:00:00",
+        "MTD_Actuals_Volume": 826687.99
+      },
+      {
+        "MONTHS": "2024-08-19T00:00:00",
+        "MTD_Actuals_Volume": 668763.436
+      },
+      {
+        "MONTHS": "2024-10-07T00:00:00",
+        "MTD_Actuals_Volume": 120101.29200000002
+      },
+      {
+        "MONTHS": "2024-03-29T00:00:00",
+        "MTD_Actuals_Volume": 1234314.56
+      },
+      {
+        "MONTHS": "2024-09-14T00:00:00",
+        "MTD_Actuals_Volume": 346215.978
+      },
+      {
+        "MONTHS": "2025-02-24T00:00:00",
+        "MTD_Actuals_Volume": 437066.81999999995
+      },
+      {
+        "MONTHS": "2025-03-19T00:00:00",
+        "MTD_Actuals_Volume": 514945.12
+      },
+      {
+        "MONTHS": "2025-05-07T00:00:00",
+        "MTD_Actuals_Volume": 56184.0
+      },
+      {
+        "MONTHS": "2024-02-15T00:00:00",
+        "MTD_Actuals_Volume": 319094.7
+      },
+      {
+        "MONTHS": "2024-01-23T00:00:00",
+        "MTD_Actuals_Volume": 650466.6279999999
+      },
+      {
+        "MONTHS": "2024-07-07T00:00:00",
+        "MTD_Actuals_Volume": 68685.55
+      },
+      {
+        "MONTHS": "2024-04-04T00:00:00",
+        "MTD_Actuals_Volume": 126826.696
+      },
+      {
+        "MONTHS": "2025-05-27T00:00:00",
+        "MTD_Actuals_Volume": 578614.948
+      },
+      {
+        "MONTHS": "2024-08-02T00:00:00",
+        "MTD_Actuals_Volume": 117026.42800000001
+      },
+      {
+        "MONTHS": "2022-10-31T00:00:00",
+        "MTD_Actuals_Volume": 403120.863
+      },
+      {
+        "MONTHS": "2024-04-18T00:00:00",
+        "MTD_Actuals_Volume": 561496.22
+      },
+      {
+        "MONTHS": "2024-01-03T00:00:00",
+        "MTD_Actuals_Volume": 114749.644
+      },
+      {
+        "MONTHS": "2024-01-15T00:00:00",
+        "MTD_Actuals_Volume": 439972.14800000004
+      },
+      {
+        "MONTHS": "2024-12-09T00:00:00",
+        "MTD_Actuals_Volume": 523465.876
+      },
+      {
+        "MONTHS": "2024-12-23T00:00:00",
+        "MTD_Actuals_Volume": 1081886.406
+      },
+      {
+        "MONTHS": "2025-02-10T00:00:00",
+        "MTD_Actuals_Volume": 173927.028
+      },
+      {
+        "MONTHS": "2024-02-21T00:00:00",
+        "MTD_Actuals_Volume": 476081.67
+      },
+      {
+        "MONTHS": "2024-10-27T00:00:00",
+        "MTD_Actuals_Volume": 839435.5719999999
+      },
+      {
+        "MONTHS": "2024-11-02T00:00:00",
+        "MTD_Actuals_Volume": 15278.0
+      },
+      {
+        "MONTHS": "2025-06-27T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2025-07-03T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-05-31T00:00:00",
+        "MTD_Actuals_Volume": 723083931.3225883
+      },
+      {
+        "MONTHS": "2024-06-06T00:00:00",
+        "MTD_Actuals_Volume": 201871.11199999996
+      },
+      {
+        "MONTHS": "2024-07-19T00:00:00",
+        "MTD_Actuals_Volume": 563869.5979999999
+      },
+      {
+        "MONTHS": "2024-01-09T00:00:00",
+        "MTD_Actuals_Volume": 375417.26100000006
+      },
+      {
+        "MONTHS": "2024-09-08T00:00:00",
+        "MTD_Actuals_Volume": 188114.82400000002
+      },
+      {
+        "MONTHS": "2025-05-15T00:00:00",
+        "MTD_Actuals_Volume": 306419.9
+      },
+      {
+        "MONTHS": "2025-02-04T00:00:00",
+        "MTD_Actuals_Volume": 90639.02799999999
+      },
+      {
+        "MONTHS": "2025-03-25T00:00:00",
+        "MTD_Actuals_Volume": 732405.244
+      },
+      {
+        "MONTHS": "2024-08-08T00:00:00",
+        "MTD_Actuals_Volume": 340530.268
+      },
+      {
+        "MONTHS": "2024-10-18T00:00:00",
+        "MTD_Actuals_Volume": 406988.05000000005
+      },
+      {
+        "MONTHS": "2024-08-31T00:00:00",
+        "MTD_Actuals_Volume": 675544029.6023765
+      },
+      {
+        "MONTHS": "2024-06-23T00:00:00",
+        "MTD_Actuals_Volume": 801839.5199999999
+      },
+      {
+        "MONTHS": "2025-05-21T00:00:00",
+        "MTD_Actuals_Volume": 472863.28800000006
+      },
+      {
+        "MONTHS": "2024-07-16T00:00:00",
+        "MTD_Actuals_Volume": 412001.43200000003
+      },
+      {
+        "MONTHS": "2025-06-13T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2025-01-18T00:00:00",
+        "MTD_Actuals_Volume": 593235.6440000001
+      },
+      {
+        "MONTHS": "2025-01-24T00:00:00",
+        "MTD_Actuals_Volume": 661980.644
+      },
+      {
+        "MONTHS": "2025-04-05T00:00:00",
+        "MTD_Actuals_Volume": 149732.294
+      },
+      {
+        "MONTHS": "2022-07-31T00:00:00",
+        "MTD_Actuals_Volume": 437828.0
+      },
+      {
+        "MONTHS": "2024-05-25T00:00:00",
+        "MTD_Actuals_Volume": 945637.2980000001
+      },
+      {
+        "MONTHS": "2024-12-26T00:00:00",
+        "MTD_Actuals_Volume": 1165051.054
+      },
+      {
+        "MONTHS": "2025-01-01T00:00:00",
+        "MTD_Actuals_Volume": 6220.0
+      },
+      {
+        "MONTHS": "2025-04-28T00:00:00",
+        "MTD_Actuals_Volume": 665166.118
+      },
+      {
+        "MONTHS": "2024-06-17T00:00:00",
+        "MTD_Actuals_Volume": 689902.77
+      },
+      {
+        "MONTHS": "2024-12-03T00:00:00",
+        "MTD_Actuals_Volume": 184703.5
+      },
+      {
+        "MONTHS": "2024-07-10T00:00:00",
+        "MTD_Actuals_Volume": 151217.53
+      },
+      {
+        "MONTHS": "2024-11-10T00:00:00",
+        "MTD_Actuals_Volume": 395325.64999999997
+      },
+      {
+        "MONTHS": "2025-03-13T00:00:00",
+        "MTD_Actuals_Volume": 403291.042
+      },
+      {
+        "MONTHS": "2024-08-25T00:00:00",
+        "MTD_Actuals_Volume": 1021368.5840000001
+      },
+      {
+        "MONTHS": "2024-10-01T00:00:00",
+        "MTD_Actuals_Volume": 7216.0
+      },
+      {
+        "MONTHS": "2025-03-05T00:00:00",
+        "MTD_Actuals_Volume": 127873.78
+      },
+      {
+        "MONTHS": "2024-03-15T00:00:00",
+        "MTD_Actuals_Volume": 553158.112
+      },
+      {
+        "MONTHS": "2024-10-10T00:00:00",
+        "MTD_Actuals_Volume": 190811.29200000002
+      },
+      {
+        "MONTHS": "2024-11-16T00:00:00",
+        "MTD_Actuals_Volume": 683454.144
+      },
+      {
+        "MONTHS": "2024-05-08T00:00:00",
+        "MTD_Actuals_Volume": 280933.506
+      },
+      {
+        "MONTHS": "2024-05-14T00:00:00",
+        "MTD_Actuals_Volume": 423967.174
+      },
+      {
+        "MONTHS": "2025-01-12T00:00:00",
+        "MTD_Actuals_Volume": 464632.964
+      },
+      {
+        "MONTHS": "2024-01-29T00:00:00",
+        "MTD_Actuals_Volume": 924009.7019999999
+      },
+      {
+        "MONTHS": "2024-02-04T00:00:00",
+        "MTD_Actuals_Volume": 72184.0
+      },
+      {
+        "MONTHS": "2024-06-29T00:00:00",
+        "MTD_Actuals_Volume": 1047594.0199999999
+      },
+      {
+        "MONTHS": "2025-02-27T00:00:00",
+        "MTD_Actuals_Volume": 466725.81999999995
+      },
+      {
+        "MONTHS": "2024-11-22T00:00:00",
+        "MTD_Actuals_Volume": 917541.004
+      },
+      {
+        "MONTHS": "2025-06-07T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2024-02-12T00:00:00",
+        "MTD_Actuals_Volume": 264784.7
+      },
+      {
+        "MONTHS": "2024-10-30T00:00:00",
+        "MTD_Actuals_Volume": 956146.7680000002
+      },
+      {
+        "MONTHS": "2025-01-09T00:00:00",
+        "MTD_Actuals_Volume": 380126.006
+      },
+      {
+        "MONTHS": "2022-06-30T00:00:00",
+        "MTD_Actuals_Volume": 504139.0
+      },
+      {
+        "MONTHS": "2025-02-01T00:00:00",
+        "MTD_Actuals_Volume": 63103.02799999999
+      },
+      {
+        "MONTHS": "2025-03-22T00:00:00",
+        "MTD_Actuals_Volume": 547253.12
+      },
+      {
+        "MONTHS": "2024-04-21T00:00:00",
+        "MTD_Actuals_Volume": 678694.692
+      },
+      {
+        "MONTHS": "2024-06-09T00:00:00",
+        "MTD_Actuals_Volume": 339363.52
+      },
+      {
+        "MONTHS": "2024-08-22T00:00:00",
+        "MTD_Actuals_Volume": 876174.2119999999
+      },
+      {
+        "MONTHS": "2023-11-30T00:00:00",
+        "MTD_Actuals_Volume": 556428245.8748538
+      },
+      {
+        "MONTHS": "2024-07-30T00:00:00",
+        "MTD_Actuals_Volume": 850560.6579999998
+      },
+      {
+        "MONTHS": "2025-04-11T00:00:00",
+        "MTD_Actuals_Volume": 286863.706
+      },
+      {
+        "MONTHS": "2025-05-04T00:00:00",
+        "MTD_Actuals_Volume": 25534.0
+      },
+      {
+        "MONTHS": "2024-04-01T00:00:00",
+        "MTD_Actuals_Volume": 8150.0
+      },
+      {
+        "MONTHS": "2024-03-09T00:00:00",
+        "MTD_Actuals_Volume": 282182.176
+      },
+      {
+        "MONTHS": "2024-04-27T00:00:00",
+        "MTD_Actuals_Volume": 903551.99
+      },
+      {
+        "MONTHS": "2024-02-18T00:00:00",
+        "MTD_Actuals_Volume": 380454.7
+      },
+      {
+        "MONTHS": "2024-10-24T00:00:00",
+        "MTD_Actuals_Volume": 772113.572
+      },
+      {
+        "MONTHS": "2025-06-30T00:00:00",
+        "MTD_Actuals_Volume": 0.0
+      },
+      {
+        "MONTHS": "2025-02-07T00:00:00",
+        "MTD_Actuals_Volume": 126187.02799999999
+      },
+      {
+        "MONTHS": "2025-03-16T00:00:00",
+        "MTD_Actuals_Volume": 436670.042
+      },
+      {
+        "MONTHS": "2024-01-12T00:00:00",
+        "MTD_Actuals_Volume": 374270.14800000004
+      },
+      {
+        "MONTHS": "2024-04-07T00:00:00",
+        "MTD_Actuals_Volume": 231671.396
+      },
+      {
+        "MONTHS": "2024-09-17T00:00:00",
+        "MTD_Actuals_Volume": 501099.61399999994
+      },
+      {
+        "MONTHS": "2024-12-12T00:00:00",
+        "MTD_Actuals_Volume": 649050.8759999999
+      },
+      {
+        "MONTHS": "2024-03-03T00:00:00",
+        "MTD_Actuals_Volume": 116562.598
+      },
+      {
+        "MONTHS": "2024-12-20T00:00:00",
+        "MTD_Actuals_Volume": 995671.4319999999
+      },
+      {
+        "MONTHS": "2024-01-06T00:00:00",
+        "MTD_Actuals_Volume": 197834.35
+      },
+      {
+        "MONTHS": "2024-09-11T00:00:00",
+        "MTD_Actuals_Volume": 246987.244
+      },
+      {
+        "MONTHS": "2024-04-15T00:00:00",
+        "MTD_Actuals_Volume": 383523.984
+      },
+      {
+        "MONTHS": "2024-06-03T00:00:00",
+        "MTD_Actuals_Volume": 86080.194
+      }
+    ],
+    "sources": null,
+    "timestamp": "02 Jun, 04:05 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "Monthly volume for VCT for year 2025",
+    "response": [],
+    "sources": null,
+    "timestamp": "02 Jun, 05:19 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "Monthly TEU for VCT for year 2025",
+    "response": [],
+    "sources": null,
+    "timestamp": "02 Jun, 05:20 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "Monthly volume for VCT for ytd 2025",
+    "response": [],
+    "sources": null,
+    "timestamp": "02 Jun, 05:20 PM",
+    "category": "MIS"
+  }
+]

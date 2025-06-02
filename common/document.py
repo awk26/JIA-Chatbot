@@ -7,7 +7,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 from common.database import Database
 from langchain.chains import LLMChain
-
+import datetime
 # =============================
 # Configuration
 # =============================
@@ -69,36 +69,75 @@ def load_vectorstore(policy_type):
 def build_qa_chain(policy_type,query):
     """Build QA chain for the given policy type."""
     if policy_type=="MIS":
+        current_datetime=datetime.datetime.now()
         prompt_template = """
-            You are a helpful assistant that generates SQL queries based on user questions.
+You are a helpful assistant that generates SQL queries based on user questions.
 
-            Use only this SQL view: [MIS].[PERIODIC_REPORT]
+Use only this SQL view: [MIS].[PERIODIC_REPORT]
 
-            The view contains the following columns:
-            MONTHS, ENTITY_CODE, ENTITY_NAME, OKR, SHORT_NAME, LONG_NAME,
-            DATE_ACTUALS, WTD_ACTUALS, FTD_ACTUALS, MTD_ACTUALS, QTD_ACTUALS,
-            HTD_ACTUALS, YTD_ACTUALS, DATE_BUDGET, WTD_BUDGET, FTD_BUDGET,
-            MTD_BUDGET, QTD_BUDGET, HTD_BUDGET, YTD_BUDGET, GROUP_ENTITY
+The view contains the following columns:
+MONTHS, ENTITY_CODE, ENTITY_NAME, OKR, SHORT_NAME, LONG_NAME,
+DATE_ACTUALS, WTD_ACTUALS, FTD_ACTUALS, MTD_ACTUALS, QTD_ACTUALS,
+HTD_ACTUALS, YTD_ACTUALS, DATE_BUDGET, WTD_BUDGET, FTD_BUDGET,
+MTD_BUDGET, QTD_BUDGET, HTD_BUDGET, YTD_BUDGET, GROUP_ENTITY
 
-            Instructions:
-            - Generate only a valid SQL SELECT query.
-            - Use a WHERE clause if any filters are mentioned (e.g., ENTITY_NAME, DATE range).
-            - Use proper SQL syntax compatible with Microsoft SQL Server.
-            - Use aliases for all aggregate functions (e.g., COUNT(*) AS count).
-            - Use aliases if it improves clarity of the result set.
-            - If date-based filters (e.g., "last 3 months") are mentioned, use SQL Server date functions like DATEADD and GETDATE.
-            - Return only the SQL query without explanation or formatting.
-            - Do not wrap the query in code blocks or markdown formatting.
+OKRs include:
+VOLUME_TEU, VOLUME_TON, EBITDA, EBIT, IMPORT_TEU, EXPORT_TEU,
+COS_DOM_DSCH_TEU, COS_DOM_LOAD_TEU, TP_DSCH_TEU, TP_LOAD_TEU,
+STEEL_DISCHARGE, FERTILISER_DISCHARGE, ALUMINIUM_DISCHARGE,
+OTHER_DISCHARGE, STEEL_LOAD, ALUMINIUM_LOAD, OTHER_LOAD,
+RESTOW_VY_TEU, RESTOW_B2B_TEU
 
-            User Request:
-            {user_input}
+current datetime: {current_datetime}
 
-            SQL Query:
-            """
+Instructions:
+- Generate only a valid SQL SELECT query.
+- Use a WHERE clause if any filters are mentioned (e.g., ENTITY_NAME, GROUP_ENTITY, OKR, date range).
+- If the user mentions a company/entity like "HICT", filter using:
+  (ENTITY_NAME = 'value' OR ENTITY_CODE = 'value' OR GROUP_ENTITY = 'value')
+- Map general terms like:
+  - "volume" → OKR = 'VOLUME_TEU'
+  - "EBITDA" or "profit" → OKR = 'EBITDA'
+  - "import" → OKR = 'IMPORT_TEU'
+  (Add others as necessary)
+- Use appropriate time field based on user request:
+  - "today" → use `DATE_ACTUALS` and hardcode current date as `'YYYY-MM-DD 00:00:00.000'`
+  - "this week" → use `WTD_ACTUALS`
+  - "this fortnight" → use `FTD_ACTUALS`
+  - "this month" → use `MTD_ACTUALS`
+  - "this quarter" → use `QTD_ACTUALS`
+  - "this half year" → use `HTD_ACTUALS`
+  - "this year" → use `YTD_ACTUALS`
+
+- For last N months (e.g. last 6 months):
+  - Use dynamic date filter in WHERE clause using `MONTHS >= EOMONTH(DATEADD(MONTH, -5, GETDATE()))`
+  - Format `MONTHS` as 'MMM-yyyy' (e.g., 'Jan-2025') using `FORMAT(MONTHS, 'MMM-yyyy')` as MonthFormatted
+  - In the PIVOT clause, use **static aliases** like [Jan-2025], [Feb-2025], etc. (do not use EOMONTH or functions inside pivot)
+  - Example:
+    FOR MonthFormatted IN ([Jan-2025], [Feb-2025], [Mar-2025], ...)
+
+- If user asks for specific range (e.g. Jan to May), use:
+  `MONTHS BETWEEN 'YYYY-MM-DD' AND 'YYYY-MM-DD'`
+
+- If user wants month-wise output (trends), generate a PIVOT query with months as columns and values like MTD_ACTUALS
+
+- Use aliases like AS total_volume or AS [May-2025] for clarity
+- Use only proper SQL Server syntax
+- Only return the raw SQL query — no explanation, no markdown or formatting
+
+User Request:
+{user_input}
+
+SQL Query:
+"""
+
+
+
 
         prompt = PromptTemplate(
-            input_variables=["user_input"],
+            input_variables=["user_input","current_datetime"],
             template=prompt_template,
+            
         )
 
         llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")  # Use appropriate Gemini setup
@@ -107,10 +146,10 @@ def build_qa_chain(policy_type,query):
 
         # Example call
         # user_query = "Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024"
-        result = chain.run(user_input=query)
+        result = chain.run(user_input=query,current_datetime=current_datetime)
       
         clean_sql = result.strip("`").split("sql\n")[-1].rsplit("```", 1)[0].strip()
-    
+        print("--------------",clean_sql)
         db=Database()
         data=db.execute(clean_sql)
       

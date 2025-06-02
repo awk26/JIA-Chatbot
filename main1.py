@@ -26,34 +26,7 @@ DOCUMENTS_BASE_DIR = './documents'  # Adjust this path as needed
 # Helper Functions
 # =============================
 
-def get_safe_file_path(category, filename):
-    """
-    Safely construct file path and validate it exists within allowed directories.
-    """
-    # Clean the inputs
-    category = category.strip()
-    filename = filename.strip()
-    
-    # Remove any path traversal attempts
-    category = os.path.basename(category)
-    filename = os.path.basename(filename)
-    
-    # Construct the full path
-    file_path = os.path.join(DOCUMENTS_BASE_DIR, category, filename)
-    
-    # Normalize the path to resolve any '..' or '.' components
-    file_path = os.path.normpath(file_path)
-    base_path = os.path.normpath(DOCUMENTS_BASE_DIR)
-    
-    # Check if the file path is within the allowed base directory
-    if not file_path.startswith(base_path):
-        return None
-    
-    # Check if file exists
-    if not os.path.isfile(file_path):
-        return None
-    
-    return file_path
+
 
 # =============================
 # API Routes
@@ -201,52 +174,53 @@ def open_file():
         filename = request.form.get('filename')
         if not filename:
             return jsonify({"error": "Filename is required"}), 400
-        
-        # Base path for files
-        base_path = "./files"
-        
-        # Get all available categories
+
+        # Normalize slashes
+        filename = filename.replace('\\', '/')
+
+        # Base files directory
+        base_path = "/home/jia/JIA-Chatbot/files/"
+
+        # Remove leading 'files/' if included in filename
+        if filename.startswith("files/"):
+            filename = filename[len("files/"):]
+
+        # Build full path
+        full_path = os.path.normpath(os.path.join(base_path, filename))
+
+        # Security check: prevent path traversal
+        if not full_path.startswith(os.path.abspath(base_path)):
+            return jsonify({"error": "Invalid path access detected."}), 400
+
+        # Try direct path first
+        if os.path.exists(full_path):
+            mimetype = mimetypes.guess_type(full_path)[0] or 'application/octet-stream'
+            return send_file(
+                full_path,
+                mimetype=mimetype,
+                as_attachment=False,
+                download_name=os.path.basename(full_path)
+            )
+
+        # Try to search within category folders
         available_categories = get_folder_structure().keys()
-        
-        # First try current category
         current_category = session.get('current_category', None) or POLICY_TYPE
-        if current_category:
-            file_path = os.path.join(base_path, current_category, filename)
-            if os.path.exists(file_path):
-                # Get mimetype
-                mimetype = mimetypes.guess_type(file_path)[0]
-                if not mimetype:
-                    mimetype = 'application/octet-stream'
-                
-                # Serve the file directly to open in browser
-                return send_file(
-                    file_path,
-                    mimetype=mimetype,
-                    as_attachment=False,  # This opens in browser instead of downloading
-                    download_name=filename
-                )
-        
-        # If not found in current category, search in all other categories
+
         for category in available_categories:
-            if category != current_category:  # Skip current category as we already checked
-                file_path = os.path.join(base_path, category, filename)
-                if os.path.exists(file_path):
-                    # Get mimetype
-                    mimetype = mimetypes.guess_type(file_path)[0]
-                    if not mimetype:
-                        mimetype = 'application/octet-stream'
-                    
-                    # Serve the file directly to open in browser
-                    return send_file(
-                        file_path,
-                        mimetype=mimetype,
-                        as_attachment=False,  # This opens in browser instead of downloading
-                        download_name=filename
-                    )
-        
-        # If file not found in any category
+            if category == current_category:
+                continue  # already checked
+            alt_path = os.path.normpath(os.path.join(base_path, category, filename))
+            if os.path.exists(alt_path):
+                mimetype = mimetypes.guess_type(alt_path)[0] or 'application/octet-stream'
+                return send_file(
+                    alt_path,
+                    mimetype=mimetype,
+                    as_attachment=False,
+                    download_name=os.path.basename(alt_path)
+                )
+
         return jsonify({"error": f"File '{filename}' not found in any category"}), 404
-        
+
     except Exception as e:
         return jsonify({"error": f"Error opening file: {str(e)}"}), 500
 # =============================

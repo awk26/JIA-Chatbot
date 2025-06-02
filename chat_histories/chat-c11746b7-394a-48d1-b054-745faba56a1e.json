@@ -1,0 +1,19 @@
+[
+  {
+    "message": "what is confidential data",
+    "response": "Confidential data is secret and valuable.  Examples include unpublished financial information, data of customers/partners/vendors, patents, formulas or new technologies, customer lists (existing and prospective), and privacy information of individuals including clients and all types of employees.",
+    "sources": [
+      "JMBGRP-ISMS-POL-CS_Group Cyber Security_v1.1.pdf",
+      "JMBGRP-ISMS-POL-DRSDM_Data Retention, Storage _ Disposal of Media, Records Policy_v1.2.pdf"
+    ],
+    "timestamp": "02 Jun, 02:44 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "what is the MTD ACTUALS for Delhi Inland Container Terminal for last month",
+    "response": [],
+    "sources": null,
+    "timestamp": "02 Jun, 03:47 PM",
+    "category": "MIS"
+  }
+]
