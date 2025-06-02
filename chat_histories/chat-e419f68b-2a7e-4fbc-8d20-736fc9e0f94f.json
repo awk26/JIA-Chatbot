@@ -1,0 +1,21 @@
+[
+  {
+    "message": "how to create gatepass at DICT",
+    "response": "I don't know",
+    "sources": [
+      "SOPP_Operations_VCTPL.pdf",
+      "SOPP_Operations_VCT CFS.pdf"
+    ],
+    "timestamp": "30 May, 06:54 PM",
+    "category": "SOPP_Operation"
+  },
+  {
+    "message": "How many Casual Leave are allowed in a year",
+    "response": "I don't know",
+    "sources": [
+      "Leave & Attendance Policy.pdf"
+    ],
+    "timestamp": "30 May, 06:57 PM",
+    "category": "HR Policy"
+  }
+]

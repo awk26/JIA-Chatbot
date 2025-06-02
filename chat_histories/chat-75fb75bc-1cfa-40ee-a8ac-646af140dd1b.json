@@ -1,0 +1,23 @@
+[
+  {
+    "message": "how many records in the view",
+    "response": [
+      {
+        "TotalRecords": 32597
+      }
+    ],
+    "sources": null,
+    "timestamp": "29 May, 11:40 AM",
+    "category": "Test_DB"
+  },
+  {
+    "message": "how many PL leave for employee",
+    "response": "5 days",
+    "sources": [
+      "JMB Policy Document_common policy document.pdf",
+      "Leave & Attendance Policy.pdf"
+    ],
+    "timestamp": "29 May, 11:41 AM",
+    "category": "HR Policy"
+  }
+]

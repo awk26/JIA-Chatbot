@@ -1,0 +1,162 @@
+[
+  {
+    "message": "what is total wtd actuals entity name wise",
+    "response": [
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - II",
+        "Total_WTD_Actuals": 3828838.0
+      },
+      {
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "Total_WTD_Actuals": 855426.0
+      },
+      {
+        "ENTITY_NAME": "Kandla Container Terminal",
+        "Total_WTD_Actuals": 5233889.0
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - I",
+        "Total_WTD_Actuals": 2603496.0
+      },
+      {
+        "ENTITY_NAME": "Bulk",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Mumbai Container Freight Station",
+        "Total_WTD_Actuals": 824938.0
+      },
+      {
+        "ENTITY_NAME": "Corp-Mumbai",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Rail West Coast",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Haldia International Container Terminal",
+        "Total_WTD_Actuals": 1790996.0
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Distribution Terminal",
+        "Total_WTD_Actuals": 17268300.94300002
+      },
+      {
+        "ENTITY_NAME": "Rozi Cargo Terminal",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Inchhapuri Container Terminal",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "JMB Heavy",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Freight Station",
+        "Total_WTD_Actuals": 397352.0
+      },
+      {
+        "ENTITY_NAME": "Tuticorin International Container Terminal",
+        "Total_WTD_Actuals": 1048793.0
+      },
+      {
+        "ENTITY_NAME": "Paradip International Cargo Terminal",
+        "Total_WTD_Actuals": 32932372.15799997
+      },
+      {
+        "ENTITY_NAME": "Rail East Coast",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Freeport Terminal",
+        "Total_WTD_Actuals": null
+      }
+    ],
+    "sources": null,
+    "timestamp": "30 May, 03:27 PM",
+    "category": "Test_DB"
+  },
+  {
+    "message": "what is total wtd actuals entity name wise with charts",
+    "response": [
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - II",
+        "TotalWTDActuals": 3828838.0
+      },
+      {
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "TotalWTDActuals": 855426.0
+      },
+      {
+        "ENTITY_NAME": "Kandla Container Terminal",
+        "TotalWTDActuals": 5233889.0
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - I",
+        "TotalWTDActuals": 2603496.0
+      },
+      {
+        "ENTITY_NAME": "Bulk",
+        "TotalWTDActuals": null
+      },
+      {
+        "ENTITY_NAME": "Mumbai Container Freight Station",
+        "TotalWTDActuals": 824938.0
+      },
+      {
+        "ENTITY_NAME": "Corp-Mumbai",
+        "TotalWTDActuals": null
+      },
+      {
+        "ENTITY_NAME": "Rail West Coast",
+        "TotalWTDActuals": null
+      },
+      {
+        "ENTITY_NAME": "Haldia International Container Terminal",
+        "TotalWTDActuals": 1790996.0
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Distribution Terminal",
+        "TotalWTDActuals": 17268300.94300002
+      },
+      {
+        "ENTITY_NAME": "Rozi Cargo Terminal",
+        "TotalWTDActuals": null
+      },
+      {
+        "ENTITY_NAME": "Inchhapuri Container Terminal",
+        "TotalWTDActuals": null
+      },
+      {
+        "ENTITY_NAME": "JMB Heavy",
+        "TotalWTDActuals": null
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Freight Station",
+        "TotalWTDActuals": 397352.0
+      },
+      {
+        "ENTITY_NAME": "Tuticorin International Container Terminal",
+        "TotalWTDActuals": 1048793.0
+      },
+      {
+        "ENTITY_NAME": "Paradip International Cargo Terminal",
+        "TotalWTDActuals": 32932372.15799997
+      },
+      {
+        "ENTITY_NAME": "Rail East Coast",
+        "TotalWTDActuals": null
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Freeport Terminal",
+        "TotalWTDActuals": null
+      }
+    ],
+    "sources": null,
+    "timestamp": "30 May, 03:28 PM",
+    "category": "Test_DB"
+  }
+]

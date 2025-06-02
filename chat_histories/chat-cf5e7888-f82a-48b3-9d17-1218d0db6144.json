@@ -1,0 +1,172 @@
+[
+  {
+    "message": "what is media handling process",
+    "response": "The media handling process covers access, movement, handling, storage, and movement of media.  This includes onsite and offsite processes and aspects of testing and restoration.  Backup media should not be exposed to excessive heat, light, moisture, dust, high magnetic fields, or static electricity.  CDs/DVDs should be protected from scratches, hard disks from mechanical jerks or vibrations, and antistatic packaging should be used for tapes and hard disks during transport.  Inconsistencies should be recorded as incidents.  A suitable form or tracking system tag should be used to track equipment movement.",
+    "sources": [
+      "JMBGRP-ISMS-POL-BR_Data Backup Restore Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-EQ_Equipment Safety _ Security Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "02 Jun, 11:15 AM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "give me total WTC ACTUALS entity name wise",
+    "response": [
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - II",
+        "Total_WTD_Actuals": 3833904.0
+      },
+      {
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "Total_WTD_Actuals": 855426.0
+      },
+      {
+        "ENTITY_NAME": "Kandla Container Terminal",
+        "Total_WTD_Actuals": 5250145.0
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - I",
+        "Total_WTD_Actuals": 2608360.0
+      },
+      {
+        "ENTITY_NAME": "Bulk",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Mumbai Container Freight Station",
+        "Total_WTD_Actuals": 829332.0
+      },
+      {
+        "ENTITY_NAME": "Corp-Mumbai",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Rail West Coast",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Haldia International Container Terminal",
+        "Total_WTD_Actuals": 1797560.0
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Distribution Terminal",
+        "Total_WTD_Actuals": 17268300.94300002
+      },
+      {
+        "ENTITY_NAME": "Rozi Cargo Terminal",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Inchhapuri Container Terminal",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "JMB Heavy",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Freight Station",
+        "Total_WTD_Actuals": 398012.0
+      },
+      {
+        "ENTITY_NAME": "Tuticorin International Container Terminal",
+        "Total_WTD_Actuals": 1064325.0
+      },
+      {
+        "ENTITY_NAME": "Paradip International Cargo Terminal",
+        "Total_WTD_Actuals": 32932372.15799997
+      },
+      {
+        "ENTITY_NAME": "Rail East Coast",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Freeport Terminal",
+        "Total_WTD_Actuals": null
+      }
+    ],
+    "sources": null,
+    "timestamp": "02 Jun, 11:33 AM",
+    "category": "Test_DB"
+  },
+  {
+    "message": "give me total WTC ACTUALS  entity name wise with charts",
+    "response": [
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - II",
+        "Total_WTD_Actuals": 3833904.0
+      },
+      {
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "Total_WTD_Actuals": 855426.0
+      },
+      {
+        "ENTITY_NAME": "Kandla Container Terminal",
+        "Total_WTD_Actuals": 5250145.0
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - I",
+        "Total_WTD_Actuals": 2608360.0
+      },
+      {
+        "ENTITY_NAME": "Bulk",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Mumbai Container Freight Station",
+        "Total_WTD_Actuals": 829332.0
+      },
+      {
+        "ENTITY_NAME": "Corp-Mumbai",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Rail West Coast",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Haldia International Container Terminal",
+        "Total_WTD_Actuals": 1797560.0
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Distribution Terminal",
+        "Total_WTD_Actuals": 17268300.94300002
+      },
+      {
+        "ENTITY_NAME": "Rozi Cargo Terminal",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Inchhapuri Container Terminal",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "JMB Heavy",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Freight Station",
+        "Total_WTD_Actuals": 398012.0
+      },
+      {
+        "ENTITY_NAME": "Tuticorin International Container Terminal",
+        "Total_WTD_Actuals": 1064325.0
+      },
+      {
+        "ENTITY_NAME": "Paradip International Cargo Terminal",
+        "Total_WTD_Actuals": 32932372.15799997
+      },
+      {
+        "ENTITY_NAME": "Rail East Coast",
+        "Total_WTD_Actuals": null
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Freeport Terminal",
+        "Total_WTD_Actuals": null
+      }
+    ],
+    "sources": null,
+    "timestamp": "02 Jun, 11:33 AM",
+    "category": "Test_DB"
+  }
+]

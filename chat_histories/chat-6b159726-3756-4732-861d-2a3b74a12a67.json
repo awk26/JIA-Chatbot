@@ -1,0 +1,13 @@
+[
+  {
+    "message": "how many records are there",
+    "response": [
+      {
+        "RecordCount": 32623
+      }
+    ],
+    "sources": null,
+    "timestamp": "30 May, 02:20 PM",
+    "category": "Test_DB"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "message": "what is Sales Planning",
+    "response": "Every year around September, sales demand is forecasted through historical data review and market industry trends, and sales revenue targets are set.  Based on the targets, volumes are projected.  The HOD \u2013 Sales & BD shares the projected volume with either the Business Head or the National Sales Head (Container) & COE (Non-Container) for budget compilation (Jan - Dec).",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Bulk.pdf",
+      "SOPP_Pre Sales to Order Closure_Heavy.pdf",
+      "SOPP_Pre Sales to Order Closure_Terminals.pdf"
+    ],
+    "timestamp": "30 May, 05:22 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "how many leave",
+    "response": "I don't know",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Heavy.pdf",
+      "SOPP_Pre Sales to Order Closure_Terminals.pdf"
+    ],
+    "timestamp": "30 May, 05:39 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "how many leave is there",
+    "response": "I don't know",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Heavy.pdf",
+      "SOPP_Pre Sales to Order Closure_Terminals.pdf"
+    ],
+    "timestamp": "30 May, 05:39 PM",
+    "category": "SOPP_Sales"
+  }
+]

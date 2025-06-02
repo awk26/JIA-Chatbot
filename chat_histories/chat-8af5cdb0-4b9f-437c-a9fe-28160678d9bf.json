@@ -1,0 +1,12 @@
+[
+  {
+    "message": "what is media handling process",
+    "response": "The media handling process covers access, movement, handling, storage, and movement of media, including onsite and offsite processes and testing and restoration.  It addresses aspects like preventing exposure to excessive heat, light, moisture, dust, high magnetic fields, and static electricity; protecting CDs/DVDs from scratches; preventing hard disks from exposure to mechanical jerks or vibrations; and using antistatic packaging during transport for tapes and hard disks.  Inconsistencies are recorded as incidents.  A suitable form or tracking system is used to initiate and record equipment movement.  Specific handling instructions are provided for CDs, tapes, and hard disks, including cleaning and testing procedures, and fireproof storage for tapes.  A nominated IT person manages the media library.  Transit procedures include shockproof cases, anti-static sleeves, correct addressing, and written receipt acknowledgment.  The IT Administrator is responsible for converting old backup formats.",
+    "sources": [
+      "JMBGRP-ISMS-POL-BR_Data Backup Restore Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-EQ_Equipment Safety _ Security Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "02 Jun, 11:09 AM",
+    "category": "IT Policy"
+  }
+]

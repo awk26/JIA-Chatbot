@@ -1,0 +1,13 @@
+[
+  {
+    "message": "how many records in the view",
+    "response": [
+      {
+        "TotalRecords": 32597
+      }
+    ],
+    "sources": null,
+    "timestamp": "29 May, 12:02 PM",
+    "category": "Test_DB"
+  }
+]

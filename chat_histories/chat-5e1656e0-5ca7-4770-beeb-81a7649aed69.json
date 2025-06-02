@@ -1,0 +1,34 @@
+[
+  {
+    "message": "what is the transfer policy for employee",
+    "response": "The company may transfer employees to any department, division, or location in India or overseas at its discretion.  This applies to all full-time employees, for reasons including hiring, internal job postings, or new roles.  Employees will be subject to the practices, working hours, and holidays of their new location.  Intercompany transfers require the previous company to complete the exit process and the new company to complete onboarding.  Statutory benefits (PF, Leaves, Gratuity) will be transferred by the previous employer.  Intracompany transfers receive a transfer letter; intercompany transfers receive a new appointment letter.  The receiving company covers relocation costs for 7 days from the employee's departure from the previous location.  If an employee leaves after a transfer, a group service certificate will be issued.  Intra-company transfers will not receive experience certificates from previous units.  Employees should not lose gross emoluments due to a transfer, though the management may disallow reimbursements deemed unreasonable.  The management may amend the transfer policy at any time.  Employee-initiated transfers require notification to the supervisor and entity HR; fulfillment depends on vacancy and availability in the requested location; and may include an interview with the new location head.",
+    "sources": [
+      "Section 14 - Transfer.pdf",
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "02 Jun, 12:52 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "what is confidential data",
+    "response": "Confidential data is secret and valuable.  Examples include unpublished financial information, data of customers/partners/vendors, patents, formulas or new technologies, customer lists (existing and prospective), and privacy information of individuals including clients and all types of employees.",
+    "sources": [
+      "JMBGRP-ISMS-POL-CS_Group Cyber Security_v1.1.pdf",
+      "JMBGRP-ISMS-POL-DRSDM_Data Retention, Storage _ Disposal of Media, Records Policy_v1.2.pdf"
+    ],
+    "timestamp": "02 Jun, 12:52 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "how many records is there",
+    "response": "I'm sorry, but I don't have an answer to that.  The provided text gives categories of records tracked but not the total number of records in any category.",
+    "sources": [
+      "JMBGRP-ISMS-POL-PS_Personnel Security Policy _ Procedure_v1.3.pdf",
+      "JMBGRP-ISMS-POL-NS_Network Security Policy_v1.2.2.pdf",
+      "JMBGRP-ISMS-POL-AU_Acceptable use Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-EQ_Equipment Safety _ Security Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "02 Jun, 01:34 PM",
+    "category": "IT Policy"
+  }
+]

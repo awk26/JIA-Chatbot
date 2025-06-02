@@ -12,9 +12,14 @@ class ChatHistoryManager:
     
     def save_chat_history(self, conversation_id, chat_history):
         """Save chat history to a JSON file."""
+        def default_serializer(obj):
+            if isinstance(obj, datetime):
+                return obj.isoformat()
+            return str(obj)  # fallback for other non-serializable types
+
         file_path = os.path.join(self.chat_history_dir, f"{conversation_id}.json")
         with open(file_path, 'w') as f:
-            json.dump(chat_history, f, indent=2)
+            json.dump(chat_history, f, indent=2, default=default_serializer)
     
     def load_chat_history(self, conversation_id):
         """Load chat history from a JSON file."""

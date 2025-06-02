@@ -1,0 +1,420 @@
+[
+  {
+    "message": "give me total mtd actual entity name wise with charts",
+    "response": [
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - II",
+        "TotalMTDActuals": 15707358.0
+      },
+      {
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "TotalMTDActuals": 1840907177.6591036
+      },
+      {
+        "ENTITY_NAME": "Kandla Container Terminal",
+        "TotalMTDActuals": 2697770549.037948
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - I",
+        "TotalMTDActuals": 5788225246.498687
+      },
+      {
+        "ENTITY_NAME": "Bulk",
+        "TotalMTDActuals": 388310192.0084843
+      },
+      {
+        "ENTITY_NAME": "Mumbai Container Freight Station",
+        "TotalMTDActuals": 1131050410.4701154
+      },
+      {
+        "ENTITY_NAME": "Corp-Mumbai",
+        "TotalMTDActuals": 237773877.97134727
+      },
+      {
+        "ENTITY_NAME": "Rail West Coast",
+        "TotalMTDActuals": 1471591472.6755817
+      },
+      {
+        "ENTITY_NAME": "Haldia International Container Terminal",
+        "TotalMTDActuals": -197943402.56134105
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Distribution Terminal",
+        "TotalMTDActuals": 201459271.84945798
+      },
+      {
+        "ENTITY_NAME": "Rozi Cargo Terminal",
+        "TotalMTDActuals": 122063194.11226547
+      },
+      {
+        "ENTITY_NAME": "Inchhapuri Container Terminal",
+        "TotalMTDActuals": -18000000.0
+      },
+      {
+        "ENTITY_NAME": "JMB Heavy",
+        "TotalMTDActuals": 975034273.9044143
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Freight Station",
+        "TotalMTDActuals": 339607163.9753768
+      },
+      {
+        "ENTITY_NAME": "Tuticorin International Container Terminal",
+        "TotalMTDActuals": 64345390.498049736
+      },
+      {
+        "ENTITY_NAME": "Paradip International Cargo Terminal",
+        "TotalMTDActuals": 3015064273.605999
+      },
+      {
+        "ENTITY_NAME": "Rail East Coast",
+        "TotalMTDActuals": 488097236.9492299
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Freeport Terminal",
+        "TotalMTDActuals": 1526842073.0119333
+      }
+    ],
+    "sources": null,
+    "timestamp": "30 May, 11:56 AM",
+    "category": "Test_DB"
+  },
+  {
+    "message": "can you give me top 10 records",
+    "response": [
+      {
+        "MONTHS": "2022-01-31T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 19397.0,
+        "QTD_ACTUALS": 19397.0,
+        "HTD_ACTUALS": 19397.0,
+        "YTD_ACTUALS": 19397.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-02-28T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 18363.0,
+        "QTD_ACTUALS": 37760.0,
+        "HTD_ACTUALS": 37760.0,
+        "YTD_ACTUALS": 37760.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-03-31T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 20132.0,
+        "QTD_ACTUALS": 57892.0,
+        "HTD_ACTUALS": 57892.0,
+        "YTD_ACTUALS": 57892.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-04-30T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 15638.0,
+        "QTD_ACTUALS": 15638.0,
+        "HTD_ACTUALS": 73530.0,
+        "YTD_ACTUALS": 73530.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-05-31T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 17988.0,
+        "QTD_ACTUALS": 33626.0,
+        "HTD_ACTUALS": 91518.0,
+        "YTD_ACTUALS": 91518.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-06-30T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 17644.0,
+        "QTD_ACTUALS": 51270.0,
+        "HTD_ACTUALS": 109162.0,
+        "YTD_ACTUALS": 109162.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-07-31T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 19230.0,
+        "QTD_ACTUALS": 19230.0,
+        "HTD_ACTUALS": 19230.0,
+        "YTD_ACTUALS": 128392.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-08-31T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 19251.0,
+        "QTD_ACTUALS": 38481.0,
+        "HTD_ACTUALS": 38481.0,
+        "YTD_ACTUALS": 147643.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-09-30T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 16683.0,
+        "QTD_ACTUALS": 55164.0,
+        "HTD_ACTUALS": 55164.0,
+        "YTD_ACTUALS": 164326.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      },
+      {
+        "MONTHS": "2022-10-31T00:00:00",
+        "ENTITY_CODE": "DICT",
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "OKR": "VOLUME_TEU",
+        "SHORT_NAME": "Volume - TEU",
+        "LONG_NAME": "Volume - Twenty Equivalent Unit",
+        "DATE_ACTUALS": null,
+        "WTD_ACTUALS": null,
+        "FTD_ACTUALS": null,
+        "MTD_ACTUALS": 15880.0,
+        "QTD_ACTUALS": 15880.0,
+        "HTD_ACTUALS": 71044.0,
+        "YTD_ACTUALS": 180206.0,
+        "DATE_BUDGET": null,
+        "WTD_BUDGET": null,
+        "FTD_BUDGET": null,
+        "MTD_BUDGET": null,
+        "QTD_BUDGET": null,
+        "HTD_BUDGET": null,
+        "YTD_BUDGET": null,
+        "GROUP_ENTITY": "DICT"
+      }
+    ],
+    "sources": null,
+    "timestamp": "30 May, 11:58 AM",
+    "category": "Test_DB"
+  },
+  {
+    "message": "give me total mtd actual entity name wise with charts",
+    "response": [
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - II",
+        "TotalMTDActuals": 15747808.0
+      },
+      {
+        "ENTITY_NAME": "Delhi Inland Container Terminal",
+        "TotalMTDActuals": 1840907177.6591036
+      },
+      {
+        "ENTITY_NAME": "Kandla Container Terminal",
+        "TotalMTDActuals": 2697854545.037948
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Terminal - I",
+        "TotalMTDActuals": 5788272674.498687
+      },
+      {
+        "ENTITY_NAME": "Bulk",
+        "TotalMTDActuals": 388310192.0084843
+      },
+      {
+        "ENTITY_NAME": "Mumbai Container Freight Station",
+        "TotalMTDActuals": 1131065922.4701154
+      },
+      {
+        "ENTITY_NAME": "Corp-Mumbai",
+        "TotalMTDActuals": 237773877.97134727
+      },
+      {
+        "ENTITY_NAME": "Rail West Coast",
+        "TotalMTDActuals": 1471591472.6755817
+      },
+      {
+        "ENTITY_NAME": "Haldia International Container Terminal",
+        "TotalMTDActuals": -197918910.56134105
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Distribution Terminal",
+        "TotalMTDActuals": 201459271.84945798
+      },
+      {
+        "ENTITY_NAME": "Rozi Cargo Terminal",
+        "TotalMTDActuals": 122063194.11226547
+      },
+      {
+        "ENTITY_NAME": "Inchhapuri Container Terminal",
+        "TotalMTDActuals": -18000000.0
+      },
+      {
+        "ENTITY_NAME": "JMB Heavy",
+        "TotalMTDActuals": 975034273.9044143
+      },
+      {
+        "ENTITY_NAME": "Visakha Container Freight Station",
+        "TotalMTDActuals": 339612455.9753768
+      },
+      {
+        "ENTITY_NAME": "Tuticorin International Container Terminal",
+        "TotalMTDActuals": 64385660.498049736
+      },
+      {
+        "ENTITY_NAME": "Paradip International Cargo Terminal",
+        "TotalMTDActuals": 3015404908.553999
+      },
+      {
+        "ENTITY_NAME": "Rail East Coast",
+        "TotalMTDActuals": 488097236.9492299
+      },
+      {
+        "ENTITY_NAME": "Nhava Sheva Freeport Terminal",
+        "TotalMTDActuals": 1526842073.0119333
+      }
+    ],
+    "sources": null,
+    "timestamp": "30 May, 12:35 PM",
+    "category": "Test_DB"
+  },
+  {
+    "message": "how to apply for leave",
+    "response": "I don't know",
+    "sources": [
+      "JMBGRP-ISMS-POL-PS_Personnel Security Policy _ Procedure_v1.3.pdf",
+      "JMBGRP-ISMS-POL-DM_Desktop, Mobile Comp. Teleworing Security Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "30 May, 12:37 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "how to apply for leave",
+    "response": "Leave applications should be submitted through the HRMS system.  Employees without HRMS access should submit Leave Application Form No. 8, approved by the Competent Authority, to their respective HR department or nominated person.",
+    "sources": [
+      "JMB Policy Document_common policy document.pdf",
+      "Leave & Attendance Policy.pdf"
+    ],
+    "timestamp": "30 May, 12:37 PM",
+    "category": "HR Policy"
+  }
+]

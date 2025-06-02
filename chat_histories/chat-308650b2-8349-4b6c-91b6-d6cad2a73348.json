@@ -1,0 +1,45 @@
+[
+  {
+    "message": "what is Ad-hop backups",
+    "response": "Ad-hoc backups are backups of the complete operating system, including all applications and data, taken before and after any significant changes that may affect the operating system, system or application software.  These changes may result from a system upgrade, planned power outage, or any other event that may put the system and data at risk.  All ad-hoc backups are initiated by the data owner, who sends a formal request for backup.  The media is then stored, erased, or destroyed based on the retention period specified in the backup request form and the classification level.",
+    "sources": [
+      "JMBGRP-ISMS-POL-BR_Data Backup Restore Policy_v1.2.pdf"
+    ],
+    "timestamp": "30 May, 05:05 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "what is the full of BAPLIE",
+    "response": "I don't know",
+    "sources": [
+      "JMBGRP-ISMS-POL-IF_ISMS Framework_v1.2.pdf",
+      "JMBGRP-ISMS-POL-DM_Desktop, Mobile Comp. Teleworing Security Policy _ Procedure_v1.2.pdf",
+      "JMBGRP-ISMS-POL-PS_Personnel Security Policy _ Procedure_v1.3.pdf",
+      "JMBGRP-ISMS-POL-BY_Bring Your Own Device Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "30 May, 05:05 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "what is the full form of BD",
+    "response": "I don't know",
+    "sources": [
+      "JMBGRP-ISMS-POL-BR_Data Backup Restore Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-BY_Bring Your Own Device Policy _ Procedure_v1.2.pdf",
+      "JMBGRP-ISMS-POL-BC_Business continuity Policy.pdf"
+    ],
+    "timestamp": "30 May, 05:07 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "what is the full of BAPLIE",
+    "response": "I don't know",
+    "sources": [
+      "SOPP_Operations_VCTPL.pdf",
+      "SOPP_Operations_HICT.pdf",
+      "SOPP_Operations_KICT.pdf"
+    ],
+    "timestamp": "30 May, 05:08 PM",
+    "category": "SOPP_Operation"
+  }
+]
