@@ -18,14 +18,16 @@ const welcomeMessage = {
 const categoryOptions = [
     { id: 'HR Policy', name: 'HR Policy' },
     { id: 'IT Policy', name: 'IT Policy' },
-    { id: 'SOP', name: 'SOP', dropdown: true, options: [
-        { id: 'SOPP_Operation', name: 'Operation' },
-        { id: 'SOPP_Procurement', name: 'Procurement' },
-        { id: 'SOPP_Revenue', name: 'Revenue' },
-        { id: 'SOPP_Sales', name: 'Sales' }
-    ]},
-    {id: 'MIS', name: 'MIS'}
-    
+    {
+        id: 'SOP', name: 'SOP', dropdown: true, options: [
+            { id: 'SOPP_Operation', name: 'Operation' },
+            { id: 'SOPP_Procurement', name: 'Procurement' },
+            { id: 'SOPP_Revenue', name: 'Revenue' },
+            { id: 'SOPP_Sales', name: 'Sales' }
+        ]
+    },
+    { id: 'MIS', name: 'MIS' }
+
 ];
 
 // Keep track of all messages
@@ -52,7 +54,7 @@ backToMenuButton.addEventListener('click', showCategories);
 function handleInput() {
     // Enable/disable send button based on input content
     sendButton.disabled = userInput.value.trim() === '';
-    
+
     // Auto-resize the textarea
     userInput.style.height = 'auto';
     userInput.style.height = (userInput.scrollHeight < 200 ? userInput.scrollHeight : 200) + 'px';
@@ -71,45 +73,45 @@ function handleKeyDown(e) {
 function createCategoryButtons() {
     const categoriesContainer = document.createElement('div');
     // categoriesContainer.className = 'categories-container';
-    
+
     const categoryTitle = document.createElement('div');
     categoryTitle.className = 'category-title';
     // categoryTitle.textContent = 'Please select a category:';
     categoriesContainer.appendChild(categoryTitle);
-    
+
     const categoryButtonsContainer = document.createElement('div');
     categoryButtonsContainer.className = 'category-buttons-container';
-    
+
     categoryOptions.forEach(category => {
         if (category.dropdown) {
             // Create dropdown for SOP
             const dropdownContainer = document.createElement('div');
             dropdownContainer.className = 'dropdown';
-            
+
             const dropdownButton = document.createElement('button');
             dropdownButton.className = 'category-button dropdown-toggle';
             dropdownButton.setAttribute('data-category', category.id);
             dropdownButton.textContent = category.name;
-            
+
             const dropdownContent = document.createElement('div');
             dropdownContent.className = 'dropdown-content';
-            
+
             category.options.forEach(option => {
                 const optionButton = document.createElement('button');
                 optionButton.className = 'category-button sub-option';
                 optionButton.setAttribute('data-category', option.id);
                 optionButton.textContent = option.name;
-                optionButton.addEventListener('click', function() {
+                optionButton.addEventListener('click', function () {
                     selectCategory(option.id, `${category.name} - ${option.name}`);
                 });
                 dropdownContent.appendChild(optionButton);
             });
-            
-            dropdownButton.addEventListener('click', function(e) {
+
+            dropdownButton.addEventListener('click', function (e) {
                 e.stopPropagation();
                 dropdownContainer.classList.toggle('active');
             });
-            
+
             dropdownContainer.appendChild(dropdownButton);
             dropdownContainer.appendChild(dropdownContent);
             categoryButtonsContainer.appendChild(dropdownContainer);
@@ -119,13 +121,13 @@ function createCategoryButtons() {
             button.className = 'category-button';
             button.setAttribute('data-category', category.id);
             button.textContent = category.name;
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 selectCategory(category.id, category.name);
             });
             categoryButtonsContainer.appendChild(button);
         }
     });
-    
+
     categoriesContainer.appendChild(categoryButtonsContainer);
     return categoriesContainer;
 }
@@ -133,7 +135,7 @@ function createCategoryButtons() {
 function selectCategory(categoryId, displayName) {
     // Set active category
     currentCategory = categoryId;
-    
+
     // Add user message showing selection
     const userMessage = {
         content: displayName,
@@ -141,7 +143,7 @@ function selectCategory(categoryId, displayName) {
         timestamp: getCurrentTimestamp()
     };
     chatHistory.push(userMessage);
-    
+
     // Add system message indicating category selection
     const systemMessage = {
         content: `You've selected ${displayName}. You can now ask questions related to this category.`,
@@ -149,11 +151,11 @@ function selectCategory(categoryId, displayName) {
         timestamp: getCurrentTimestamp()
     };
     chatHistory.push(systemMessage);
-    
+
     // Render messages
     renderMessages();
     scrollToBottom();
-    
+
     // Send category selection to backend
     fetch('/set-category', {
         method: 'POST',
@@ -164,9 +166,9 @@ function selectCategory(categoryId, displayName) {
             'category': categoryId
         })
     })
-    .catch(error => {
-        console.error("Error setting category:", error);
-    });
+        .catch(error => {
+            console.error("Error setting category:", error);
+        });
 }
 
 function showCategories() {
@@ -177,7 +179,7 @@ function showCategories() {
         timestamp: getCurrentTimestamp(),
         showCategories: true  // Flag to show categories
     };
-    
+
     chatHistory.push(systemMessage);
     renderMessages();
     scrollToBottom();
@@ -185,7 +187,7 @@ function showCategories() {
 
 async function sendMessage() {
     if (userInput.value.trim() === '') return;
-    
+
     // Add user message to chat history
     const userMessage = {
         content: userInput.value.trim(),
@@ -193,16 +195,16 @@ async function sendMessage() {
         timestamp: getCurrentTimestamp()
     };
     chatHistory.push(userMessage);
-    
+
     // Clear input and reset height
     userInput.value = '';
     userInput.style.height = 'auto';
     sendButton.disabled = true;
-    
+
     // Render messages including the new one
     renderMessages();
     scrollToBottom();
-    
+
     // Process user message
     await processUserMessage(userMessage.content);
 }
@@ -210,23 +212,23 @@ async function sendMessage() {
 async function processUserMessage(message) {
     // Show typing indicator
     typingIndicator.classList.add('active');
-    
+
     try {
         // Disable inputs while waiting for response
         userInput.disabled = true;
         sendButton.disabled = true;
-        
+
         // Call the API endpoint to get the assistant's response
         const response = await fetchAIResponse(message);
-      
-        
+
+
         // Hide typing indicator
         typingIndicator.classList.remove('active');
-        
+
         if (Array.isArray(response.response) || (typeof response.response === "object" && response.response !== null)) {
             console.log("Processing array/object response");
-           
-            
+
+
             // Create a special message object for chart/table data
             const chartTableMessage = {
                 content: "Data visualization generated",
@@ -239,11 +241,11 @@ async function processUserMessage(message) {
                     chartData: response.chartData || null
                 }
             };
-            
+
             chatHistory.push(chartTableMessage);
             renderMessages();
             scrollToBottom();
-            
+
             return null;
         } else {
             if (response !== null) {
@@ -256,17 +258,17 @@ async function processUserMessage(message) {
                     showCategories: response.show_menu
                 };
                 chatHistory.push(assistantMessage);
-                
+
                 // Render messages including the new response
                 renderMessages();
                 scrollToBottom();
             }
         }
-        
+
     } catch (error) {
         // Hide typing indicator
         typingIndicator.classList.remove('active');
-        
+
         // Show error message
         const errorMessage = {
             content: "Sorry, I couldn't process your request. Please try again later.",
@@ -274,7 +276,7 @@ async function processUserMessage(message) {
             timestamp: getCurrentTimestamp()
         };
         chatHistory.push(errorMessage);
-        
+
         // Render messages including the error
         renderMessages();
         scrollToBottom();
@@ -289,26 +291,26 @@ async function processUserMessage(message) {
 
 function renderMessages() {
     messagesContainer.innerHTML = '';
-    
+
     chatHistory.forEach((message, index) => {
         const isUser = message.sender === 'user';
         // console.log("chart data===============",message.chartTableData.response)
         // Handle chart/table messages specially
         if (message.isChartTable) {
             appendBotMessage(
-                message.chartTableData.response, 
-                message.chartTableData.suggestions, 
+                message.chartTableData.response,
+                message.chartTableData.suggestions,
                 message.chartTableData.chartData
             );
             return; // Skip the rest of the rendering for this message
         }
-        
+
         const messageElement = document.createElement('div');
         messageElement.className = `message ${isUser ? 'user' : 'assistant'}`;
-        
+
         const avatar = document.createElement('div');
         avatar.className = 'message-avatar';
-        
+
         if (isUser) {
             avatar.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>';
         } else {
@@ -321,26 +323,26 @@ function renderMessages() {
             logoImg.style.borderRadius = '50%';
             logoImg.style.objectFit = 'cover';
             logoImg.style.display = 'block';
-            
+
             avatar.style.display = 'flex';
             avatar.style.alignItems = 'center';
             avatar.style.justifyContent = 'center';
             avatar.appendChild(logoImg);
         }
-        
+
         const content = document.createElement('div');
         content.className = 'message-content';
-        
+
         const sender = document.createElement('div');
         sender.className = 'message-sender';
         sender.textContent = isUser ? 'You' : 'JIA';
-        
+
         const text = document.createElement('div');
         text.className = 'message-text';
-        
+
         // Check if message has content and markdown-like formatting
         let messageContent = message.content || '';
-        
+
         // Only process formatting if content exists
         if (messageContent) {
             // Convert ** bold ** to <strong>bold</strong>
@@ -348,17 +350,17 @@ function renderMessages() {
             // Convert simple newlines to <br>
             messageContent = messageContent.replace(/\n/g, '<br>');
         }
-        
+
         text.innerHTML = messageContent;
-        
+
         // Add timestamp
         const timestamp = document.createElement('div');
         timestamp.className = 'message-timestamp';
         timestamp.textContent = message.timestamp || '';
-        
+
         content.appendChild(sender);
         content.appendChild(text);
-        
+
         // Add category buttons if it's the welcome message or if showCategories is true
         if (!isUser && (index === 0 || message.showCategories)) {
             const categoriesContainer = createCategoryButtons();
@@ -367,86 +369,86 @@ function renderMessages() {
         } else {
             content.appendChild(timestamp);
         }
-        
+
         // Add sources if available
-       if (message.sources && !isUser) {
-    const sourcesContainer = document.createElement('div');
-    sourcesContainer.className = 'message-sources';
-    
-    // Check if sources is an array of objects or array of strings
-    if (Array.isArray(message.sources)) {
-        if (message.sources.length > 0 && typeof message.sources[0] === 'object') {
-            // It's an array of source objects
-            const sourcesTitle = document.createElement('div');
-            sourcesTitle.className = 'source-title';
-            sourcesTitle.textContent = 'Sources:';
-            sourcesContainer.appendChild(sourcesTitle);
-            
-            message.sources.forEach(source => {
+        if (message.sources && !isUser) {
+            const sourcesContainer = document.createElement('div');
+            sourcesContainer.className = 'message-sources';
+
+            // Check if sources is an array of objects or array of strings
+            if (Array.isArray(message.sources)) {
+                if (message.sources.length > 0 && typeof message.sources[0] === 'object') {
+                    // It's an array of source objects
+                    const sourcesTitle = document.createElement('div');
+                    sourcesTitle.className = 'source-title';
+                    sourcesTitle.textContent = 'Sources:';
+                    sourcesContainer.appendChild(sourcesTitle);
+
+                    message.sources.forEach(source => {
+                        const sourceItem = document.createElement('div');
+                        sourceItem.className = 'source-item clickable-file';
+                        sourceItem.textContent = `${source.category || ''} - ${source.document || ''} ${source.page ? `(Page ${source.page})` : ''}`.trim();
+
+                        // Add click handler for file opening
+                        sourceItem.addEventListener('click', () => {
+                            const filename = source.document || source;
+                            handleFileClick(filename);
+                        });
+
+                        sourcesContainer.appendChild(sourceItem);
+                    });
+                } else {
+                    // It's an array of suggestion strings (file names)
+                    const suggestionsContainer = document.createElement('div');
+                    suggestionsContainer.className = 'message-suggestions';
+
+                    const suggestionsTitle = document.createElement('div');
+                    suggestionsTitle.className = 'suggestion-title';
+                    suggestionsTitle.textContent = 'References:';
+                    suggestionsContainer.appendChild(suggestionsTitle);
+
+                    message.sources.forEach(suggestion => {
+                        if (typeof suggestion === 'string') {
+                            const suggestionItem = document.createElement('div');
+                            suggestionItem.className = 'suggestion-item clickable-file';
+                            suggestionItem.textContent = suggestion;
+
+                            // Add click handler for file opening
+                            suggestionItem.addEventListener('click', () => {
+                                handleFileClick(suggestion);
+                            });
+
+                            suggestionsContainer.appendChild(suggestionItem);
+                        } else if (suggestion.tip) {
+                            const suggestionItem = document.createElement('div');
+                            suggestionItem.className = 'suggestion-item';
+                            suggestionItem.textContent = suggestion.tip;
+                            suggestionsContainer.appendChild(suggestionItem);
+                        }
+                    });
+
+                    content.appendChild(suggestionsContainer);
+                }
+            } else if (typeof message.sources === 'string') {
+                // It's a single string filename
                 const sourceItem = document.createElement('div');
                 sourceItem.className = 'source-item clickable-file';
-                sourceItem.textContent = `${source.category || ''} - ${source.document || ''} ${source.page ? `(Page ${source.page})` : ''}`.trim();
-                
+                sourceItem.textContent = message.sources;
+
                 // Add click handler for file opening
                 sourceItem.addEventListener('click', () => {
-                    const filename = source.document || source;
-                    handleFileClick(filename);
+                    handleFileClick(message.sources);
                 });
-                
+
                 sourcesContainer.appendChild(sourceItem);
-            });
-        } else {
-            // It's an array of suggestion strings (file names)
-            const suggestionsContainer = document.createElement('div');
-            suggestionsContainer.className = 'message-suggestions';
-            
-            const suggestionsTitle = document.createElement('div');
-            suggestionsTitle.className = 'suggestion-title';
-            suggestionsTitle.textContent = 'References:';
-            suggestionsContainer.appendChild(suggestionsTitle);
-            
-            message.sources.forEach(suggestion => {
-                if (typeof suggestion === 'string') {
-                    const suggestionItem = document.createElement('div');
-                    suggestionItem.className = 'suggestion-item clickable-file';
-                    suggestionItem.textContent = suggestion;
-                    
-                    // Add click handler for file opening
-                    suggestionItem.addEventListener('click', () => {
-                        handleFileClick(suggestion);
-                    });
-                    
-                    suggestionsContainer.appendChild(suggestionItem);
-                } else if (suggestion.tip) {
-                    const suggestionItem = document.createElement('div');
-                    suggestionItem.className = 'suggestion-item';
-                    suggestionItem.textContent = suggestion.tip;
-                    suggestionsContainer.appendChild(suggestionItem);
-                }
-            });
-            
-            content.appendChild(suggestionsContainer);
+            }
+
+            content.appendChild(sourcesContainer);
         }
-    } else if (typeof message.sources === 'string') {
-        // It's a single string filename
-        const sourceItem = document.createElement('div');
-        sourceItem.className = 'source-item clickable-file';
-        sourceItem.textContent = message.sources;
-        
-        // Add click handler for file opening
-        sourceItem.addEventListener('click', () => {
-            handleFileClick(message.sources);
-        });
-        
-        sourcesContainer.appendChild(sourceItem);
-    }
-    
-    content.appendChild(sourcesContainer);
-}
-        
+
         messageElement.appendChild(avatar);
         messageElement.appendChild(content);
-        
+
         messagesContainer.appendChild(messageElement);
     });
 }
@@ -461,7 +463,7 @@ function clearChat() {
     // Clear the stored chart/table elements
     chartAndTableElements = [];
     renderMessages();
-    
+
     // Reset current category
     currentCategory = null;
 }
@@ -475,7 +477,7 @@ function startNewChat() {
     // Clear the stored chart/table elements
     chartAndTableElements = [];
     renderMessages();
-    
+
     // Reset current category
     currentCategory = null;
 }
@@ -488,7 +490,7 @@ function generateUniqueId() {
 // Get current timestamp
 function getCurrentTimestamp() {
     const now = new Date();
-    return now.toLocaleString('en-US', { 
+    return now.toLocaleString('en-US', {
         hour: 'numeric',
         minute: 'numeric',
         hour12: true,
@@ -510,15 +512,15 @@ async function fetchAIResponse(userMessage) {
                 'message': userMessage
             })
         });
-        
+
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        
+
         const data = await response.json();
-        
-        
-        console.log("wwwwwwwwwwwwwwwwwwwww",data.chartData)
+
+
+        console.log("wwwwwwwwwwwwwwwwwwwww", data.chartData)
         return {
             response: data.response || "I'm not sure how to respond to that.",
             chartData: data.chartData || null,
@@ -526,7 +528,7 @@ async function fetchAIResponse(userMessage) {
             show_menu: data.show_menu || false,
             timestamp: data.timestamp || getCurrentTimestamp()
         };
-       
+
     } catch (error) {
         console.error("API Error:", error);
         throw error;
@@ -538,7 +540,7 @@ async function loadChatHistory() {
     try {
         // Check if user wants to continue previous session (you can add a setting for this)
         const continueSession = localStorage.getItem('continueSession') === 'true';
-        
+
         if (continueSession) {
             const response = await fetch('/get-chat-history');
             if (response.ok) {
@@ -551,7 +553,7 @@ async function loadChatHistory() {
                 }
             }
         }
-        
+
         // If not continuing session or no history found, start fresh
         chatHistory = [welcomeMessage];
         currentCategory = null;
@@ -559,7 +561,7 @@ async function loadChatHistory() {
         chartAndTableElements = [];
         renderMessages();
         scrollToBottom();
-        
+
     } catch (error) {
         console.error("Error loading chat history:", error);
         // Fallback to fresh start
@@ -571,7 +573,7 @@ async function loadChatHistory() {
 }
 
 // Add click event delegation to handle dynamically added elements
-document.addEventListener('click', function(e) {
+document.addEventListener('click', function (e) {
     if (e.target && e.target.classList.contains('suggestion-item')) {
         const suggestionText = e.target.textContent;
         userInput.value = suggestionText;
@@ -580,15 +582,10 @@ document.addEventListener('click', function(e) {
     }
 });
 
-// Initialize
 
-
-
-
-// Replace the appendBotMessage function with this updated version
 
 function appendBotMessage(response, suggestions, chartData) {
-    
+
     if (Array.isArray(response) && response.length > 0 && typeof response[0] === 'object') {
         const chartContainer = $("<div>").addClass("row").css({
             "width": "100%",
@@ -699,22 +696,23 @@ function appendBotMessage(response, suggestions, chartData) {
 
         // FIXED: Updated table wrapper with proper constraints
         const tableWrapper = $("<div>").addClass("col-6").css({
-            "width": "48%",                    // Fixed width instead of 50%
-            "max-width": "48%",               // Ensure it doesn't exceed
-            "min-width": "0",                 // Allow shrinking
-            "padding-right": "1%",            // Small padding
-            "box-sizing": "border-box",       // Include padding in width calculation
-            "overflow": "hidden"              // Hide any overflow
+            "width": "50%",
+            "max-width": "50%",
+            "min-width": "0",
+            "padding-right": "1%",
+            "box-sizing": "border-box",
+            "overflow": "hidden",
+            "margin-left": "8px"
         });
 
         // FIXED: Updated canvas wrapper
         const canvasWrapper = $("<div>").addClass("col-6").css({
-            "width": "48%",                   // Fixed width instead of 50%
-            "max-width": "48%",               // Ensure it doesn't exceed
-            "min-width": "0",                 // Allow shrinking
-            "padding-left": "1%",             // Small padding
-            "box-sizing": "border-box",       // Include padding in width calculation
-            "overflow": "hidden"              // Hide any overflow
+            "width": "48%",
+            "max-width": "50%",
+            "min-width": "0",
+            "padding-left": "1%",
+            "box-sizing": "border-box",
+            "overflow": "hidden"
         });
 
         // Chart type dropdown
@@ -743,9 +741,9 @@ function appendBotMessage(response, suggestions, chartData) {
         const table = $('<table>').attr('id', tableId).addClass('display').css({
             "width": "100%",
             "max-width": "100%",
-            "table-layout": "fixed"  // FIXED: Force fixed table layout
+            "table-layout": "fixed"
         });
-        
+
         let cookieColumns = getCookie("columns");
         let headers = Object.keys(response[0]).map(h => h.trim());
         if (cookieColumns) {
@@ -755,19 +753,20 @@ function appendBotMessage(response, suggestions, chartData) {
             headers = cookieColumns.filter(col => headers.includes(col));
         }
 
+        // FIXED: Create table header only once
         const thead = $("<thead>");
         const headerRow = $("<tr>");
         headers.forEach(header => {
             headerRow.append($("<th>").text(header).css({
                 "word-wrap": "break-word",
-                "overflow": "hidden",
-                "text-overflow": "ellipsis"
+                "overflow": "hidden"
             }));
         });
         thead.append(headerRow);
         table.append(thead);
-        const tbody = $("<tbody>");
 
+        // Create table body
+        const tbody = $("<tbody>");
         response.forEach(row => {
             const tr = $('<tr>');
             headers.forEach(header => {
@@ -780,13 +779,14 @@ function appendBotMessage(response, suggestions, chartData) {
             tbody.append(tr);
         });
         table.append(tbody);
+        
         tableWrapper.append(table);
         chartContainer.append(tableWrapper);
 
         // Add the chart container to messages container
         $(messagesContainer).append(chartContainer);
 
-        // FIXED: Initialize DataTable with updated settings
+        // Initialize DataTable
         initializeDataTable(tableId);
 
         const canvasId = "chart_" + new Date().getTime();
@@ -816,8 +816,8 @@ function appendBotMessage(response, suggestions, chartData) {
                     chart.destroy();
                 }
                 const ctx = canvas[0].getContext("2d");
-                canvas.attr("class", ""); // Reset Class
-                canvas.addClass("myChart"); // Common Class
+                canvas.attr("class", "");
+                canvas.addClass("myChart");
                 if (type === "pie" || type === "doughnut") {
                     canvas.addClass(`${type}-chart`);
                 }
@@ -858,10 +858,333 @@ function appendBotMessage(response, suggestions, chartData) {
                 renderChart(selectedType);
             });
         }
+const checkXLSXLoaded = () => {
+                if (typeof XLSX !== 'undefined') {
+                    setupExcelExport();
+                } else {
+                    // If XLSX is not loaded, dynamically load it
+                    const script = document.createElement('script');
+                    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+                    script.onload = setupExcelExport;
+                    document.head.appendChild(script);
+                }
+            };
 
-        // Rest of the export functionality remains the same...
-        // [Include all the existing export handlers here]
-        
+            // Check if html2pdf is loaded before adding event handlers
+            const checkHTML2PDFLoaded = () => {
+                if (typeof html2pdf !== 'undefined') {
+                    setupPDFExport();
+                } else {
+                    // If html2pdf is not loaded, dynamically load it
+                    const script = document.createElement('script');
+                    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';
+                    script.onload = setupPDFExport;
+                    document.head.appendChild(script);
+                }
+            };
+
+            // Setup Excel export functionality
+            async function setupExcelExport() {
+                excelOption.on("click", async function () {
+                    try {
+                        // Create a new ExcelJS Workbook
+                        const workbook = new ExcelJS.Workbook();
+                        const worksheet = workbook.addWorksheet("Data", {
+                            views: [{ showGridLines: false }] // Remove gridlines
+                        });
+
+                        // Get table data from DataTable
+                        const dataTable = $('#' + tableId).DataTable();
+
+                        if (!dataTable || dataTable.rows().count() === 0) {
+                            alert("No data available for export.");
+                            return;
+                        }
+
+                        // Extract headers
+                        const headers = dataTable.columns().header().toArray().map(header => $(header).text());
+                        const headerRow = worksheet.addRow(headers);
+                        headerRow.eachCell((cell) => {
+                            cell.font = { bold: true };
+                            cell.alignment = { horizontal: 'center', vertical: 'middle' };
+                            cell.border = {
+                                top: { style: 'thin' },
+                                left: { style: 'thin' },
+                                bottom: { style: 'thin' },
+                                right: { style: 'thin' },
+                            };
+                        });
+
+                        // Extract data and add to worksheet
+                        dataTable.rows().every(function () {
+                            const rowData = this.data();
+                            const dataRow = worksheet.addRow(rowData);
+
+                            dataRow.eachCell((cell) => {
+                                cell.alignment = { horizontal: 'center', vertical: 'middle' };
+                                cell.border = {
+                                    top: { style: 'thin' },
+                                    left: { style: 'thin' },
+                                    bottom: { style: 'thin' },
+                                    right: { style: 'thin' },
+                                };
+                            });
+                        });
+
+                        // Adjust column widths
+                        worksheet.columns.forEach((column, index) => {
+                            const maxWidth = Math.max(
+                                headers[index].length,
+                                ...dataTable
+                                    .rows()
+                                    .data()
+                                    .toArray()
+                                    .map(row => row[index] ? row[index].toString().length : 10)
+                            );
+                            column.width = Math.min(maxWidth + 2, 50);
+                        });
+
+                        // Ensure there's space for the chart
+                        const chartStartRow = dataTable.rows().count() + 5;
+                        worksheet.addRow([]);
+                        worksheet.addRow(["Chart Visualization:"]);
+                        worksheet.addRow([]);
+
+                        // Embed the chart if it exists
+                        if (chart) {
+                            const chartImage = chart.toBase64Image();
+
+                            if (!chartImage) {
+                                throw new Error("Chart image could not be converted to Base64.");
+                            }
+
+                            const imageId = workbook.addImage({
+                                base64: chartImage,
+                                extension: 'png',
+                            });
+
+                            worksheet.addImage(imageId, {
+                                tl: { col: 0, row: chartStartRow },
+                                ext: { width: 600, height: 400 }, // Adjust as necessary
+                            });
+                        }
+
+                        // Save workbook to buffer
+                        const buffer = await workbook.xlsx.writeBuffer();
+                        const blob = new Blob([buffer], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+
+                        // Download the Excel file
+                        const link = document.createElement("a");
+                        link.href = URL.createObjectURL(blob);
+                        link.download = "data-with-chart.xlsx";
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+
+                        dropdownContent.hide();
+                    } catch (error) {
+                        console.error("Excel export error:", error);
+                        alert("Excel export failed. Please check the console for details.");
+                    }
+                });
+            }
+
+
+
+            // Setup PDF export functionality
+            function setupPDFExport() {
+                // PDF download handler
+                pdfOption.on("click", function () {
+                    try {
+                        // Create a container for the content
+                        const content = $("<div>").css({
+                            "font-family": "Arial, sans-serif",
+                            "padding": "20px"
+                        });
+
+                        // Add a title
+                        content.append($("<h2>").text("Data Export").css({
+                            "text-align": "center",
+                            "margin-bottom": "20px"
+                        }));
+
+                        // Create a timestamp
+                        const now = new Date();
+                        const timestamp = now.toLocaleString();
+                        content.append($("<p>").text("Generated: " + timestamp).css({
+                            "text-align": "right",
+                            "font-style": "italic",
+                            "margin-bottom": "20px"
+                        }));
+
+                        // Get the data from the DataTable
+                        const dataTable = $('#' + tableId).DataTable();
+                        const tableData = [];
+
+                        // Extract visible data from DataTable
+                        dataTable.rows().every(function () {
+                            tableData.push(this.data());
+                        });
+
+                        // Recreate the table
+                        const pdfTable = $("<table>").css({
+                            "width": "100%",
+                            "border-collapse": "collapse",
+                            "margin-bottom": "30px"
+                        });
+
+                        // Add headers
+                        const pdfTableHead = $("<thead>");
+                        const pdfTableHeaderRow = $("<tr>");
+                        headers.forEach(header => {
+                            pdfTableHeaderRow.append($("<th>").text(header).css({
+                                "border": "1px solid #ddd",
+                                "padding": "8px",
+                                "background-color": "#f2f2f2",
+                                "text-align": "left"
+                            }));
+                        });
+                        pdfTableHead.append(pdfTableHeaderRow);
+                        pdfTable.append(pdfTableHead);
+
+                        // Add body rows
+                        const pdfTableBody = $("<tbody>");
+                        tableData.forEach(row => {
+                            const tr = $("<tr>");
+                            row.forEach(cell => {
+                                tr.append($("<td>").text(cell || '').css({
+                                    "border": "1px solid #ddd",
+                                    "padding": "8px"
+                                }));
+                            });
+                            pdfTableBody.append(tr);
+                        });
+                        pdfTable.append(pdfTableBody);
+
+                        content.append(pdfTable);
+
+                        // Add the chart if available
+                        if (chart) {
+                            content.append($("<h3>").text("Chart Visualization").css({
+                                "margin-top": "20px",
+                                "margin-bottom": "15px"
+                            }));
+
+                            // Get the chart as an image
+                            const chartImage = chart.canvas.toDataURL('image/png');
+                            const chartImg = $("<img>").attr({
+                                "src": chartImage,
+                                "alt": "Chart Visualization"
+                            }).css({
+                                "max-width": "100%",
+                                "height": "auto",
+                                "display": "block",
+                                "margin": "0 auto"
+                            });
+
+                            content.append(chartImg);
+                        }
+
+                        // Generate PDF with html2pdf
+                        const element = content[0];
+                        const opt = {
+                            margin: [10, 10],
+                            filename: 'data-export.pdf',
+                            image: { type: 'jpeg', quality: 0.98 },
+                            html2canvas: { scale: 2 },
+                            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+                        };
+
+                        // Use html2pdf to generate and download the PDF
+                        html2pdf().set(opt).from(element).save();
+
+                        // Hide dropdown after download
+                        dropdownContent.hide();
+                    } catch (error) {
+                        console.error("PDF export error:", error);
+                        alert("PDF export failed. Please make sure the html2pdf library is loaded properly.");
+                    }
+                });
+            }
+
+            
+            // Print handler - doesn't require external libraries
+            printOption.on("click", function () {
+                try {
+                    // Create printable content
+                    const printWindow = window.open('', '_blank');
+
+                    printWindow.document.write('<html><head><title>Print Data</title>');
+                    printWindow.document.write('<style>');
+                    printWindow.document.write('table { width: 100%; border-collapse: collapse; }');
+                    printWindow.document.write('th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }');
+                    printWindow.document.write('th { background-color: #f2f2f2; }');
+                    printWindow.document.write('h2, h3 { text-align: center; }');
+                    printWindow.document.write('.chart-container { text-align: center; margin: 20px 0; }');
+                    printWindow.document.write('</style>');
+                    printWindow.document.write('</head><body>');
+
+                    // Add title
+                    printWindow.document.write('<h2>Data Print</h2>');
+
+                    // Get the data from the DataTable
+                    const dataTable = $('#' + tableId).DataTable();
+                    const tableData = [];
+
+                    // Extract visible data from DataTable
+                    dataTable.rows().every(function () {
+                        tableData.push(this.data());
+                    });
+
+                    // Create table HTML
+                    printWindow.document.write('<table>');
+                    printWindow.document.write('<thead><tr>');
+                    headers.forEach(header => {
+                        printWindow.document.write('<th>' + header + '</th>');
+                    });
+                    printWindow.document.write('</tr></thead>');
+
+                    printWindow.document.write('<tbody>');
+                    tableData.forEach(row => {
+                        printWindow.document.write('<tr>');
+                        row.forEach(cell => {
+                            printWindow.document.write('<td>' + (cell || '') + '</td>');
+                        });
+                        printWindow.document.write('</tr>');
+                    });
+                    printWindow.document.write('</tbody></table>');
+
+                    // Add chart if available
+                    if (chart) {
+                        printWindow.document.write('<h3>Chart Visualization</h3>');
+                        printWindow.document.write('<div class="chart-container">');
+                        // Get the chart as an image
+                        const chartImage = chart.canvas.toDataURL('image/png');
+                        printWindow.document.write('<img src="' + chartImage + '" style="max-width: 100%;" />');
+                        printWindow.document.write('</div>');
+                    }
+
+                    printWindow.document.write('</body></html>');
+                    printWindow.document.close();
+
+                    // Wait for content to load before printing
+                    printWindow.onload = function () {
+                        printWindow.print();
+                        printWindow.close();
+                    };
+
+                    // Hide dropdown after initiating print
+                    dropdownContent.hide();
+                } catch (error) {
+                    console.error("Print error:", error);
+                    alert("Print failed. Please try again.");
+                }
+            });
+
+            // Check for libraries and set up export handlers
+            checkXLSXLoaded();
+            checkHTML2PDFLoaded();
+
     } else {
         // Handle text or structured response (existing code remains the same)
         const messageDiv = $("<div>").addClass("chat-message bot");
@@ -906,53 +1229,17 @@ function appendBotMessage(response, suggestions, chartData) {
     }
 }
 
-// FIXED: Updated initializeDataTable function
-function initializeDataTable(tableId) {
-    return $('#' + tableId).DataTable({
-        scrollX: false,              // FIXED: Disable horizontal scroll completely
-        scrollY: "400px",            // Keep vertical scroll for height control
-        fixedHeader: false,          // FIXED: Disable fixed header to prevent layout issues
-        paging: true,
-        searching: true,
-        scrollCollapse: true,
-        autoWidth: false,            // FIXED: Prevent auto width calculation
-        responsive: false,           // FIXED: Disable responsive to prevent column manipulation
-        columnDefs: [
-            {
-                targets: '_all',
-                width: 'auto',           // FIXED: Let columns auto-size within container
-                className: 'text-center'
-            }
-        ],
-        language: {
-            search: "Search:",
-            paginate: {
-                previous: "Previous",
-                next: "Next"
-            }
-        },
-        // FIXED: Add these settings to prevent overflow
-        layout: {
-            topStart: null,
-            topEnd: 'search',
-            bottomStart: 'info',
-            bottomEnd: 'paging'
-        }
-    });
-}
-
-
 
 
 function formatMarkdown(text) {
     if (!text) return '';
-    
+
     // Basic markdown formatting
     let formatted = text
         .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')  // Bold
         .replace(/\*(.*?)\*/g, '<em>$1</em>')              // Italic
         .replace(/\n/g, '<br>');                           // Line breaks
-    
+
     return formatted;
 }
 
@@ -961,38 +1248,26 @@ function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
     if (parts.length === 2) return parts.pop().split(';').shift();
-}    
+}
 
 
 function initializeDataTable(tableId) {
-    return $('#' + tableId).DataTable({
-        scrollX: false,        // Disable horizontal scroll - this was causing the issue
-        scrollY: "400px",      // Optional: Add vertical scroll if table is too tall
-        fixedHeader: true,
-        paging: true,
-        searching: true,
-        scrollCollapse: true,
-        autoWidth: false,      // Prevent auto width calculation
-        columnDefs: [
-            {
-                targets: '_all',   // Apply to all columns
-                width: '50px',     // Let columns size automatically within container
-                className: 'text-center'  // Center align text
+        return $('#' + tableId).DataTable({
+            scrollX: true,
+            fixedHeader: true,
+            paging: true,
+            searching: true,
+            scrollCollapse: true,
+            autoWidth: false,
+            language: {
+                search: "Search:",
+                paginate: {
+                    previous: "Previous",
+                    next: "Next"
+                }
             }
-        ],
-        language: {
-            search: "Search:",
-            paginate: {
-                previous: "Previous",
-                next: "Next"
-            }
-        },
-        // Add responsive behavior
-        responsive: {
-            details: false  // Disable responsive details to prevent column hiding
-        }
-    });
-}
+        });
+    }
 async function handleFileClick(filename) {
     try {
         // Create a form to submit the POST request
@@ -1000,22 +1275,22 @@ async function handleFileClick(filename) {
         form.method = 'POST';
         form.action = '/open-file';
         form.target = '_blank'; // Open in new tab
-        
+
         // Add filename as hidden input
         const input = document.createElement('input');
         input.type = 'hidden';
         input.name = 'filename';
         input.value = filename;
-        
+
         form.appendChild(input);
         document.body.appendChild(form);
-        
+
         // Submit the form to open file in new tab
         form.submit();
-        
+
         // Clean up
         document.body.removeChild(form);
-        
+
     } catch (error) {
         console.error('Error opening file:', error);
         alert('Error opening file. Please try again.');

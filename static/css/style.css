@@ -462,3 +462,196 @@ body {
     color: white;
     border-color: #007bff;
 }
+
+
+
+
+/* DataTable Container with clear boundaries */
+/* .dataTables_wrapper {
+    border: 2px solid #dee2e6 !important;
+    border-radius: 8px !important;
+    padding: 15px !important;
+    margin: 10px 0 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+/* Table with proper borders */
+/* table.dataTable {
+    border: 1px solid #dee2e6 !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+}
+
+/* Small font size for table content */
+/* table.dataTable thead th {
+    font-size: 12px !important;
+    padding: 8px 6px !important;
+    border: 1px solid #dee2e6 !important;
+}
+
+table.dataTable tbody td {
+    font-size: 11px !important;
+    padding: 6px 5px !important;
+    border: 1px solid #dee2e6 !important;
+} */
+
+/* Medium size for search and pagination */
+/* .dataTables_filter input {
+    font-size: 14px !important;
+    padding: 6px 10px !important;
+    width: 200px !important;
+}
+
+.dataTables_paginate .paginate_button {
+    font-size: 14px !important;
+    padding: 6px 12px !important;
+}
+
+.dataTables_length select {
+    font-size: 14px !important;
+    padding: 4px 8px !important;
+}  */
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+/* 
+table.dataTable {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+} */
+
+.dataTables_wrapper {
+    text-align: left !important;
+}
+
+/* Add spacing below user messages */
+.chat-message.user {
+    margin-bottom: 15px;
+    /* Space between user message and table */
+}
+
+/* Add margin around tables */
+.dataTables_wrapper {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    text-align: left !important;
+}
+
+/* Ensure tables are aligned left but don’t touch messages */
+table.dataTable {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    width: auto !important;
+}
+
+
+/* DATA TABLE CSS */
+
+.table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>th.first-column{
+    border-top-left-radius : 10PX !important;
+    
+}
+
+.table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>th.last-column{
+    border-top-right-radius : 10PX !important;
+}
+
+
+.table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>th{
+    background-color: #F8F8F8;
+    color: #025CAC;
+    font-size: 12px !important;
+    /* line-height: 16px !important; */
+    vertical-align: middle !important;
+
+}
+
+table.dataTable tbody tr td{
+    font-size: 12px;
+    color: #444;
+    /* height: 30px; */
+}
+
+
+
+
+.dataTables_wrapper .dataTables_filter label,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+    font-size: 12px; /* Adjust the size as needed */
+}
+
+.dataTables_wrapper .dataTables_length label {
+    font-size: 12px; /* Adjust dropdown label size */
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-size: 12px; /* Adjust pagination button size */
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #025cac !important;
+    border-radius: 5px !important;
+  
+}
+
+
+
+canvas {
+    width: 100% !important; /* Force chart to fit container width */
+    height: 300px !important; /* Fixed height for Bar & Line charts */
+}
+
+.pie-chart, .doughnut-chart {
+    width: 400px !important; /* Fixed size for Pie & Doughnut charts */
+    height: 400px !important;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
+ .dataTables_wrapper .dataTables_filter {
+    float: right;
+    position: sticky;
+    top: 0;
+    background:transparent;
+    z-index: 10;
+    padding-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    position: sticky;
+    bottom: 0;
+    background:transparent;
+    z-index: 10;
+    padding-top: 10px;
+}
+
+table.dataTable {
+    width: 100% !important; 
+    border-collapse: collapse;
+}
+

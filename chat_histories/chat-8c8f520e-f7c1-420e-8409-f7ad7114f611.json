@@ -1,0 +1,18 @@
+[
+  {
+    "message": "can you give me volume trends  for HICT for last 6 months",
+    "response": [
+      {
+        "Jan-2025": 18321.0,
+        "Feb-2025": 273664.0,
+        "Mar-2025": 271765.0,
+        "Apr-2025": 189010.0,
+        "May-2025": 210955.0,
+        "Jun-2025": 226.0
+      }
+    ],
+    "sources": null,
+    "timestamp": "03 Jun, 03:07 PM",
+    "category": "MIS"
+  }
+]

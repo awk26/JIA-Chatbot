@@ -13,7 +13,7 @@ import datetime
 # =============================
 os.environ["GOOGLE_API_KEY"] = "AIzaSyCeXy0EzwPA4X2oqCvi3bogrysnxB-T5jM"  # Replace with your real key
 embedding = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.1)
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.1)
 
 # =============================
 # Document Processing Functions
@@ -88,18 +88,20 @@ STEEL_DISCHARGE, FERTILISER_DISCHARGE, ALUMINIUM_DISCHARGE,
 OTHER_DISCHARGE, STEEL_LOAD, ALUMINIUM_LOAD, OTHER_LOAD,
 RESTOW_VY_TEU, RESTOW_B2B_TEU
 
-current datetime: {current_datetime}
+Current datetime: {current_datetime}
 
 Instructions:
 - Generate only a valid SQL SELECT query.
 - Use a WHERE clause if any filters are mentioned (e.g., ENTITY_NAME, GROUP_ENTITY, OKR, date range).
 - If the user mentions a company/entity like "HICT", filter using:
   (ENTITY_NAME = 'value' OR ENTITY_CODE = 'value' OR GROUP_ENTITY = 'value')
+
 - Map general terms like:
   - "volume" → OKR = 'VOLUME_TEU'
   - "EBITDA" or "profit" → OKR = 'EBITDA'
   - "import" → OKR = 'IMPORT_TEU'
   (Add others as necessary)
+
 - Use appropriate time field based on user request:
   - "today" → use `DATE_ACTUALS` and hardcode current date as `'YYYY-MM-DD 00:00:00.000'`
   - "this week" → use `WTD_ACTUALS`
@@ -112,16 +114,16 @@ Instructions:
 - For last N months (e.g. last 6 months):
   - Use dynamic date filter in WHERE clause using `MONTHS >= EOMONTH(DATEADD(MONTH, -5, GETDATE()))`
   - Format `MONTHS` as 'MMM-yyyy' (e.g., 'Jan-2025') using `FORMAT(MONTHS, 'MMM-yyyy')` as MonthFormatted
-  - In the PIVOT clause, use **static aliases** like [Jan-2025], [Feb-2025], etc. (do not use EOMONTH or functions inside pivot)
-  - Example:
-    FOR MonthFormatted IN ([Jan-2025], [Feb-2025], [Mar-2025], ...)
+  - In the PIVOT clause, use **static aliases** like [Jan-2025], [Feb-2025], etc.
+    (Do not use EOMONTH or functions inside PIVOT)
 
 - If user asks for specific range (e.g. Jan to May), use:
   `MONTHS BETWEEN 'YYYY-MM-DD' AND 'YYYY-MM-DD'`
 
-- If user wants month-wise output (trends), generate a PIVOT query with months as columns and values like MTD_ACTUALS
+- If the user asks for **trend or monthly output**, generate a PIVOT query with months as columns and values like MTD_ACTUALS.
+- **Do NOT include ENTITY_NAME, ENTITY_CODE, or GROUP_ENTITY in the SELECT or GROUP BY unless the user explicitly requests to show results by entity.**
 
-- Use aliases like AS total_volume or AS [May-2025] for clarity
+- Use aliases like AS [May-2025] for clarity
 - Use only proper SQL Server syntax
 - Only return the raw SQL query — no explanation, no markdown or formatting
 
@@ -132,27 +134,15 @@ SQL Query:
 """
 
 
-
-
-        prompt = PromptTemplate(
-            input_variables=["user_input","current_datetime"],
-            template=prompt_template,
-            
-        )
+        prompt = PromptTemplate( input_variables=["user_input","current_datetime"],template=prompt_template,)
 
         llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")  # Use appropriate Gemini setup
-
         chain = LLMChain(llm=llm, prompt=prompt)
-
-        # Example call
-        # user_query = "Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024"
-        result = chain.run(user_input=query,current_datetime=current_datetime)
-      
+        result = chain.run(user_input=query,current_datetime=current_datetime)   
         clean_sql = result.strip("`").split("sql\n")[-1].rsplit("```", 1)[0].strip()
-        print("--------------",clean_sql)
+       
         db=Database()
-        data=db.execute(clean_sql)
-      
+        data=db.execute(clean_sql)      
         return data
     else:
        
@@ -170,10 +160,8 @@ SQL Query:
             Question:
             {question}
 
-            Answer:""".strip()
-                )
+            Answer:""".strip())
         llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")  # Use appropriate Gemini setup
-
         chain = LLMChain(llm=llm, prompt=custom_prompt)
         return RetrievalQA.from_chain_type(
             llm=llm,
