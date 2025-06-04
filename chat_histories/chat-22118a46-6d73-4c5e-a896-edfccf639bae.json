@@ -1,0 +1,16 @@
+[
+  {
+    "message": "can you give me child labour policy summary",
+    "response": "Policy Summary:\n\n\u2022 IT Policy: 31 policies\n\u2022 HR Policy: 21 policies\n\u2022 SOPP_Operation: 15 policies\n\u2022 SOPP_Procurement: 4 policies\n\u2022 SOPP_Revenue: 4 policies\n\u2022 SOPP_Sales: 4 policies\n\nTotal policies across all categories: 79",
+    "sources": null,
+    "timestamp": "04 Jun, 02:04 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "how many policy is there",
+    "response": "There are 21 policies in the HR Policy category.",
+    "sources": null,
+    "timestamp": "04 Jun, 02:04 PM",
+    "category": "HR Policy"
+  }
+]

@@ -779,7 +779,7 @@ function appendBotMessage(response, suggestions, chartData) {
             tbody.append(tr);
         });
         table.append(tbody);
-        
+
         tableWrapper.append(table);
         chartContainer.append(tableWrapper);
 
@@ -858,54 +858,69 @@ function appendBotMessage(response, suggestions, chartData) {
                 renderChart(selectedType);
             });
         }
-const checkXLSXLoaded = () => {
-                if (typeof XLSX !== 'undefined') {
-                    setupExcelExport();
-                } else {
-                    // If XLSX is not loaded, dynamically load it
-                    const script = document.createElement('script');
-                    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
-                    script.onload = setupExcelExport;
-                    document.head.appendChild(script);
-                }
-            };
+        const checkXLSXLoaded = () => {
+            if (typeof XLSX !== 'undefined') {
+                setupExcelExport();
+            } else {
+                // If XLSX is not loaded, dynamically load it
+                const script = document.createElement('script');
+                script.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+                script.onload = setupExcelExport;
+                document.head.appendChild(script);
+            }
+        };
 
-            // Check if html2pdf is loaded before adding event handlers
-            const checkHTML2PDFLoaded = () => {
-                if (typeof html2pdf !== 'undefined') {
-                    setupPDFExport();
-                } else {
-                    // If html2pdf is not loaded, dynamically load it
-                    const script = document.createElement('script');
-                    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';
-                    script.onload = setupPDFExport;
-                    document.head.appendChild(script);
-                }
-            };
+        // Check if html2pdf is loaded before adding event handlers
+        const checkHTML2PDFLoaded = () => {
+            if (typeof html2pdf !== 'undefined') {
+                setupPDFExport();
+            } else {
+                // If html2pdf is not loaded, dynamically load it
+                const script = document.createElement('script');
+                script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';
+                script.onload = setupPDFExport;
+                document.head.appendChild(script);
+            }
+        };
 
-            // Setup Excel export functionality
-            async function setupExcelExport() {
-                excelOption.on("click", async function () {
-                    try {
-                        // Create a new ExcelJS Workbook
-                        const workbook = new ExcelJS.Workbook();
-                        const worksheet = workbook.addWorksheet("Data", {
-                            views: [{ showGridLines: false }] // Remove gridlines
-                        });
+        // Setup Excel export functionality
+        async function setupExcelExport() {
+            excelOption.on("click", async function () {
+                try {
+                    // Create a new ExcelJS Workbook
+                    const workbook = new ExcelJS.Workbook();
+                    const worksheet = workbook.addWorksheet("Data", {
+                        views: [{ showGridLines: false }] // Remove gridlines
+                    });
 
-                        // Get table data from DataTable
-                        const dataTable = $('#' + tableId).DataTable();
+                    // Get table data from DataTable
+                    const dataTable = $('#' + tableId).DataTable();
 
-                        if (!dataTable || dataTable.rows().count() === 0) {
-                            alert("No data available for export.");
-                            return;
-                        }
+                    if (!dataTable || dataTable.rows().count() === 0) {
+                        alert("No data available for export.");
+                        return;
+                    }
 
-                        // Extract headers
-                        const headers = dataTable.columns().header().toArray().map(header => $(header).text());
-                        const headerRow = worksheet.addRow(headers);
-                        headerRow.eachCell((cell) => {
-                            cell.font = { bold: true };
+                    // Extract headers
+                    const headers = dataTable.columns().header().toArray().map(header => $(header).text());
+                    const headerRow = worksheet.addRow(headers);
+                    headerRow.eachCell((cell) => {
+                        cell.font = { bold: true };
+                        cell.alignment = { horizontal: 'center', vertical: 'middle' };
+                        cell.border = {
+                            top: { style: 'thin' },
+                            left: { style: 'thin' },
+                            bottom: { style: 'thin' },
+                            right: { style: 'thin' },
+                        };
+                    });
+
+                    // Extract data and add to worksheet
+                    dataTable.rows().every(function () {
+                        const rowData = this.data();
+                        const dataRow = worksheet.addRow(rowData);
+
+                        dataRow.eachCell((cell) => {
                             cell.alignment = { horizontal: 'center', vertical: 'middle' };
                             cell.border = {
                                 top: { style: 'thin' },
@@ -914,218 +929,93 @@ const checkXLSXLoaded = () => {
                                 right: { style: 'thin' },
                             };
                         });
+                    });
 
-                        // Extract data and add to worksheet
-                        dataTable.rows().every(function () {
-                            const rowData = this.data();
-                            const dataRow = worksheet.addRow(rowData);
+                    // Adjust column widths
+                    worksheet.columns.forEach((column, index) => {
+                        const maxWidth = Math.max(
+                            headers[index].length,
+                            ...dataTable
+                                .rows()
+                                .data()
+                                .toArray()
+                                .map(row => row[index] ? row[index].toString().length : 10)
+                        );
+                        column.width = Math.min(maxWidth + 2, 50);
+                    });
 
-                            dataRow.eachCell((cell) => {
-                                cell.alignment = { horizontal: 'center', vertical: 'middle' };
-                                cell.border = {
-                                    top: { style: 'thin' },
-                                    left: { style: 'thin' },
-                                    bottom: { style: 'thin' },
-                                    right: { style: 'thin' },
-                                };
-                            });
-                        });
+                    // Ensure there's space for the chart
+                    const chartStartRow = dataTable.rows().count() + 5;
+                    worksheet.addRow([]);
+                    worksheet.addRow(["Chart Visualization:"]);
+                    worksheet.addRow([]);
 
-                        // Adjust column widths
-                        worksheet.columns.forEach((column, index) => {
-                            const maxWidth = Math.max(
-                                headers[index].length,
-                                ...dataTable
-                                    .rows()
-                                    .data()
-                                    .toArray()
-                                    .map(row => row[index] ? row[index].toString().length : 10)
-                            );
-                            column.width = Math.min(maxWidth + 2, 50);
-                        });
+                    // Embed the chart if it exists
+                    if (chart) {
+                        const chartImage = chart.toBase64Image();
 
-                        // Ensure there's space for the chart
-                        const chartStartRow = dataTable.rows().count() + 5;
-                        worksheet.addRow([]);
-                        worksheet.addRow(["Chart Visualization:"]);
-                        worksheet.addRow([]);
-
-                        // Embed the chart if it exists
-                        if (chart) {
-                            const chartImage = chart.toBase64Image();
-
-                            if (!chartImage) {
-                                throw new Error("Chart image could not be converted to Base64.");
-                            }
-
-                            const imageId = workbook.addImage({
-                                base64: chartImage,
-                                extension: 'png',
-                            });
-
-                            worksheet.addImage(imageId, {
-                                tl: { col: 0, row: chartStartRow },
-                                ext: { width: 600, height: 400 }, // Adjust as necessary
-                            });
+                        if (!chartImage) {
+                            throw new Error("Chart image could not be converted to Base64.");
                         }
 
-                        // Save workbook to buffer
-                        const buffer = await workbook.xlsx.writeBuffer();
-                        const blob = new Blob([buffer], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+                        const imageId = workbook.addImage({
+                            base64: chartImage,
+                            extension: 'png',
+                        });
 
-                        // Download the Excel file
-                        const link = document.createElement("a");
-                        link.href = URL.createObjectURL(blob);
-                        link.download = "data-with-chart.xlsx";
-                        document.body.appendChild(link);
-                        link.click();
-                        document.body.removeChild(link);
-
-                        dropdownContent.hide();
-                    } catch (error) {
-                        console.error("Excel export error:", error);
-                        alert("Excel export failed. Please check the console for details.");
+                        worksheet.addImage(imageId, {
+                            tl: { col: 0, row: chartStartRow },
+                            ext: { width: 600, height: 400 }, // Adjust as necessary
+                        });
                     }
-                });
-            }
+
+                    // Save workbook to buffer
+                    const buffer = await workbook.xlsx.writeBuffer();
+                    const blob = new Blob([buffer], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+
+                    // Download the Excel file
+                    const link = document.createElement("a");
+                    link.href = URL.createObjectURL(blob);
+                    link.download = "data-with-chart.xlsx";
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+
+                    dropdownContent.hide();
+                } catch (error) {
+                    console.error("Excel export error:", error);
+                    alert("Excel export failed. Please check the console for details.");
+                }
+            });
+        }
 
 
 
-            // Setup PDF export functionality
-            function setupPDFExport() {
-                // PDF download handler
-                pdfOption.on("click", function () {
-                    try {
-                        // Create a container for the content
-                        const content = $("<div>").css({
-                            "font-family": "Arial, sans-serif",
-                            "padding": "20px"
-                        });
-
-                        // Add a title
-                        content.append($("<h2>").text("Data Export").css({
-                            "text-align": "center",
-                            "margin-bottom": "20px"
-                        }));
-
-                        // Create a timestamp
-                        const now = new Date();
-                        const timestamp = now.toLocaleString();
-                        content.append($("<p>").text("Generated: " + timestamp).css({
-                            "text-align": "right",
-                            "font-style": "italic",
-                            "margin-bottom": "20px"
-                        }));
-
-                        // Get the data from the DataTable
-                        const dataTable = $('#' + tableId).DataTable();
-                        const tableData = [];
-
-                        // Extract visible data from DataTable
-                        dataTable.rows().every(function () {
-                            tableData.push(this.data());
-                        });
-
-                        // Recreate the table
-                        const pdfTable = $("<table>").css({
-                            "width": "100%",
-                            "border-collapse": "collapse",
-                            "margin-bottom": "30px"
-                        });
-
-                        // Add headers
-                        const pdfTableHead = $("<thead>");
-                        const pdfTableHeaderRow = $("<tr>");
-                        headers.forEach(header => {
-                            pdfTableHeaderRow.append($("<th>").text(header).css({
-                                "border": "1px solid #ddd",
-                                "padding": "8px",
-                                "background-color": "#f2f2f2",
-                                "text-align": "left"
-                            }));
-                        });
-                        pdfTableHead.append(pdfTableHeaderRow);
-                        pdfTable.append(pdfTableHead);
-
-                        // Add body rows
-                        const pdfTableBody = $("<tbody>");
-                        tableData.forEach(row => {
-                            const tr = $("<tr>");
-                            row.forEach(cell => {
-                                tr.append($("<td>").text(cell || '').css({
-                                    "border": "1px solid #ddd",
-                                    "padding": "8px"
-                                }));
-                            });
-                            pdfTableBody.append(tr);
-                        });
-                        pdfTable.append(pdfTableBody);
-
-                        content.append(pdfTable);
-
-                        // Add the chart if available
-                        if (chart) {
-                            content.append($("<h3>").text("Chart Visualization").css({
-                                "margin-top": "20px",
-                                "margin-bottom": "15px"
-                            }));
-
-                            // Get the chart as an image
-                            const chartImage = chart.canvas.toDataURL('image/png');
-                            const chartImg = $("<img>").attr({
-                                "src": chartImage,
-                                "alt": "Chart Visualization"
-                            }).css({
-                                "max-width": "100%",
-                                "height": "auto",
-                                "display": "block",
-                                "margin": "0 auto"
-                            });
-
-                            content.append(chartImg);
-                        }
-
-                        // Generate PDF with html2pdf
-                        const element = content[0];
-                        const opt = {
-                            margin: [10, 10],
-                            filename: 'data-export.pdf',
-                            image: { type: 'jpeg', quality: 0.98 },
-                            html2canvas: { scale: 2 },
-                            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-                        };
-
-                        // Use html2pdf to generate and download the PDF
-                        html2pdf().set(opt).from(element).save();
-
-                        // Hide dropdown after download
-                        dropdownContent.hide();
-                    } catch (error) {
-                        console.error("PDF export error:", error);
-                        alert("PDF export failed. Please make sure the html2pdf library is loaded properly.");
-                    }
-                });
-            }
-
-            
-            // Print handler - doesn't require external libraries
-            printOption.on("click", function () {
+        // Setup PDF export functionality
+        function setupPDFExport() {
+            // PDF download handler
+            pdfOption.on("click", function () {
                 try {
-                    // Create printable content
-                    const printWindow = window.open('', '_blank');
+                    // Create a container for the content
+                    const content = $("<div>").css({
+                        "font-family": "Arial, sans-serif",
+                        "padding": "20px"
+                    });
 
-                    printWindow.document.write('<html><head><title>Print Data</title>');
-                    printWindow.document.write('<style>');
-                    printWindow.document.write('table { width: 100%; border-collapse: collapse; }');
-                    printWindow.document.write('th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }');
-                    printWindow.document.write('th { background-color: #f2f2f2; }');
-                    printWindow.document.write('h2, h3 { text-align: center; }');
-                    printWindow.document.write('.chart-container { text-align: center; margin: 20px 0; }');
-                    printWindow.document.write('</style>');
-                    printWindow.document.write('</head><body>');
+                    // Add a title
+                    content.append($("<h2>").text("Data Export").css({
+                        "text-align": "center",
+                        "margin-bottom": "20px"
+                    }));
 
-                    // Add title
-                    printWindow.document.write('<h2>Data Print</h2>');
+                    // Create a timestamp
+                    const now = new Date();
+                    const timestamp = now.toLocaleString();
+                    content.append($("<p>").text("Generated: " + timestamp).css({
+                        "text-align": "right",
+                        "font-style": "italic",
+                        "margin-bottom": "20px"
+                    }));
 
                     // Get the data from the DataTable
                     const dataTable = $('#' + tableId).DataTable();
@@ -1136,54 +1026,164 @@ const checkXLSXLoaded = () => {
                         tableData.push(this.data());
                     });
 
-                    // Create table HTML
-                    printWindow.document.write('<table>');
-                    printWindow.document.write('<thead><tr>');
+                    // Recreate the table
+                    const pdfTable = $("<table>").css({
+                        "width": "100%",
+                        "border-collapse": "collapse",
+                        "margin-bottom": "30px"
+                    });
+
+                    // Add headers
+                    const pdfTableHead = $("<thead>");
+                    const pdfTableHeaderRow = $("<tr>");
                     headers.forEach(header => {
-                        printWindow.document.write('<th>' + header + '</th>');
+                        pdfTableHeaderRow.append($("<th>").text(header).css({
+                            "border": "1px solid #ddd",
+                            "padding": "8px",
+                            "background-color": "#f2f2f2",
+                            "text-align": "left"
+                        }));
                     });
-                    printWindow.document.write('</tr></thead>');
+                    pdfTableHead.append(pdfTableHeaderRow);
+                    pdfTable.append(pdfTableHead);
 
-                    printWindow.document.write('<tbody>');
+                    // Add body rows
+                    const pdfTableBody = $("<tbody>");
                     tableData.forEach(row => {
-                        printWindow.document.write('<tr>');
+                        const tr = $("<tr>");
                         row.forEach(cell => {
-                            printWindow.document.write('<td>' + (cell || '') + '</td>');
+                            tr.append($("<td>").text(cell || '').css({
+                                "border": "1px solid #ddd",
+                                "padding": "8px"
+                            }));
                         });
-                        printWindow.document.write('</tr>');
+                        pdfTableBody.append(tr);
                     });
-                    printWindow.document.write('</tbody></table>');
+                    pdfTable.append(pdfTableBody);
 
-                    // Add chart if available
+                    content.append(pdfTable);
+
+                    // Add the chart if available
                     if (chart) {
-                        printWindow.document.write('<h3>Chart Visualization</h3>');
-                        printWindow.document.write('<div class="chart-container">');
+                        content.append($("<h3>").text("Chart Visualization").css({
+                            "margin-top": "20px",
+                            "margin-bottom": "15px"
+                        }));
+
                         // Get the chart as an image
                         const chartImage = chart.canvas.toDataURL('image/png');
-                        printWindow.document.write('<img src="' + chartImage + '" style="max-width: 100%;" />');
-                        printWindow.document.write('</div>');
+                        const chartImg = $("<img>").attr({
+                            "src": chartImage,
+                            "alt": "Chart Visualization"
+                        }).css({
+                            "max-width": "100%",
+                            "height": "auto",
+                            "display": "block",
+                            "margin": "0 auto"
+                        });
+
+                        content.append(chartImg);
                     }
 
-                    printWindow.document.write('</body></html>');
-                    printWindow.document.close();
-
-                    // Wait for content to load before printing
-                    printWindow.onload = function () {
-                        printWindow.print();
-                        printWindow.close();
+                    // Generate PDF with html2pdf
+                    const element = content[0];
+                    const opt = {
+                        margin: [10, 10],
+                        filename: 'data-export.pdf',
+                        image: { type: 'jpeg', quality: 0.98 },
+                        html2canvas: { scale: 2 },
+                        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
                     };
 
-                    // Hide dropdown after initiating print
+                    // Use html2pdf to generate and download the PDF
+                    html2pdf().set(opt).from(element).save();
+
+                    // Hide dropdown after download
                     dropdownContent.hide();
                 } catch (error) {
-                    console.error("Print error:", error);
-                    alert("Print failed. Please try again.");
+                    console.error("PDF export error:", error);
+                    alert("PDF export failed. Please make sure the html2pdf library is loaded properly.");
                 }
             });
+        }
 
-            // Check for libraries and set up export handlers
-            checkXLSXLoaded();
-            checkHTML2PDFLoaded();
+
+        // Print handler - doesn't require external libraries
+        printOption.on("click", function () {
+            try {
+                // Create printable content
+                const printWindow = window.open('', '_blank');
+
+                printWindow.document.write('<html><head><title>Print Data</title>');
+                printWindow.document.write('<style>');
+                printWindow.document.write('table { width: 100%; border-collapse: collapse; }');
+                printWindow.document.write('th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }');
+                printWindow.document.write('th { background-color: #f2f2f2; }');
+                printWindow.document.write('h2, h3 { text-align: center; }');
+                printWindow.document.write('.chart-container { text-align: center; margin: 20px 0; }');
+                printWindow.document.write('</style>');
+                printWindow.document.write('</head><body>');
+
+                // Add title
+                printWindow.document.write('<h2>Data Print</h2>');
+
+                // Get the data from the DataTable
+                const dataTable = $('#' + tableId).DataTable();
+                const tableData = [];
+
+                // Extract visible data from DataTable
+                dataTable.rows().every(function () {
+                    tableData.push(this.data());
+                });
+
+                // Create table HTML
+                printWindow.document.write('<table>');
+                printWindow.document.write('<thead><tr>');
+                headers.forEach(header => {
+                    printWindow.document.write('<th>' + header + '</th>');
+                });
+                printWindow.document.write('</tr></thead>');
+
+                printWindow.document.write('<tbody>');
+                tableData.forEach(row => {
+                    printWindow.document.write('<tr>');
+                    row.forEach(cell => {
+                        printWindow.document.write('<td>' + (cell || '') + '</td>');
+                    });
+                    printWindow.document.write('</tr>');
+                });
+                printWindow.document.write('</tbody></table>');
+
+                // Add chart if available
+                if (chart) {
+                    printWindow.document.write('<h3>Chart Visualization</h3>');
+                    printWindow.document.write('<div class="chart-container">');
+                    // Get the chart as an image
+                    const chartImage = chart.canvas.toDataURL('image/png');
+                    printWindow.document.write('<img src="' + chartImage + '" style="max-width: 100%;" />');
+                    printWindow.document.write('</div>');
+                }
+
+                printWindow.document.write('</body></html>');
+                printWindow.document.close();
+
+                // Wait for content to load before printing
+                printWindow.onload = function () {
+                    printWindow.print();
+                    printWindow.close();
+                };
+
+                // Hide dropdown after initiating print
+                dropdownContent.hide();
+            } catch (error) {
+                console.error("Print error:", error);
+                alert("Print failed. Please try again.");
+            }
+        });
+
+        // Check for libraries and set up export handlers
+        checkXLSXLoaded();
+        checkHTML2PDFLoaded();
 
     } else {
         // Handle text or structured response (existing code remains the same)
@@ -1252,22 +1252,22 @@ function getCookie(name) {
 
 
 function initializeDataTable(tableId) {
-        return $('#' + tableId).DataTable({
-            scrollX: true,
-            fixedHeader: true,
-            paging: true,
-            searching: true,
-            scrollCollapse: true,
-            autoWidth: false,
-            language: {
-                search: "Search:",
-                paginate: {
-                    previous: "Previous",
-                    next: "Next"
-                }
+    return $('#' + tableId).DataTable({
+        scrollX: true,
+        fixedHeader: true,
+        paging: true,
+        searching: true,
+        scrollCollapse: true,
+        autoWidth: false,
+        language: {
+            search: "Search:",
+            paginate: {
+                previous: "Previous",
+                next: "Next"
             }
-        });
-    }
+        }
+    });
+}
 async function handleFileClick(filename) {
     try {
         // Create a form to submit the POST request

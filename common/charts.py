@@ -1,3 +1,5 @@
+from common.logs import log 
+
 def charts(message):
     chart = False
     chart_type = None
@@ -18,7 +20,7 @@ def charts(message):
                 chart_type = c_type
               
                 return chart, chart_type  # Return as soon as a chart type is found
-  
+    log(f"Generate chart is :{chart} and chartType is:{chart_type}") 
     return chart, chart_type         
 
    

@@ -1,67 +1,82 @@
-
+import os
 from flask import  jsonify, make_response
 import pandas as pd
 import google.generativeai as genai
 import json
 import math
+from common.logs import log
+from dotenv import load_dotenv
 from decimal import Decimal
-
+load_dotenv()
 
 def sanitize_data_for_json(data):
-    """
-    Recursively sanitize data to make it JSON serializable
-    Converts NaN, None, and Decimal values to appropriate JSON-safe values
-    """
-    if isinstance(data, dict):
-        return {key: sanitize_data_for_json(value) for key, value in data.items()}
-    elif isinstance(data, list):
-        return [sanitize_data_for_json(item) for item in data]
-    elif data is None:
-        return None  # Keep None as null in JSON
-    elif isinstance(data, float):
-        if math.isnan(data) or math.isinf(data):
-            return None  # Convert NaN and Inf to null
-        return data
-    elif isinstance(data, Decimal):
-        return float(data)  # Convert Decimal to float
-    else:
-        return data
+    try:
+        """
+        Recursively sanitize data to make it JSON serializable
+        Converts NaN, None, and Decimal values to appropriate JSON-safe values
+        """
+        if isinstance(data, dict):
+            log("Data is Dict")
+            return {key: sanitize_data_for_json(value) for key, value in data.items()}
+        elif isinstance(data, list):
+            log("Data is list")
+            return [sanitize_data_for_json(item) for item in data]
+        elif data is None:
+            log("Data is None")
+            return None  # Keep None as null in JSON
+        elif isinstance(data, float):
+            log("Data is float")
+            if math.isnan(data) or math.isinf(data):
+                return None  # Convert NaN and Inf to null
+            return data
+        elif isinstance(data, Decimal):
+            log("Data is decimal")
+            return float(data)  # Convert Decimal to float
+        else:
+            log(f"Row Data:{data}")
+            return data
+    except Exception as e:
+        log(f"Exception occurred in sanitize_data_for_json():{e} ")    
 
 def generate_natural_response(model,data, message):
+    try:
 
-    if data=="No Data Found":
-        prompt1=f"""If the data response is {data}, generate a polite and helpful response that acknowledges the issue. The response should be in a conversational tone, adapting to the user's message style. Offer assistance by asking for additional details to refine the search or find relevant information. Ensure the user feels supported and encouraged to clarify their query. And 'If my SQL query returns "No Data Found", I will respond with something like this:' do not use this type of line and you response is short and simple do not use extra I'll let you know in a friendly way, something like: """
-        response = model.start_chat().send_message(prompt1)
+        if data=="No Data Found":
+            prompt1=f"""If the data response is {data}, generate a polite and helpful response that acknowledges the issue. The response should be in a conversational tone, adapting to the user's message style. Offer assistance by asking for additional details to refine the search or find relevant information. Ensure the user feels supported and encouraged to clarify their query. And 'If my SQL query returns "No Data Found", I will respond with something like this:' do not use this type of line and you response is short and simple do not use extra I'll let you know in a friendly way, something like: """
+            response = model.start_chat().send_message(prompt1)
+            return response.text
+        
+        structured_data = "\n".join([str(row) for row in data])
+
+        prompt = f"""Here is data retrieved from a database in response to the user query: "{message}"
+
+                    DATA:
+                    {structured_data}
+
+                    IMPORTANT INSTRUCTIONS:
+                    1. Assume the data above directly answers the user's question
+                    2. Provide a clear, direct answer using ONLY the information in the data
+                    3. Format your response as a complete sentence that directly answers the question
+                    4. DO NOT mention limitations of the data or suggest additional queries
+                    5. DO NOT say "According to the data" or similar phrases
+                    6. If the data shows a count or number, state that number directly in your response
+                    7. Keep your response concise (1-2 sentences maximum)
+
+                    For example:
+                    - If user asked "how many portcalls in Jan 2025" and data shows 1185, respond: "Total portcalls created in January 2025 is 1185."
+                    - If user asked about revenue and data shows $50,000, respond: "The revenue is $50,000."
+
+                    Your direct answer to "{message}":"""
+        
+        response =model.start_chat().send_message(prompt)
         return response.text
-    
-    structured_data = "\n".join([str(row) for row in data])
-
-    prompt = f"""Here is data retrieved from a database in response to the user query: "{message}"
-
-                DATA:
-                {structured_data}
-
-                IMPORTANT INSTRUCTIONS:
-                1. Assume the data above directly answers the user's question
-                2. Provide a clear, direct answer using ONLY the information in the data
-                3. Format your response as a complete sentence that directly answers the question
-                4. DO NOT mention limitations of the data or suggest additional queries
-                5. DO NOT say "According to the data" or similar phrases
-                6. If the data shows a count or number, state that number directly in your response
-                7. Keep your response concise (1-2 sentences maximum)
-
-                For example:
-                - If user asked "how many portcalls in Jan 2025" and data shows 1185, respond: "Total portcalls created in January 2025 is 1185."
-                - If user asked about revenue and data shows $50,000, respond: "The revenue is $50,000."
-
-                Your direct answer to "{message}":"""
-    
-    response =model.start_chat().send_message(prompt)
-    return response.text
+    except Exception as e:
+        log(f"Exception occurred in generate_natural_response():{e}")
 
 
 def database_query(response,chart,chart_type,user_message):
-        genai.configure(api_key="AIzaSyCeXy0EzwPA4X2oqCvi3bogrysnxB-T5jM")
+    try:    
+        genai.configure(api_key=os.getenv("GOOGLE_API_KEYS"))
         config = {
             "temperature": 0,
             "top_p": 0.95,
@@ -70,26 +85,19 @@ def database_query(response,chart,chart_type,user_message):
             "response_mime_type": "text/plain",
         }
         model = genai.GenerativeModel(
-            model_name="gemini-1.5-flash",
-            generation_config=config,
-            
-        )
+            model_name="gemini-2.0-flash",
+            generation_config=config)
 
-        if isinstance(response, list):
-         
+        if isinstance(response, list):        
             df = pd.DataFrame(response)
             columns_str = ','.join(df.columns.tolist())
-
             if len(df.columns) > 1:
-                if chart:
-                 
+                if chart:                 
                     labels=df.columns.tolist()
                     values=df.iloc[0, :].tolist()
-                    if len(labels)==2:
-                      
+                    if len(labels)==2:                      
                         labels=df.iloc[:,0].tolist()
-                        values=df.iloc[:,1].tolist()
-                
+                        values=df.iloc[:,1].tolist()                
                     response_data1 = {
                         'response': response,
                         'chartData': {
@@ -122,6 +130,8 @@ def database_query(response,chart,chart_type,user_message):
         
             structured_response = format_structured_response(response)
             return jsonify({'response': structured_response,'suggestions':""})
+    except Exception as e:
+        log(f"Exception occurred in database query():{e}")    
 
 
 def format_structured_response(text):

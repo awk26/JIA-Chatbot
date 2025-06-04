@@ -1,0 +1,59 @@
+[
+  {
+    "message": "how policy is there",
+    "response": "There are 31 policies in the IT Policy category.",
+    "sources": [
+      "JMBGRP-ISMS-POL-AU_Acceptable use Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-IM_Incident Management Policy & Procedure_v1.2.3.pdf",
+      "JMBGRP-ISMS-POL-CH_Change Management Policy _ Procedure_v1.2.pdf",
+      "JMBGRP-ISMS-POL-ES_Email security Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "04 Jun, 05:14 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "can you give me list of policy",
+    "response": "Here are the 31 policies in the IT Policy category:\n\n1. JMBGRP ISMS POL AC Access Control Policy Procedure v1.2\n2. JMBGRP ISMS POL AU Acceptable use Policy v1.2\n3. JMBGRP ISMS POL AV Anti Virus Policy v1.2\n4. JMBGRP ISMS POL BC Business continuity Policy\n5. JMBGRP ISMS POL BR Data Backup Restore Policy v1.2\n6. JMBGRP ISMS POL BY Bring Your Own Device Policy Procedure v1.2\n7. JMBGRP ISMS POL CAS Compliance, audit sustenance v1.2\n8. JMBGRP ISMS POL CH Change Management Policy Procedure v1.2\n9. JMBGRP ISMS POL CM Capacity Management Policy Procedure v1.2\n10. JMBGRP ISMS POL CS Group Cyber Security v1.1\n11. JMBGRP ISMS POL DM Desktop, Mobile Comp. Teleworing Security Policy Procedure v1.2\n12. JMBGRP ISMS POL DRSDM Data Retention, Storage Disposal of Media, Records Policy v1.2\n13. JMBGRP ISMS POL EP End Point Security Policy Procedure v1.2\n14. JMBGRP ISMS POL EQ Equipment Safety Security Policy Procedure v1.2\n15. JMBGRP ISMS POL ES Email security Policy Procedure v1.2\n16. JMBGRP ISMS POL IF ISMS Framework v1.2\n17. JMBGRP ISMS POL IM Incident Management Policy & Procedure v1.2.3\n18. JMBGRP ISMS POL LM Log management Policy & Procedure v1.2\n19. JMBGRP ISMS POL NS Network Security Policy v1.2.2\n20. JMBGRP ISMS POL OS Organization Structure Policy Procedure v1.2\n21. JMBGRP ISMS POL PH Physical Security Policy\n22. JMBGRP ISMS POL PM Patch Management Policy\n23. JMBGRP ISMS POL PS Personnel Security Policy Procedure v1.3\n24. JMBGRP ISMS POL PW Password Policy\n25. JMBGRP ISMS POL Risk Management Methodology v1.2.4\n26. JMBGRP ISMS POL SC Software Copy, License Compl. Policy Procedure v1.2\n27. JMBGRP ISMS POL SDLC\n28. JMBGRP ISMS POL TP Third Party Security Policy v1.2\n29. JMBGRP ISMS POL TR Training Policy Procedure v1.2\n30. JMBGRP ISMS POL WA Web Access Policy v1.2\n31. JMBGRP ISMS PR DRD ProcedureForConductingDRDrills v1",
+    "sources": [
+      "JMBGRP-ISMS-POL-WA_Web Access Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-AV_Anti Virus Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-ES_Email security Policy _ Procedure_v1.2.pdf",
+      "JMBGRP-ISMS-POL-BR_Data Backup Restore Policy_v1.2.pdf"
+    ],
+    "timestamp": "04 Jun, 05:14 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "explain policy number 29",
+    "response": "I'm sorry, but I don't have an answer to that.",
+    "sources": [
+      "JMBGRP-ISMS-POL-AU_Acceptable use Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-IM_Incident Management Policy & Procedure_v1.2.3.pdf",
+      "JMBGRP-ISMS-POL-NS_Network Security Policy_v1.2.2.pdf",
+      "JMBGRP-ISMS-POL-BR_Data Backup Restore Policy_v1.2.pdf"
+    ],
+    "timestamp": "04 Jun, 05:15 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "explain JMBGRP ISMS POL TR Training Policy Procedure v1.2",
+    "response": "The purpose of the JMBGRP ISMS POL TR Training Policy Procedure v1.2 is to ensure that information security is integrated into the organization's culture for successful implementation, maintenance, and continuous improvement of information security best practices.\n\nThe policy applies to all employees, including business owners, custodians, system administrators, software developers, and users of JMBGRP information.\n\nThe policy statement mandates that all employees, contractors, and third-party users receive appropriate information security awareness training and regular updates on organizational information security policies and procedures relevant to their job functions. New employees receive information security training during induction, and periodic training is conducted at least once a year.",
+    "sources": [
+      "JMBGRP-ISMS-POL-TR_Training Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "04 Jun, 05:16 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "what are the main contain of this policy",
+    "response": "Based on the context provided, the main contents of a policy can include:\n\n*   Purpose\n*   Scope\n*   Definitions/Terms and Definition/Normative Reference\n*   Policy Statement/Policy/Policies\n*   Procedure\n*   Responsibilities\n*   References/Introduction\n*   Enforcement",
+    "sources": [
+      "JMBGRP-ISMS-POL-AV_Anti Virus Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-WA_Web Access Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-Risk Management Methodology_v1.2.4.pdf",
+      "JMBGRP-ISMS-POL-ES_Email security Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "04 Jun, 05:16 PM",
+    "category": "IT Policy"
+  }
+]

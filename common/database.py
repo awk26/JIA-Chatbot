@@ -2,7 +2,7 @@ import os
 import pymssql
 from dbutils.pooled_db import PooledDB
 from dotenv import load_dotenv
-
+from common.logs import log
 import sys
 
 
@@ -36,7 +36,7 @@ class Database:
            
         
         except Exception as e:
-            print(f"Error initializing database connection: {e}")
+            log(f"Error initializing database connection: {e}")
             sys.exit(1)  # Exit if the database connection fails
 
     # Execute a query (returns all results)
@@ -49,7 +49,7 @@ class Database:
                 result = cursor.fetchall()
             return result
         except Exception as e:
-            print(f"Exception occurred in execute(): {e}")
+            log(f"Exception occurred in execute(): {e}")
             return []
         finally:
             if connection:
@@ -70,5 +70,7 @@ class Database:
 #     query = "SELECT TOP 10 * FROM [MIS].[PERIODIC_REPORT];"
 #     records = db.getall(query)
 #     print(len(records))
-#     for row in records:
-#         print(row)
+#     # for row in records:
+#     #     print(row)
+
+

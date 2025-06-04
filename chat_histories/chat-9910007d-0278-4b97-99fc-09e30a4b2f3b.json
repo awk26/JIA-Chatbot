@@ -1,0 +1,65 @@
+[
+  {
+    "message": "how many policy is there",
+    "response": "There are 21 policies in the HR Policy category.",
+    "sources": [
+      "Section 21 - Information Technology Policy.pdf",
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "04 Jun, 03:15 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me there names",
+    "response": "Here are the 21 policies in the HR Policy category:\n\n1. 24 Child Labour Policy\n2. Anti Bribery & Anti Corruption (Ethics) Policy\n3. Employee Referral Policy\n4. Human Right Policy\n5. J M Baxi Group 555 Policy Enriching New Joinee Experience\n6. J M Baxi Group POSH policy\n7. JMB Policy Document common policy document\n8. Leave & Attendance Policy\n9. Section 10 Provident Fund\n10. Section 11 Gratuity\n11. Section 13 Training & Development\n12. Section 14 Transfer\n13. Section 15 Separation\n14. Section 17 Code of Conduct\n15. Section 19 Employee Grievance Policy\n16. Section 2 Dress Code\n17. Section 20 Whistle Blowing Policy\n18. Section 21 Information Technology Policy\n19. Section 4 LTA\n20. Section 5 ESIC\n21. Travel Policy",
+    "sources": [
+      "Human Right Policy.pdf",
+      "Leave & Attendance Policy.pdf",
+      "Employee Referral Policy.pdf"
+    ],
+    "timestamp": "04 Jun, 03:15 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me summary of  Child Labour Policy",
+    "response": "The J M Baxi Group is committed to complying with the requirements of the prohibition of child labor. The company does not employ child labor, nor does it support the use of child labor or forced or bonded labor of any sort, directly or indirectly, and the Company shall at all times be in compliance with the Child Labour (Prohibition & Regulation) Act, Bonded Labour System (Abolition) Act, 1976 and the Contract. The company shall establish, document maintain and effectively communicate to its personnel, contractors and their sub -contractors, if any, and other interested parties, policies and written procedures for remediation of children found to be working in situation of child labour. Signage to be placed at the prominent place that \u201cThe Company is in compliance with the Child Labour (Prohibition & Regulation) Act\u201d.",
+    "sources": [
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "04 Jun, 03:16 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give summary of leave policy",
+    "response": "The leave policy regulates all forms of leaves applicable to employees as a benefit, and outlines procedures to be followed for the granting and taking of such leaves. It is applicable to all employees, Consultants, Retainers and Trainees. The leave year is defined as the Financial year (1st April to 31st March).\n\nThe types of leave are:\n1. Annual Leave (AL)\n2. Sick Leave (SL)\n3. Maternity Leave (ML)\n4. Paternity Leave (PL)\n5. Special Leave (SPL)\n6. Optional Leave (OL)\n7. Leave Without Pay (LWP)\n8. Compensatory Off (CO)\n9. Transfer Leaves (TL)\n10. Unauthorized Absence (UA)\n\nAnnual Leave (AL) is 30 days per financial year for Employees, Consultants and Retainers, and 10 days per financial year for Trainees.",
+    "sources": [
+      "Leave & Attendance Policy.pdf"
+    ],
+    "timestamp": "04 Jun, 03:17 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "how many policy is there",
+    "response": "There are 31 policies in the IT Policy category.",
+    "sources": [
+      "JMBGRP-ISMS-POL-PS_Personnel Security Policy _ Procedure_v1.3.pdf",
+      "JMBGRP-ISMS-POL-NS_Network Security Policy_v1.2.2.pdf",
+      "JMBGRP-ISMS-POL-CH_Change Management Policy _ Procedure_v1.2.pdf",
+      "JMBGRP-ISMS-POL-AU_Acceptable use Policy_v1.2.pdf"
+    ],
+    "timestamp": "04 Jun, 03:17 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "can you give me list of policy",
+    "response": "Here are the 31 policies in the IT Policy category:\n\n1. JMBGRP ISMS POL AC Access Control Policy Procedure v1.2\n2. JMBGRP ISMS POL AU Acceptable use Policy v1.2\n3. JMBGRP ISMS POL AV Anti Virus Policy v1.2\n4. JMBGRP ISMS POL BC Business continuity Policy\n5. JMBGRP ISMS POL BR Data Backup Restore Policy v1.2\n6. JMBGRP ISMS POL BY Bring Your Own Device Policy Procedure v1.2\n7. JMBGRP ISMS POL CAS Compliance, audit sustenance v1.2\n8. JMBGRP ISMS POL CH Change Management Policy Procedure v1.2\n9. JMBGRP ISMS POL CM Capacity Management Policy Procedure v1.2\n10. JMBGRP ISMS POL CS Group Cyber Security v1.1\n11. JMBGRP ISMS POL DM Desktop, Mobile Comp. Teleworing Security Policy Procedure v1.2\n12. JMBGRP ISMS POL DRSDM Data Retention, Storage Disposal of Media, Records Policy v1.2\n13. JMBGRP ISMS POL EP End Point Security Policy Procedure v1.2\n14. JMBGRP ISMS POL EQ Equipment Safety Security Policy Procedure v1.2\n15. JMBGRP ISMS POL ES Email security Policy Procedure v1.2\n16. JMBGRP ISMS POL IF ISMS Framework v1.2\n17. JMBGRP ISMS POL IM Incident Management Policy & Procedure v1.2.3\n18. JMBGRP ISMS POL LM Log management Policy & Procedure v1.2\n19. JMBGRP ISMS POL NS Network Security Policy v1.2.2\n20. JMBGRP ISMS POL OS Organization Structure Policy Procedure v1.2\n21. JMBGRP ISMS POL PH Physical Security Policy\n22. JMBGRP ISMS POL PM Patch Management Policy\n23. JMBGRP ISMS POL PS Personnel Security Policy Procedure v1.3\n24. JMBGRP ISMS POL PW Password Policy\n25. JMBGRP ISMS POL Risk Management Methodology v1.2.4\n26. JMBGRP ISMS POL SC Software Copy, License Compl. Policy Procedure v1.2\n27. JMBGRP ISMS POL SDLC\n28. JMBGRP ISMS POL TP Third Party Security Policy v1.2\n29. JMBGRP ISMS POL TR Training Policy Procedure v1.2\n30. JMBGRP ISMS POL WA Web Access Policy v1.2\n31. JMBGRP ISMS PR DRD ProcedureForConductingDRDrills v1",
+    "sources": [
+      "JMBGRP-ISMS-POL-WA_Web Access Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-AV_Anti Virus Policy_v1.2.pdf",
+      "JMBGRP-ISMS-POL-ES_Email security Policy _ Procedure_v1.2.pdf",
+      "JMBGRP-ISMS-POL-TP_Third Party Security Policy_v1.2.pdf"
+    ],
+    "timestamp": "04 Jun, 03:17 PM",
+    "category": "IT Policy"
+  }
+]

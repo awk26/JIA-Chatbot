@@ -1,0 +1,97 @@
+[
+  {
+    "message": "How many policies are there?",
+    "response": "There are 21 policies in the HR Policy category.",
+    "sources": [
+      "JMB Policy Document_common policy document.pdf",
+      "Employee Referral Policy.pdf"
+    ],
+    "timestamp": "04 Jun, 05:03 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me summary of second number  policy",
+    "response": "I'm sorry, but I don't have an answer to that.",
+    "sources": [
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "04 Jun, 05:03 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "what is Sales Planning",
+    "response": "Sales Planning Activity and budgeting analysis.",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Cold Chain.pdf",
+      "SOPP_Pre Sales to Order Closure_Bulk.pdf",
+      "SOPP_Pre Sales to Order Closure_Heavy.pdf"
+    ],
+    "timestamp": "04 Jun, 05:04 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "can you explain more",
+    "response": "Sales Planning Activity and budgeting analysis is covered on page 8. The Process Narrative is on page 9, and Key Performance Indicators (KPI\u2019s) are on page 10.",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Cold Chain.pdf",
+      "SOPP_Pre Sales to Order Closure_Bulk.pdf",
+      "SOPP_Pre Sales to Order Closure_Heavy.pdf"
+    ],
+    "timestamp": "04 Jun, 05:04 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "can you explain all this topic in brief",
+    "response": "I'm sorry, but I don't have an answer to that.",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Terminals.pdf",
+      "SOPP_Pre Sales to Order Closure_Cold Chain.pdf",
+      "SOPP_Pre Sales to Order Closure_Bulk.pdf"
+    ],
+    "timestamp": "04 Jun, 05:05 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "what is Process Narrative",
+    "response": "Process Narrative is mentioned in the context of:\n\n*   Identification of Customers, Services, Strategy and Evaluation\n*   Sales Inquiry process\n*   Customer Onboarding Activity\n*   Lost order analysis",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Bulk.pdf",
+      "SOPP_Pre Sales to Order Closure_Cold Chain.pdf",
+      "SOPP_Pre Sales to Order Closure_Heavy.pdf"
+    ],
+    "timestamp": "04 Jun, 05:05 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "can you give me policy names",
+    "response": "Here are the 4 policies in the SOPP_Sales category:\n\n1. SOPP Pre Sales to Order Closure Bulk\n2. SOPP Pre Sales to Order Closure Cold Chain\n3. SOPP Pre Sales to Order Closure Heavy\n4. SOPP Pre Sales to Order Closure Terminals",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Bulk.pdf",
+      "SOPP_Pre Sales to Order Closure_Cold Chain.pdf",
+      "SOPP_Pre Sales to Order Closure_Terminals.pdf"
+    ],
+    "timestamp": "04 Jun, 05:06 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "explain this policy one by one",
+    "response": "A Pre Sales to Order Closure SOPP outlines the steps and guidelines an organization follows from the initial lead generation to the final closure of an order. The SOPP helps streamline processes, reduce errors, and ensures compliance with financial policies, supporting accurate Sales panning and budget tracking and accountability.\n\nThe Pre Sales To Order Closure SOPP aims to:\n\n*   Establish criteria for qualifying leads (e.g., budget, need, timeline).\n*   Outline how the qualified sales opportunities are transferred internally, from the sales team to the delivery/operations team, ensuring alignment on client needs and expectations.\n*   Specify all the necessary documentation (contracts, agreements, terms & conditions) required for successful order closure.\n*   Clarify how the pricing is confirmed and any terms (such as discounts, payment terms) are finalized.\n*   Explain the process of sending final order confirmation to the client and confirming receipt of payment.",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Bulk.pdf",
+      "SOPP_Pre Sales to Order Closure_Cold Chain.pdf",
+      "SOPP_Pre Sales to Order Closure_Heavy.pdf",
+      "SOPP_Pre Sales to Order Closure_Terminals.pdf"
+    ],
+    "timestamp": "04 Jun, 05:06 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "can you explain the closure terminals",
+    "response": "There are several closure terminals: Paradip Multipurpose Clean Cargo Terminal \u2013 PICT (Cargo), Nhava Sheva Distribution Terminal \u2013 NSDT, Vishaka Container Terminal \u2013 VCTPL, Kandla Container Terminal \u2013 KICT, Haldia Container Terminal \u2013 HICT, Tuticorin Container Terminal \u2013 TICT, Paradip Multipurpose Clean Cargo Terminal \u2013 PICT (Container), Nhava Sheva Distribution Terminal \u2013 NSDT (Container), Delhi Inland Cargo Terminal \u2013 DICT, Vishaka Multipurpose Cargo Terminal \u2013 VCTCFS, and Mumbai Container Freight Station - MICT.",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Terminals.pdf"
+    ],
+    "timestamp": "04 Jun, 05:07 PM",
+    "category": "SOPP_Sales"
+  }
+]

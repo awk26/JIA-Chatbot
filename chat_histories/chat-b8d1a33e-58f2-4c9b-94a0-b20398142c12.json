@@ -1,0 +1,39 @@
+[
+  {
+    "message": "how many policy is there",
+    "response": "There are 21 policies in the HR Policy category.",
+    "sources": null,
+    "timestamp": "04 Jun, 01:08 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me policy names",
+    "response": "Here are the 21 policies in the HR Policy category:\n\n1. 24 Child Labour Policy\n2. Anti Bribery  & Anti Corruption (Ethics) Policy\n3. Employee Referral Policy\n4. Human Right Policy\n5. J M Baxi Group 555 Policy Enriching New Joinee Experience\n6. J M Baxi Group POSH policy\n7. JMB Policy Document common policy document\n8. Leave & Attendance Policy\n9. Section 10   Provident Fund\n10. Section 11   Gratuity\n11. Section 13   Training & Development\n12. Section 14   Transfer\n13. Section 15   Separation\n14. Section 17   Code of Conduct\n15. Section 19   Employee Grievance Policy\n16. Section 2   Dress Code\n17. Section 20   Whistle Blowing Policy\n18. Section 21   Information Technology Policy\n19. Section 4   LTA\n20. Section 5   ESIC\n21. Travel Policy",
+    "sources": null,
+    "timestamp": "04 Jun, 01:08 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me summary of child labour policy",
+    "response": "Policy Summary:\n\n\u2022 IT Policy: 31 policies\n\u2022 HR Policy: 21 policies\n\u2022 SOPP_Operation: 15 policies\n\u2022 SOPP_Procurement: 4 policies\n\u2022 SOPP_Revenue: 4 policies\n\u2022 SOPP_Sales: 4 policies\n\nTotal policies across all categories: 79",
+    "sources": null,
+    "timestamp": "04 Jun, 01:09 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me child labour policy summary",
+    "response": "Policy Summary:\n\n\u2022 IT Policy: 31 policies\n\u2022 HR Policy: 21 policies\n\u2022 SOPP_Operation: 15 policies\n\u2022 SOPP_Procurement: 4 policies\n\u2022 SOPP_Revenue: 4 policies\n\u2022 SOPP_Sales: 4 policies\n\nTotal policies across all categories: 79",
+    "sources": null,
+    "timestamp": "04 Jun, 01:11 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me child labour policy contain",
+    "response": "The Child Labour Policy includes the following:\n\n*   Compliance with the Child Labour (Prohibition & Regulation) Act, Bonded Labour System (Abolition) Act, 1976 and the Contract Labour (Regulation & Abolition) Act, 1970.\n*   Minimum age for recruitment shall be in accordance with the applicable legal framework.\n*   The Company shall not engage in or support or encourage employment of child labour in accordance with the convention 138 of international Labour Organisation (ILO).\n*   The company does not support or engage in the use of forced or compulsory labour as defined in ILO Convention 29.\n*   Personnel are not required to pay \u201cdeposits\u201d or lodge identification papers with the company upon commencing employment.\n*   The company shall establish, document maintain and effectively communicate to its personnel, contractors and their sub -contractors, if any, and other interested parties, policies and written procedures for remediation of children found to be working in situation of child labour.\n*   Any contract employees engaged through contractors and working in Company's premises/ Terminal shall also be in compliance with applicable legal provisions.\n*   A review prohibiting child labour implemented in the Company shall be carried out during which the documents in support of age are also reviewed.\n*   If any children are found to be employed in the Company, the remediation shall be in accordance with the applicable legal framework.\n*   Signage to be placed at the prominent place that \u201cThe Company is in compliance with the Child Labour (Prohibition & Regulation) Act\u201d.",
+    "sources": [
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "04 Jun, 01:11 PM",
+    "category": "HR Policy"
+  }
+]

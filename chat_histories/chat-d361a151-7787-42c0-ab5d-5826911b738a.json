@@ -1,0 +1,13 @@
+[
+  {
+    "message": "how many records is there",
+    "response": [
+      {
+        "total": 32688
+      }
+    ],
+    "sources": null,
+    "timestamp": "04 Jun, 12:31 PM",
+    "category": "MIS"
+  }
+]

@@ -1,224 +1,68 @@
-1. what is confidential data
-2. summary of Access Control Policy & Procedure
-3. Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024
-4. Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024
-5. Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024
-6. Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024
-7. Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024
-8. Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024
-9. Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024
-10. how many records in the view
-11. how many records in the view
-12. how many records in the view
-13. what is the leave policy
-14. what is the leave policy
-15. what is the leave policy
-16. what is the leave policy
-17. how many records in the view
-18. do we have flexi timing in the company
-19. do we have flexi timing in the company
-20. Get ENTITY_NAME, MTD_ACTUALS, and QTD_ACTUALS for April 2024
-21. how many records in the view
-22. how many records in the view
-23. how many records in the view
-24. how many records in the view
-25. how many records in the view
-26. how many records in the view
-27. how many PL leave for employee
-28. how many records in the view
-29. how many records in the view
-30. can you give me top 10 records
-31. can you give me top 10 records
-32. give me top 10 records
-33. how many records in the view
-34. how many records in the view
-35. how many records in the view
-36. can you give me top 10 records
-37. can you give me top 10 records
-38. can you give me top 10 records
-39. can you give me top 10 records
-40. how many PL leave for employee
-41. how many records in the view
-42. give me top 10 records
-43. how many records in the view
-44. give me top 10 records
-45. give me top 10 records
-46. give me top 10 records
-47. give me top 10 records
-48. give me top 10 records
-49. give me top 10 records
-50. give me top 10 records
-51. give me top 10 records
-52. give me top 10 records
-53. give me top 10 records
-54. give me top 10 records
-55. give me top 10 records
-56. give me top 10 records
-57. give me top 10 records
-58. give me top 10 records
-59. give me top 10 records
-60. give me top 10 records
-61. give me top 10 records
-62. give me top 10 records
-63. give me top 10 records
-64. give me top 10 records
-65. give me top 10 records
-66. give me top 10 records
-67. give me top ten records
-68. give me top ten records
-69. give me top ten records
-70. give me top 10 records
-71. how many PL leave for employee
-72. how many total records in the view
-73. show me top ten records
-74. i want all mtd actuals for all entity name with charts
-75. what is total mtd actuals for all entity name with charts
-76. what is total mtd actuals for all entity name with charts
-77. what is total mtd actuals for all entity name wise with charts
-78. how many records is there
-79. what is total mtd actuals for all entity name wise with charts
-80. give me total mtd actual entity name wise with charts
-81. give me total mtd actual entity name wise with charts
-82. give me total mtd actual entity name wise with charts
-83. give me total mtd actual entity name wise with charts
-84. what is the long name of ebit
-85. give me total mtd actual entity name wise with charts
-86. how many records is there
-87. how many records is there
-88. give me total mtd actual entity name wise with charts
-89. give me total count of records
-90. give me total mtd actual entity name wise with charts
-91. can you give me top 10 records
-92. give me total mtd actual entity name wise with charts
-93. how to apply for leave
-94. how to apply for leave
-95. how many records are there
-96. what is total ftd actual for entity code tict
-97. and Wtd actual
-98. what is the total WTD actual entity name wise
-99. what is the total WTD actual entity name wise
-100. what is the total WTD actual entity name wise with chart
-101. what is the total WTD actual entity name wise with chart
-102. what is the total WTD actual entity name wise with chart
-103. what is the total WTD actual entity name wise
-104. what is the total WTD actual entity name wise
-105. what is the total WTD actual entity name wise with charts
-106. what is total wtd actuals entity name wise
-107. what is total wtd actuals entity name wise with charts
-108. what is total wtd actuals entity name wise with charts
-109. what is total wtd actuals entity name wise with charts
-110. what is total wtd actuals entity name wise with charts
-111. how many records is there
-112. how to keep email safe
-113. what is Ad-hop backups
-114. how many records is there
-115. what is the total date actual entity name wise
-116. what is the total date actual entity name wise
-117. what is the total date actual entity name wise with charts
-118. what is the total date actual entity name wise with charts
-119. how many records is there
-120. what is Ad-hop backups
-121. how do i plan a container
-122. what is the full form of BAPLIE
-123. what is the Abbreviations and Definitions of BAPLIE
-124. what is the Abbreviations and Definitions of BAPLIE
-125. what is Ad-hop backups
-126. what is Ad-hop backups
-127. what is Ad-hop backups
-128. what is Ad-hop backups
-129. what is Ad-hop backups
-130. what is Ad-hop backups
-131. what is Ad-hop backups
-132. what is Ad-hop backups
-133. what is Ad-hop backups
-134. what is the full of BAPLIE
-135. what is the full form of BD
-136. what is the full of BAPLIE
-137. what is the transfer policy for employee
-138. how many leave for employee
-139. what is Executive Summary
-140. what is Creation and Approval of PR
-141. what is Sales Planning
-142. what is Sales Planning
-143. how many leave
-144. how many leave is there
-145. what is the mediclaim policy
-146. holiday calendar for this year
-147. Is there any policy for maternal leave?
-148. how to plan containers
-149. how to create gatepass at DICT
-150. how to create gatepass at DICT
-151. how to create gatepass at DICT
-152. how to create gatepass at DICT
-153. how to create gatepass at DICT
-154. how to create gatepass at DICT
-155. how to create gatepass at DICT
-156. how to create gatepass at DICT
-157. how to create gatepass at DICT
-158. How many Casual Leave are allowed in a year
-159. How many Casual Leave are allowed in a year
-160. what is the transfer policy for employee
-161. what is the transfer policy for employee
-162. what kind of leaves exist
-163. How many sick leaves are allowed
-164. how to create gatepass at DICT
-165. what is media handling process
-166. what is media handling process
-167. what is media handling process
-168. what is media handling process
-169. give me total WTC ACTUALS entity name wise
-170. give me total WTC ACTUALS  entity name wise with charts
-171. what is the transfer policy for employee
-172. what is confidential data
-173. what is the transfer policy for employee
-174. what is confidential data
-175. how many records is there
-176. how many records is there
-177. how many records is there
-178. what is confidential data
-179. what is the MTD ACTUALS for Delhi Inland Container Terminal for last month
-180. what is the MTD ACTUALS for Delhi Inland Container Terminal for last month
-181. give me month wise volume do not use date only month wise
-182. no i want like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..
-183. give me month wise volume like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..
-184. give me month wise volume MTD Actuals is month volumne like Jan-2025 ,feb-2021,mar-2023 apr-2022 ..
-185. Monthly volume for VCT for year 2025
-186. Monthly TEU for VCT for year 2025
-187. Monthly volume for VCT for ytd 2025
-188. Monthly volume for VCT for year 2025
-189. last month volume for HITC
-190. can you give me volume trends  for HITC for last 6 months
-191. can you give me volume trends  for HICT for last 6 months
-192. can you give me volume trends  for HICT for last 6 months
-193. can you give me volume trends  for HICT for last 6 months
-194. can you give me volume trends  for HICT for last 6 months
-195. can you give me volume trends  for HICT for last 6 months
-196. can you give me volume trends  for HICT for last 6 months
-197. give me import volume of  HICT for last 4 months
-198. can you give me volume trends  for HICT for last 6 months
-199. can you give me volume trends  for HICT for last 6 months
-200. can you give me volume trends  for HICT for last 6 months
-201. can you give me volume trends  for HICT for last 6 months
-202. can you give me volume trends  for HICT for last 6 months
-203. can you give me volume trends  for HICT for last 6 months
-204. can you give me volume trends  for HICT for last 6 months
-205. can you give me volume trends  for HICT for last 6 months
-206. can you give me volume trends  for HICT for last 6 months
-207. can you give me volume trends  for HICT for last 6 months
-208. can you give me volume trends  for HICT for last 6 months
-209. can you give me volume trends  for HICT for last 6 months
-210. can you give me volume trends  for HICT for last 6 months
-211. can you give me volume trends  for HICT for last 6 months
-212. can you give me volume trends  for HICT for last 6 months
-213. can you give me volume trends  for HICT for last 6 months
-214. can you give me volume trends  for HICT for last 6 months
-215. can you give me volume trends  for HICT for last 6 months
-216. can you give me volume trends  for HICT for last 6 months
-217. can you give me volume trends  for HICT for last 6 months
-218. can you give me volume trends  for HICT for last 6 months
-219. can you give me volume trends  for HICT for last 6 months
-220. can you give me volume trends  for HICT for last 6 months
-221. can you give me volume trends  for HICT for last 6 months
-222. can you give me volume trends  for HICT for last 6 months
-223. can you give me volume trends  for HICT for last 6 months
-224. can you give me volume trends  for HICT for last 6 months
+1. [2025-06-04 11:00:30]: how many records is there
+2. [2025-06-04 12:13:47]: how many records is there
+3. [2025-06-04 12:17:52]: how many records is there
+4. [2025-06-04 12:25:34]: how many records is there
+5. [2025-06-04 12:31:43]: how many records is there
+6. [2025-06-04 13:03:49]: how many policy is there
+7. [2025-06-04 13:08:11]: how many policy is there
+8. [2025-06-04 13:08:47]: can you give me policy names
+9. [2025-06-04 13:09:39]: can you give me summary of child labour policy
+10. [2025-06-04 13:11:10]: can you give me child labour policy summary
+11. [2025-06-04 13:11:29]: can you give me child labour policy contain
+12. [2025-06-04 14:04:04]: can you give me child labour policy summary
+13. [2025-06-04 14:04:23]: how many policy is there
+14. [2025-06-04 14:07:08]: can you tell me summary of child labour police
+15. [2025-06-04 14:07:45]: can you tell me summary of child labour policy
+16. [2025-06-04 14:08:16]: can you give me all policy summary
+17. [2025-06-04 14:08:41]: can you give me leave policy summary
+18. [2025-06-04 14:11:13]: how many hr policy
+19. [2025-06-04 14:11:36]: can you give me there names
+20. [2025-06-04 14:24:47]: can you give me leave policy summary
+21. [2025-06-04 14:25:11]: can you give me summary of leave policy
+22. [2025-06-04 14:26:29]: how many special leave is there
+23. [2025-06-04 15:07:34]: how many policy is there
+24. [2025-06-04 15:09:37]: how many policy is there
+25. [2025-06-04 15:12:37]: how many policy is there
+26. [2025-06-04 15:15:14]: how many policy is there
+27. [2025-06-04 15:15:48]: can you give me there names
+28. [2025-06-04 15:16:23]: can you give me summary of  Child Labour Policy
+29. [2025-06-04 15:17:01]: can you give summary of leave policy
+30. [2025-06-04 15:17:24]: how many policy is there
+31. [2025-06-04 15:17:39]: can you give me list of policy
+32. [2025-06-04 15:24:04]: how many policy is there
+33. [2025-06-04 15:32:14]: how many policy is there
+34. [2025-06-04 15:32:38]: can you give me summary of leave policy
+35. [2025-06-04 15:34:11]: can you give me volume trends of HICT for last 6 months
+36. [2025-06-04 15:39:01]: how many records is there
+37. [2025-06-04 15:41:06]: what is the target for HICT for last month target means budget
+38. [2025-06-04 15:46:14]: how to plan a container
+39. [2025-06-04 15:46:37]: how to plan a container
+40. [2025-06-04 15:47:19]: how many casual leave for employee
+41. [2025-06-04 15:52:42]: what is Sales Planning
+42. [2025-06-04 15:53:33]: can you explain
+43. [2025-06-04 16:13:25]: what is Sales Planning
+44. [2025-06-04 16:14:41]: what is Sales Planning
+45. [2025-06-04 16:33:02]: How many policies are there?
+46. [2025-06-04 16:39:26]: How many policies are there?
+47. [2025-06-04 16:42:26]: How many policies are there?
+48. [2025-06-04 16:44:13]: How many policies are there?
+49. [2025-06-04 16:44:45]: Log written: [2025-06-04 16:44:16] Exception occurred in get-response api:Got multiple output keys: dict_keys(['answer', 'source_documents']), cannot determine which to store in memory. Please set the 'output_key' explicitly.
+50. [2025-06-04 16:45:54]: How many policies are there?
+51. [2025-06-04 16:47:48]: How many policies are there?
+52. [2025-06-04 16:51:27]: How many policies are there?
+53. [2025-06-04 16:57:11]: How many policies are there?
+54. [2025-06-04 16:58:33]: How many policies are there?
+55. [2025-06-04 17:03:00]: How many policies are there?
+56. [2025-06-04 17:03:33]: can you give me summary of second number  policy
+57. [2025-06-04 17:04:02]: what is Sales Planning
+58. [2025-06-04 17:04:15]: can you explain more
+59. [2025-06-04 17:05:04]: can you explain all this topic in brief
+60. [2025-06-04 17:05:39]: what is Process Narrative
+61. [2025-06-04 17:06:00]: can you give me policy names
+62. [2025-06-04 17:06:25]: explain this policy one by one
+63. [2025-06-04 17:07:15]: can you explain the closure terminals
+64. [2025-06-04 17:14:29]: how policy is there
+65. [2025-06-04 17:14:50]: can you give me list of policy
+66. [2025-06-04 17:15:31]: explain policy number 29
+67. [2025-06-04 17:16:01]: explain JMBGRP ISMS POL TR Training Policy Procedure v1.2
+68. [2025-06-04 17:16:44]: what are the main contain of this policy

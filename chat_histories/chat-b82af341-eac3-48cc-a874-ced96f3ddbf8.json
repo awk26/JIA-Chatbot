@@ -1,0 +1,111 @@
+[
+  {
+    "message": "how many policy is there",
+    "response": "There are 21 policies in the HR Policy category.",
+    "sources": [
+      "Section 21 - Information Technology Policy.pdf",
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "04 Jun, 03:32 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me summary of leave policy",
+    "response": "The leave policy regulates all forms of leaves applicable to employees as a benefit and outlines procedures for granting and taking such leaves. It is applicable to all employees, consultants, retainers, and trainees. The leave year is defined as the financial year (1st April to 31st March).\n\nThe types of leave are:\n1. Annual Leave (AL)\n2. Sick Leave (SL)\n3. Maternity Leave (ML)\n4. Paternity Leave (PL)\n5. Special Leave (SPL)\n6. Optional Leave (OL)\n7. Leave Without Pay (LWP)\n8. Compensatory Off (CO)\n9. Transfer Leaves (TL)\n10. Unauthorized Absence (UA)\n\nAnnual Leave (AL):\n*   Employees, Consultants, and Retainers are eligible for 30 days per financial year, calculated on a pro rata basis from the date of joining. During the 1st year of service, it will be credited on the date of joining of an employee and subsequently on 1st April of each Financial Year. It can be availed for Full /Half day. A maximum of 12 days leave can be taken at a time. Leave exceeding 12 days needs approval from Business Head / Terminal Head / CEO / Competent Authority. For availing 7 days or more leave, at least 10 days\u2019 prior notice to be given by the employee. At the end of each Financial year, unavailed / balance leaves shall lapse.\n*   Trainees are eligible for 10 days per financial year, calculated on a pro rata basis from the Date of joining. If any employee joins before 15th of any month, then the whole month is to be considered for calculation leave. If joining after 15th of any month, then for leave calculation it is to be considered as 50% of leave.\n\nGeneral Conditions: Leave cannot be claimed as a matter of right, and the discretion for grant or refusal lies with the Competent Authority. Prior approval is required for availing any leave. All leaves exclude weekly offs and paid holidays unless specified otherwise. Combination of Sick Leave & Annual Leave with Maternity leave may be permitted provided the employee submits application along with Medical Certificate in support of extension of Maternity leave. Sick leave and Annual leave can only be combined on exhaustion of Maternity leave, Sick Leave & Annual Leave, in that order. In case of transfer of an employee to another group company, all leave balance will be carried forward. Encashment of unavailed Annual leave for maximum up to 30 days will be done at the time of full and final settlement on a pro rata basis for an employee at the time of retiring / death case. This Leave Policy will be effective from 01 ST December, 2020 excluding Optional Leave which will be applicable from 01 ST April 2021.",
+    "sources": [
+      "Leave & Attendance Policy.pdf"
+    ],
+    "timestamp": "04 Jun, 03:32 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "can you give me volume trends of HICT for last 6 months",
+    "response": [
+      {
+        "OKR": "VOLUME_TEU",
+        "Jan-2025": 18321.0,
+        "Feb-2025": 273664.0,
+        "Mar-2025": 271765.0,
+        "Apr-2025": 189010.0,
+        "May-2025": 210955.0,
+        "Jun-2025": 452.0
+      }
+    ],
+    "sources": null,
+    "timestamp": "04 Jun, 03:34 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "how many records is there",
+    "response": [
+      {
+        "total": 32688
+      }
+    ],
+    "sources": null,
+    "timestamp": "04 Jun, 03:39 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "what is the target for HICT for last month target means budget",
+    "response": [
+      {
+        "total_mtd_budget": null
+      }
+    ],
+    "sources": null,
+    "timestamp": "04 Jun, 03:41 PM",
+    "category": "MIS"
+  },
+  {
+    "message": "how to plan a container",
+    "response": "I'm sorry, but I don't have an answer to that.",
+    "sources": [
+      "JMBGRP-ISMS-POL-CM_Capacity Management Policy _ Procedure_v1.2.pdf"
+    ],
+    "timestamp": "04 Jun, 03:46 PM",
+    "category": "IT Policy"
+  },
+  {
+    "message": "how to plan a container",
+    "response": "Here's how to plan for containers, based on the provided context:\n\n**1.2 Container Loading Plan - Export**\n\n*   The CHE (Container Handling Equipment) loads the container from the CY (Container Yard) onto the ITV (Internal Transport Vehicle) according to the loading sequence provided by the vessel planner.\n*   The ITV transports the container from the CY to the designated quay crane.\n*   At the pinning station (before the quay crane), a physical check is performed to ensure:\n    *   The container number is listed in the Vessel Loading Sequence.\n    *   There is no damage.\n*   If there are discrepancies, the container is not loaded.\n*   After checks, the ITV proceeds to the quay crane, and the container is loaded into the vessel slot as indicated in the Vessel.\n\n**2.1 Planning Procedure - Yard Planning**\n\n*   **Receiving - Export:** The Yard planner creates yard allocation based on the Projection from VOA/ average of previous vessel handling summary, POD, length, weight and category and Optimum ratio of RMQC TO CHE and Assign the work queue to CHE.\n*   The Yard Planner monitors and controls yard movement through the Terminal Operating System (TOS). They ensure special category containers (OOG, IMDG, Reefers) are offloaded as planned and updated in VMT by the CHE operator.\n\n**2.3 Discharge Plan \u2013 Import**\n\n*   Loading projections are automatically or manually created in the Terminal Operating System by the Planning / Documentation team.\n*   Containers are planned in the Terminal Operating System considering stability, placement, and allocation by the planning team.\n*   The Vessel Planner creates the loading plan as an EDI file within the Terminal Operating System.\n*   The loading plan is submitted to the Vessel Chief Officer for approval by the Vessel planner/Planning team.\n*   If approved, the loading sequence is prepared and assigned to Container Handling Equipments by the Vessel planner/Planning team.\n*   The Final EDI is submitted to the Vessel Chief Officer one hour before completion by the Vessel planner/Planning.",
+    "sources": [
+      "SOPP_Operations_KICT.pdf",
+      "SOPP_Operations_VCTPL.pdf",
+      "SOPP_Operations_HICT.pdf"
+    ],
+    "timestamp": "04 Jun, 03:46 PM",
+    "category": "SOPP_Operation"
+  },
+  {
+    "message": "how many casual leave for employee",
+    "response": "Employees are eligible for 30 days of leave per financial year.",
+    "sources": [
+      "Leave & Attendance Policy.pdf",
+      "JMB Policy Document_common policy document.pdf"
+    ],
+    "timestamp": "04 Jun, 03:47 PM",
+    "category": "HR Policy"
+  },
+  {
+    "message": "what is Sales Planning",
+    "response": "Sales Planning Activity and budgeting analysis",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Heavy.pdf",
+      "SOPP_Pre Sales to Order Closure_Cold Chain.pdf",
+      "SOPP_Pre Sales to Order Closure_Bulk.pdf"
+    ],
+    "timestamp": "04 Jun, 03:52 PM",
+    "category": "SOPP_Sales"
+  },
+  {
+    "message": "can you explain",
+    "response": "I'm sorry, but I don't have an answer to that.",
+    "sources": [
+      "SOPP_Pre Sales to Order Closure_Terminals.pdf",
+      "SOPP_Pre Sales to Order Closure_Cold Chain.pdf"
+    ],
+    "timestamp": "04 Jun, 03:53 PM",
+    "category": "SOPP_Sales"
+  }
+]
